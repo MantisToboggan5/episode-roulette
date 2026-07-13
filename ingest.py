@@ -19,11 +19,14 @@ import shutil
 import sqlite3
 import sys
 import time
+import urllib.error
+import urllib.parse
 import urllib.request
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 IMDB_CACHE_DIR = os.path.join(ROOT, "data", "imdb_cache")
 SHOWS_DIR = os.path.join(ROOT, "data", "shows")
+POSTERS_DIR = os.path.join(ROOT, "data", "posters")
 INDEX_PATH = os.path.join(SHOWS_DIR, "index.json")
 DB_PATH = os.path.join(IMDB_CACHE_DIR, "episodes.db")
 
@@ -156,13 +159,37 @@ def resolve_show(query, conn):
     return best
 
 
-def update_index(tconst, name):
+def fetch_poster(tconst):
+    """Download the show's poster from TVmaze (free, keyless, exact IMDb-id
+    lookup — no name disambiguation needed). Returns a repo-relative path
+    or None."""
+    dest = os.path.join(POSTERS_DIR, f"{tconst}.jpg")
+    rel_path = f"data/posters/{tconst}.jpg"
+    if os.path.exists(dest):
+        return rel_path
+    url = f"https://api.tvmaze.com/lookup/shows?imdb={tconst}"
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+        with urllib.request.urlopen(req) as res:
+            data = json.loads(res.read().decode("utf-8"))
+        # medium (210x295, ~25KB) keeps the app light; original runs to megabytes
+        image = (data.get("image") or {}).get("medium") or (data.get("image") or {}).get("original")
+        if not image:
+            return None
+        os.makedirs(POSTERS_DIR, exist_ok=True)
+        download(image, dest)
+        return rel_path
+    except (urllib.error.HTTPError, urllib.error.URLError):
+        return None
+
+
+def update_index(tconst, name, poster):
     index = []
     if os.path.exists(INDEX_PATH):
         with open(INDEX_PATH, "r", encoding="utf-8") as f:
             index = json.load(f)
     index = [s for s in index if s["id"] != tconst]
-    index.append({"id": tconst, "name": name, "poster_path": None, "imdb_id": tconst})
+    index.append({"id": tconst, "name": name, "poster": poster, "imdb_id": tconst})
     index.sort(key=lambda s: s["name"].lower())
     with open(INDEX_PATH, "w", encoding="utf-8") as f:
         json.dump(index, f, indent=2)
@@ -196,18 +223,22 @@ def ingest(query):
         for season, episode, title, year, rating, votes in rows
     ]
 
+    poster = fetch_poster(tconst)
+    if not poster:
+        print("Warning: no TVmaze poster found — show will use a placeholder tile.")
+
     os.makedirs(SHOWS_DIR, exist_ok=True)
     show_record = {
         "id": tconst,
         "name": name,
-        "poster_path": None,
+        "poster": poster,
         "imdb_id": tconst,
         "episodes": episodes,
     }
     with open(os.path.join(SHOWS_DIR, f"{tconst}.json"), "w", encoding="utf-8") as f:
         json.dump(show_record, f, indent=2)
 
-    update_index(tconst, name)
+    update_index(tconst, name, poster)
     print(f"Wrote data/shows/{tconst}.json — {len(episodes)} rated episodes.")
 
 

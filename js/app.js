@@ -49,6 +49,7 @@ els.tabBtns.forEach((btn) => {
   btn.addEventListener("click", () => {
     showView(btn.dataset.view);
     if (btn.dataset.view === "shows") renderShowsList();
+    if (btn.dataset.view === "search") renderBrowseList(els.searchInput.value);
   });
 });
 
@@ -72,7 +73,7 @@ let searchDebounce = null;
 els.searchInput.addEventListener("input", () => {
   clearTimeout(searchDebounce);
   const query = els.searchInput.value;
-  searchDebounce = setTimeout(() => runSearch(query), 350);
+  searchDebounce = setTimeout(() => renderBrowseList(query), 250);
 });
 
 function posterPlaceholder(name) {
@@ -85,28 +86,31 @@ function posterPlaceholder(name) {
   return `<div class="poster-placeholder">${escapeHtml(initials || "?")}</div>`;
 }
 
-async function runSearch(query) {
-  if (!query.trim()) {
-    els.searchResults.innerHTML = "";
-    els.searchEmpty.classList.remove("hidden");
-    return;
-  }
+function posterImg(show) {
+  return show.poster
+    ? `<img src="${show.poster}" alt="" loading="lazy" onerror="this.style.visibility='hidden'" />`
+    : posterPlaceholder(show.name);
+}
+
+async function renderBrowseList(query = "") {
   let catalogIndex;
   try {
     catalogIndex = await loadCatalogIndex();
   } catch (err) {
-    els.searchResults.innerHTML = `<li class="empty-hint">Search failed: ${err.message}</li>`;
+    els.searchResults.innerHTML = `<li class="empty-hint">Couldn't load catalog: ${err.message}</li>`;
     return;
   }
-  els.searchEmpty.classList.add("hidden");
   const needle = query.trim().toLowerCase();
-  const results = catalogIndex.filter((s) => s.name.toLowerCase().includes(needle));
+  const results = needle
+    ? catalogIndex.filter((s) => s.name.toLowerCase().includes(needle))
+    : catalogIndex;
   const savedIds = new Set(getShows().map((s) => s.id));
   els.searchResults.innerHTML = "";
-  if (results.length === 0) {
+  els.searchEmpty.classList.toggle("hidden", catalogIndex.length > 0);
+  if (needle && results.length === 0) {
     els.searchResults.innerHTML = `
       <li class="empty-hint">No ingested show matches "${escapeHtml(query)}".<br><br>
-      To add a new show, run this on the PC:<br>
+      To add a new show, ask Claude or run:<br>
       <span class="ingest-hint">python ingest.py "${escapeHtml(query)}"</span></li>
     `;
     return;
@@ -116,7 +120,7 @@ async function runSearch(query) {
     li.className = "show-card";
     const added = savedIds.has(show.id);
     li.innerHTML = `
-      ${posterPlaceholder(show.name)}
+      ${posterImg(show)}
       <div class="show-info">
         <div class="name">${escapeHtml(show.name)}</div>
       </div>
@@ -125,7 +129,7 @@ async function runSearch(query) {
     const btn = li.querySelector("button");
     btn.addEventListener("click", () => {
       if (savedIds.has(show.id)) return;
-      addShow({ id: show.id, name: show.name, poster_path: null });
+      addShow({ id: show.id, name: show.name, poster: show.poster || null });
       savedIds.add(show.id);
       btn.textContent = "Added";
       btn.classList.add("added");
@@ -136,17 +140,23 @@ async function runSearch(query) {
 
 // ---------- My Shows ----------
 
-function renderShowsList() {
+async function renderShowsList() {
   const shows = getShows();
   els.showsEmpty.classList.toggle("hidden", shows.length > 0);
   els.surpriseBtn.classList.toggle("hidden", shows.length === 0);
   els.biasControl.classList.toggle("hidden", shows.length === 0);
   els.showsList.innerHTML = "";
+  // Saved entries may predate the poster field; backfill from the catalog.
+  let posterById = {};
+  try {
+    posterById = Object.fromEntries((await loadCatalogIndex()).map((s) => [s.id, s.poster]));
+  } catch {}
   for (const show of shows) {
+    if (!show.poster && posterById[show.id]) show.poster = posterById[show.id];
     const li = document.createElement("li");
     li.className = "show-card";
     li.innerHTML = `
-      ${posterPlaceholder(show.name)}
+      ${posterImg(show)}
       <div class="show-info">
         <div class="name">${escapeHtml(show.name)}</div>
       </div>
@@ -287,7 +297,18 @@ async function revealResult(show, episode, showHasNoEpisodes) {
     els.resultRating.classList.add("hidden");
   }
   els.resultOverview.textContent = episode.overview || "";
-  els.resultStill.style.display = "none"; // no imagery in IMDb-only mode
+  let poster = show.poster;
+  if (!poster) {
+    try {
+      poster = (await loadShowData(show.id)).poster; // cached; covers legacy saved entries
+    } catch {}
+  }
+  if (poster) {
+    els.resultStill.src = poster;
+    els.resultStill.style.display = "block";
+  } else {
+    els.resultStill.style.display = "none";
+  }
 
   els.resultContent.classList.remove("hidden");
   els.resultActions.classList.remove("hidden");
@@ -331,3 +352,4 @@ if ("serviceWorker" in navigator) {
 }
 
 renderShowsList();
+renderBrowseList();

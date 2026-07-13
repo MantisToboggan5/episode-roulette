@@ -8,7 +8,7 @@
 <link rel="manifest" href="manifest.json" />
 <link rel="icon" href="icons/icon.svg" type="image/svg+xml" />
 <link rel="apple-touch-icon" href="icons/icon.svg" />
-<link rel="stylesheet" href="css/styles.css" />
+<link rel="stylesheet" href="css/styles.css?v=5" />
 </head>
 <body>
 <div id="app">
@@ -21,10 +21,10 @@
 
     <section id="view-search" class="view">
       <div class="search-bar">
-        <input id="search-input" type="search" placeholder="Search your ingested shows…" autocomplete="off" />
+        <input id="search-input" type="search" placeholder="Filter shows…" autocomplete="off" />
       </div>
       <ul id="search-results" class="card-list"></ul>
-      <p id="search-empty" class="empty-hint">Find a show and add it to spin from later.</p>
+      <p id="search-empty" class="empty-hint">No shows ingested yet. Ask Claude to add some.</p>
     </section>
 
     <section id="view-shows" class="view hidden">
@@ -69,14 +69,14 @@
   </main>
 
   <nav class="tabbar">
-    <button class="tab-btn active" data-view="search">🔍<span>Search</span></button>
+    <button class="tab-btn active" data-view="search">📚<span>Browse</span></button>
     <button class="tab-btn" data-view="shows">📺<span>My Shows</span></button>
   </nav>
 
 </div>
 
-<script src="js/catalog.js"></script>
-<script src="js/storage.js"></script>
-<script src="js/app.js"></script>
+<script src="js/catalog.js?v=5"></script>
+<script src="js/storage.js?v=5"></script>
+<script src="js/app.js?v=5"></script>
 </body>
 </html>
