@@ -1,0 +1,1438 @@
+{
+  "id": "tt1486217",
+  "name": "Archer",
+  "poster_path": null,
+  "imdb_id": "tt1486217",
+  "episodes": [
+    {
+      "season_number": 1,
+      "episode_number": 1,
+      "name": "Mole Hunt",
+      "overview": null,
+      "air_date": "2009",
+      "still_path": null,
+      "imdb_rating": 7.7,
+      "imdb_votes": 3214
+    },
+    {
+      "season_number": 1,
+      "episode_number": 2,
+      "name": "Training Day",
+      "overview": null,
+      "air_date": "2010",
+      "still_path": null,
+      "imdb_rating": 7.5,
+      "imdb_votes": 2653
+    },
+    {
+      "season_number": 1,
+      "episode_number": 3,
+      "name": "Diversity Hire",
+      "overview": null,
+      "air_date": "2010",
+      "still_path": null,
+      "imdb_rating": 8.1,
+      "imdb_votes": 2597
+    },
+    {
+      "season_number": 1,
+      "episode_number": 4,
+      "name": "Killing Utne",
+      "overview": null,
+      "air_date": "2010",
+      "still_path": null,
+      "imdb_rating": 7.5,
+      "imdb_votes": 2366
+    },
+    {
+      "season_number": 1,
+      "episode_number": 5,
+      "name": "Honeypot",
+      "overview": null,
+      "air_date": "2010",
+      "still_path": null,
+      "imdb_rating": 7.9,
+      "imdb_votes": 2413
+    },
+    {
+      "season_number": 1,
+      "episode_number": 6,
+      "name": "Skorpio",
+      "overview": null,
+      "air_date": "2010",
+      "still_path": null,
+      "imdb_rating": 8.1,
+      "imdb_votes": 2287
+    },
+    {
+      "season_number": 1,
+      "episode_number": 7,
+      "name": "Skytanic",
+      "overview": null,
+      "air_date": "2010",
+      "still_path": null,
+      "imdb_rating": 8.6,
+      "imdb_votes": 2587
+    },
+    {
+      "season_number": 1,
+      "episode_number": 8,
+      "name": "The Rock",
+      "overview": null,
+      "air_date": "2010",
+      "still_path": null,
+      "imdb_rating": 7.6,
+      "imdb_votes": 2093
+    },
+    {
+      "season_number": 1,
+      "episode_number": 9,
+      "name": "Job Offer",
+      "overview": null,
+      "air_date": "2010",
+      "still_path": null,
+      "imdb_rating": 8.0,
+      "imdb_votes": 2123
+    },
+    {
+      "season_number": 1,
+      "episode_number": 10,
+      "name": "Dial M for Mother",
+      "overview": null,
+      "air_date": "2010",
+      "still_path": null,
+      "imdb_rating": 7.9,
+      "imdb_votes": 2134
+    },
+    {
+      "season_number": 2,
+      "episode_number": 1,
+      "name": "Swiss Miss",
+      "overview": null,
+      "air_date": "2011",
+      "still_path": null,
+      "imdb_rating": 8.5,
+      "imdb_votes": 2260
+    },
+    {
+      "season_number": 2,
+      "episode_number": 2,
+      "name": "A Going Concern",
+      "overview": null,
+      "air_date": "2011",
+      "still_path": null,
+      "imdb_rating": 7.7,
+      "imdb_votes": 1995
+    },
+    {
+      "season_number": 2,
+      "episode_number": 3,
+      "name": "Blood Test",
+      "overview": null,
+      "air_date": "2011",
+      "still_path": null,
+      "imdb_rating": 7.8,
+      "imdb_votes": 2010
+    },
+    {
+      "season_number": 2,
+      "episode_number": 4,
+      "name": "Pipeline Fever",
+      "overview": null,
+      "air_date": "2011",
+      "still_path": null,
+      "imdb_rating": 8.2,
+      "imdb_votes": 2105
+    },
+    {
+      "season_number": 2,
+      "episode_number": 5,
+      "name": "The Double Deuce",
+      "overview": null,
+      "air_date": "2011",
+      "still_path": null,
+      "imdb_rating": 8.0,
+      "imdb_votes": 2013
+    },
+    {
+      "season_number": 2,
+      "episode_number": 6,
+      "name": "Tragical History",
+      "overview": null,
+      "air_date": "2011",
+      "still_path": null,
+      "imdb_rating": 7.7,
+      "imdb_votes": 1941
+    },
+    {
+      "season_number": 2,
+      "episode_number": 7,
+      "name": "Movie Star",
+      "overview": null,
+      "air_date": "2011",
+      "still_path": null,
+      "imdb_rating": 7.7,
+      "imdb_votes": 1948
+    },
+    {
+      "season_number": 2,
+      "episode_number": 8,
+      "name": "Stage Two",
+      "overview": null,
+      "air_date": "2011",
+      "still_path": null,
+      "imdb_rating": 8.5,
+      "imdb_votes": 2108
+    },
+    {
+      "season_number": 2,
+      "episode_number": 9,
+      "name": "Placebo Effect",
+      "overview": null,
+      "air_date": "2011",
+      "still_path": null,
+      "imdb_rating": 8.9,
+      "imdb_votes": 2660
+    },
+    {
+      "season_number": 2,
+      "episode_number": 10,
+      "name": "El Secuestro",
+      "overview": null,
+      "air_date": "2011",
+      "still_path": null,
+      "imdb_rating": 8.6,
+      "imdb_votes": 2075
+    },
+    {
+      "season_number": 2,
+      "episode_number": 11,
+      "name": "Jeu Monegasque",
+      "overview": null,
+      "air_date": "2011",
+      "still_path": null,
+      "imdb_rating": 8.0,
+      "imdb_votes": 1925
+    },
+    {
+      "season_number": 2,
+      "episode_number": 12,
+      "name": "White Nights",
+      "overview": null,
+      "air_date": "2011",
+      "still_path": null,
+      "imdb_rating": 8.1,
+      "imdb_votes": 1896
+    },
+    {
+      "season_number": 2,
+      "episode_number": 13,
+      "name": "Double Trouble",
+      "overview": null,
+      "air_date": "2011",
+      "still_path": null,
+      "imdb_rating": 8.3,
+      "imdb_votes": 1897
+    },
+    {
+      "season_number": 3,
+      "episode_number": 1,
+      "name": "Heart of Archness: Part I",
+      "overview": null,
+      "air_date": "2011",
+      "still_path": null,
+      "imdb_rating": 8.5,
+      "imdb_votes": 2049
+    },
+    {
+      "season_number": 3,
+      "episode_number": 2,
+      "name": "Heart of Archness: Part II",
+      "overview": null,
+      "air_date": "2011",
+      "still_path": null,
+      "imdb_rating": 8.1,
+      "imdb_votes": 1895
+    },
+    {
+      "season_number": 3,
+      "episode_number": 3,
+      "name": "Heart of Archness: Part III",
+      "overview": null,
+      "air_date": "2011",
+      "still_path": null,
+      "imdb_rating": 8.1,
+      "imdb_votes": 1870
+    },
+    {
+      "season_number": 3,
+      "episode_number": 4,
+      "name": "The Man from Jupiter",
+      "overview": null,
+      "air_date": "2012",
+      "still_path": null,
+      "imdb_rating": 8.4,
+      "imdb_votes": 1986
+    },
+    {
+      "season_number": 3,
+      "episode_number": 5,
+      "name": "El Contador",
+      "overview": null,
+      "air_date": "2012",
+      "still_path": null,
+      "imdb_rating": 8.0,
+      "imdb_votes": 1847
+    },
+    {
+      "season_number": 3,
+      "episode_number": 6,
+      "name": "The Limited",
+      "overview": null,
+      "air_date": "2012",
+      "still_path": null,
+      "imdb_rating": 8.4,
+      "imdb_votes": 1994
+    },
+    {
+      "season_number": 3,
+      "episode_number": 7,
+      "name": "Drift Problem",
+      "overview": null,
+      "air_date": "2012",
+      "still_path": null,
+      "imdb_rating": 7.7,
+      "imdb_votes": 1789
+    },
+    {
+      "season_number": 3,
+      "episode_number": 8,
+      "name": "Lo Scandalo",
+      "overview": null,
+      "air_date": "2012",
+      "still_path": null,
+      "imdb_rating": 8.6,
+      "imdb_votes": 2076
+    },
+    {
+      "season_number": 3,
+      "episode_number": 9,
+      "name": "Bloody Ferlin",
+      "overview": null,
+      "air_date": "2012",
+      "still_path": null,
+      "imdb_rating": 7.9,
+      "imdb_votes": 1841
+    },
+    {
+      "season_number": 3,
+      "episode_number": 10,
+      "name": "Crossing Over",
+      "overview": null,
+      "air_date": "2012",
+      "still_path": null,
+      "imdb_rating": 8.0,
+      "imdb_votes": 1755
+    },
+    {
+      "season_number": 3,
+      "episode_number": 11,
+      "name": "Skin Game",
+      "overview": null,
+      "air_date": "2012",
+      "still_path": null,
+      "imdb_rating": 7.6,
+      "imdb_votes": 1718
+    },
+    {
+      "season_number": 3,
+      "episode_number": 12,
+      "name": "Space Race: Part I",
+      "overview": null,
+      "air_date": "2012",
+      "still_path": null,
+      "imdb_rating": 8.3,
+      "imdb_votes": 1805
+    },
+    {
+      "season_number": 3,
+      "episode_number": 13,
+      "name": "Space Race: Part II",
+      "overview": null,
+      "air_date": "2012",
+      "still_path": null,
+      "imdb_rating": 8.3,
+      "imdb_votes": 1803
+    },
+    {
+      "season_number": 4,
+      "episode_number": 1,
+      "name": "Fugue and Riffs",
+      "overview": null,
+      "air_date": "2013",
+      "still_path": null,
+      "imdb_rating": 8.3,
+      "imdb_votes": 1963
+    },
+    {
+      "season_number": 4,
+      "episode_number": 2,
+      "name": "The Wind Cries Mary",
+      "overview": null,
+      "air_date": "2013",
+      "still_path": null,
+      "imdb_rating": 8.2,
+      "imdb_votes": 1846
+    },
+    {
+      "season_number": 4,
+      "episode_number": 3,
+      "name": "Legs",
+      "overview": null,
+      "air_date": "2013",
+      "still_path": null,
+      "imdb_rating": 8.0,
+      "imdb_votes": 1752
+    },
+    {
+      "season_number": 4,
+      "episode_number": 4,
+      "name": "Midnight Ron",
+      "overview": null,
+      "air_date": "2013",
+      "still_path": null,
+      "imdb_rating": 7.6,
+      "imdb_votes": 1682
+    },
+    {
+      "season_number": 4,
+      "episode_number": 5,
+      "name": "Viscous Coupling",
+      "overview": null,
+      "air_date": "2013",
+      "still_path": null,
+      "imdb_rating": 7.5,
+      "imdb_votes": 1629
+    },
+    {
+      "season_number": 4,
+      "episode_number": 6,
+      "name": "Once Bitten",
+      "overview": null,
+      "air_date": "2013",
+      "still_path": null,
+      "imdb_rating": 7.5,
+      "imdb_votes": 1679
+    },
+    {
+      "season_number": 4,
+      "episode_number": 7,
+      "name": "Live and Let Dine",
+      "overview": null,
+      "air_date": "2013",
+      "still_path": null,
+      "imdb_rating": 7.8,
+      "imdb_votes": 1736
+    },
+    {
+      "season_number": 4,
+      "episode_number": 8,
+      "name": "Coyote Lovely",
+      "overview": null,
+      "air_date": "2013",
+      "still_path": null,
+      "imdb_rating": 7.6,
+      "imdb_votes": 1661
+    },
+    {
+      "season_number": 4,
+      "episode_number": 9,
+      "name": "The Honeymooners",
+      "overview": null,
+      "air_date": "2013",
+      "still_path": null,
+      "imdb_rating": 8.0,
+      "imdb_votes": 1664
+    },
+    {
+      "season_number": 4,
+      "episode_number": 10,
+      "name": "Un Chien Tangerine",
+      "overview": null,
+      "air_date": "2013",
+      "still_path": null,
+      "imdb_rating": 7.8,
+      "imdb_votes": 1613
+    },
+    {
+      "season_number": 4,
+      "episode_number": 11,
+      "name": "The Papal Chase",
+      "overview": null,
+      "air_date": "2013",
+      "still_path": null,
+      "imdb_rating": 7.8,
+      "imdb_votes": 1631
+    },
+    {
+      "season_number": 4,
+      "episode_number": 12,
+      "name": "Sea Tunt: Part 1",
+      "overview": null,
+      "air_date": "2013",
+      "still_path": null,
+      "imdb_rating": 7.7,
+      "imdb_votes": 1608
+    },
+    {
+      "season_number": 4,
+      "episode_number": 13,
+      "name": "Sea Tunt: Part 2",
+      "overview": null,
+      "air_date": "2013",
+      "still_path": null,
+      "imdb_rating": 8.0,
+      "imdb_votes": 1628
+    },
+    {
+      "season_number": 5,
+      "episode_number": 1,
+      "name": "Archer Vice: White Elephant",
+      "overview": null,
+      "air_date": "2014",
+      "still_path": null,
+      "imdb_rating": 8.5,
+      "imdb_votes": 1899
+    },
+    {
+      "season_number": 5,
+      "episode_number": 2,
+      "name": "Archer Vice: A Kiss While Dying",
+      "overview": null,
+      "air_date": "2014",
+      "still_path": null,
+      "imdb_rating": 7.7,
+      "imdb_votes": 1593
+    },
+    {
+      "season_number": 5,
+      "episode_number": 3,
+      "name": "Archer Vice: A Debt of Honor",
+      "overview": null,
+      "air_date": "2014",
+      "still_path": null,
+      "imdb_rating": 7.7,
+      "imdb_votes": 1563
+    },
+    {
+      "season_number": 5,
+      "episode_number": 4,
+      "name": "Archer Vice: House Call",
+      "overview": null,
+      "air_date": "2014",
+      "still_path": null,
+      "imdb_rating": 8.1,
+      "imdb_votes": 1576
+    },
+    {
+      "season_number": 5,
+      "episode_number": 5,
+      "name": "Archer Vice: Southbound and Down",
+      "overview": null,
+      "air_date": "2014",
+      "still_path": null,
+      "imdb_rating": 7.7,
+      "imdb_votes": 1573
+    },
+    {
+      "season_number": 5,
+      "episode_number": 6,
+      "name": "Archer Vice: Baby Shower",
+      "overview": null,
+      "air_date": "2014",
+      "still_path": null,
+      "imdb_rating": 7.7,
+      "imdb_votes": 1530
+    },
+    {
+      "season_number": 5,
+      "episode_number": 7,
+      "name": "Archer Vice: Smugglers' Blues",
+      "overview": null,
+      "air_date": "2014",
+      "still_path": null,
+      "imdb_rating": 7.7,
+      "imdb_votes": 1475
+    },
+    {
+      "season_number": 5,
+      "episode_number": 8,
+      "name": "Archer Vice: The Rules of Extraction",
+      "overview": null,
+      "air_date": "2014",
+      "still_path": null,
+      "imdb_rating": 8.2,
+      "imdb_votes": 1538
+    },
+    {
+      "season_number": 5,
+      "episode_number": 9,
+      "name": "Archer Vice: On the Carpet",
+      "overview": null,
+      "air_date": "2014",
+      "still_path": null,
+      "imdb_rating": 8.0,
+      "imdb_votes": 1469
+    },
+    {
+      "season_number": 5,
+      "episode_number": 10,
+      "name": "Archer Vice: Palace Intrigue - Part I",
+      "overview": null,
+      "air_date": "2014",
+      "still_path": null,
+      "imdb_rating": 8.0,
+      "imdb_votes": 1466
+    },
+    {
+      "season_number": 5,
+      "episode_number": 11,
+      "name": "Archer Vice: Palace Intrigue: Part II",
+      "overview": null,
+      "air_date": "2014",
+      "still_path": null,
+      "imdb_rating": 7.9,
+      "imdb_votes": 1453
+    },
+    {
+      "season_number": 5,
+      "episode_number": 12,
+      "name": "Archer Vice: Filibuster",
+      "overview": null,
+      "air_date": "2014",
+      "still_path": null,
+      "imdb_rating": 8.0,
+      "imdb_votes": 1454
+    },
+    {
+      "season_number": 5,
+      "episode_number": 13,
+      "name": "Archer Vice: Arrival/Departure",
+      "overview": null,
+      "air_date": "2014",
+      "still_path": null,
+      "imdb_rating": 8.6,
+      "imdb_votes": 1649
+    },
+    {
+      "season_number": 6,
+      "episode_number": 1,
+      "name": "The Holdout",
+      "overview": null,
+      "air_date": "2015",
+      "still_path": null,
+      "imdb_rating": 8.1,
+      "imdb_votes": 1568
+    },
+    {
+      "season_number": 6,
+      "episode_number": 2,
+      "name": "Three to Tango",
+      "overview": null,
+      "air_date": "2015",
+      "still_path": null,
+      "imdb_rating": 7.9,
+      "imdb_votes": 1477
+    },
+    {
+      "season_number": 6,
+      "episode_number": 3,
+      "name": "The Archer Sanction",
+      "overview": null,
+      "air_date": "2015",
+      "still_path": null,
+      "imdb_rating": 8.2,
+      "imdb_votes": 1530
+    },
+    {
+      "season_number": 6,
+      "episode_number": 4,
+      "name": "Edie's Wedding",
+      "overview": null,
+      "air_date": "2015",
+      "still_path": null,
+      "imdb_rating": 8.0,
+      "imdb_votes": 1499
+    },
+    {
+      "season_number": 6,
+      "episode_number": 5,
+      "name": "Vision Quest",
+      "overview": null,
+      "air_date": "2015",
+      "still_path": null,
+      "imdb_rating": 8.7,
+      "imdb_votes": 1753
+    },
+    {
+      "season_number": 6,
+      "episode_number": 6,
+      "name": "Sitting",
+      "overview": null,
+      "air_date": "2015",
+      "still_path": null,
+      "imdb_rating": 7.9,
+      "imdb_votes": 1450
+    },
+    {
+      "season_number": 6,
+      "episode_number": 7,
+      "name": "Nellis",
+      "overview": null,
+      "air_date": "2015",
+      "still_path": null,
+      "imdb_rating": 7.6,
+      "imdb_votes": 1409
+    },
+    {
+      "season_number": 6,
+      "episode_number": 8,
+      "name": "The Kanes",
+      "overview": null,
+      "air_date": "2015",
+      "still_path": null,
+      "imdb_rating": 8.8,
+      "imdb_votes": 1819
+    },
+    {
+      "season_number": 6,
+      "episode_number": 9,
+      "name": "Pocket Listing",
+      "overview": null,
+      "air_date": "2015",
+      "still_path": null,
+      "imdb_rating": 8.5,
+      "imdb_votes": 1522
+    },
+    {
+      "season_number": 6,
+      "episode_number": 10,
+      "name": "Reignition Sequence",
+      "overview": null,
+      "air_date": "2015",
+      "still_path": null,
+      "imdb_rating": 8.1,
+      "imdb_votes": 1390
+    },
+    {
+      "season_number": 6,
+      "episode_number": 11,
+      "name": "Achub y Morfilod",
+      "overview": null,
+      "air_date": "2015",
+      "still_path": null,
+      "imdb_rating": 7.9,
+      "imdb_votes": 1412
+    },
+    {
+      "season_number": 6,
+      "episode_number": 12,
+      "name": "Drastic Voyage: Part 1",
+      "overview": null,
+      "air_date": "2015",
+      "still_path": null,
+      "imdb_rating": 7.9,
+      "imdb_votes": 1394
+    },
+    {
+      "season_number": 6,
+      "episode_number": 13,
+      "name": "Drastic Voyage: Part 2",
+      "overview": null,
+      "air_date": "2015",
+      "still_path": null,
+      "imdb_rating": 8.4,
+      "imdb_votes": 1430
+    },
+    {
+      "season_number": 7,
+      "episode_number": 1,
+      "name": "The Figgis Agency",
+      "overview": null,
+      "air_date": "2016",
+      "still_path": null,
+      "imdb_rating": 7.9,
+      "imdb_votes": 1522
+    },
+    {
+      "season_number": 7,
+      "episode_number": 2,
+      "name": "The Handoff",
+      "overview": null,
+      "air_date": "2016",
+      "still_path": null,
+      "imdb_rating": 8.0,
+      "imdb_votes": 1388
+    },
+    {
+      "season_number": 7,
+      "episode_number": 3,
+      "name": "Deadly Prep",
+      "overview": null,
+      "air_date": "2016",
+      "still_path": null,
+      "imdb_rating": 8.4,
+      "imdb_votes": 1419
+    },
+    {
+      "season_number": 7,
+      "episode_number": 4,
+      "name": "Motherless Child",
+      "overview": null,
+      "air_date": "2016",
+      "still_path": null,
+      "imdb_rating": 8.0,
+      "imdb_votes": 1352
+    },
+    {
+      "season_number": 7,
+      "episode_number": 5,
+      "name": "Bel Panto: Part I",
+      "overview": null,
+      "air_date": "2016",
+      "still_path": null,
+      "imdb_rating": 8.1,
+      "imdb_votes": 1353
+    },
+    {
+      "season_number": 7,
+      "episode_number": 6,
+      "name": "Bel Panto: Part II",
+      "overview": null,
+      "air_date": "2016",
+      "still_path": null,
+      "imdb_rating": 8.3,
+      "imdb_votes": 1385
+    },
+    {
+      "season_number": 7,
+      "episode_number": 7,
+      "name": "Double Indecency",
+      "overview": null,
+      "air_date": "2016",
+      "still_path": null,
+      "imdb_rating": 8.4,
+      "imdb_votes": 1416
+    },
+    {
+      "season_number": 7,
+      "episode_number": 8,
+      "name": "Liquid Lunch",
+      "overview": null,
+      "air_date": "2016",
+      "still_path": null,
+      "imdb_rating": 7.6,
+      "imdb_votes": 1259
+    },
+    {
+      "season_number": 7,
+      "episode_number": 9,
+      "name": "Deadly Velvet: Part 1",
+      "overview": null,
+      "air_date": "2016",
+      "still_path": null,
+      "imdb_rating": 8.1,
+      "imdb_votes": 1306
+    },
+    {
+      "season_number": 7,
+      "episode_number": 10,
+      "name": "Deadly Velvet: Part 2",
+      "overview": null,
+      "air_date": "2016",
+      "still_path": null,
+      "imdb_rating": 8.8,
+      "imdb_votes": 1610
+    },
+    {
+      "season_number": 8,
+      "episode_number": 1,
+      "name": "Archer Dreamland: No Good Deed",
+      "overview": null,
+      "air_date": "2017",
+      "still_path": null,
+      "imdb_rating": 7.6,
+      "imdb_votes": 1444
+    },
+    {
+      "season_number": 8,
+      "episode_number": 2,
+      "name": "Archer Dreamland: Berenice",
+      "overview": null,
+      "air_date": "2017",
+      "still_path": null,
+      "imdb_rating": 7.6,
+      "imdb_votes": 1254
+    },
+    {
+      "season_number": 8,
+      "episode_number": 3,
+      "name": "Archer Dreamland: Jane Doe",
+      "overview": null,
+      "air_date": "2017",
+      "still_path": null,
+      "imdb_rating": 7.5,
+      "imdb_votes": 1204
+    },
+    {
+      "season_number": 8,
+      "episode_number": 4,
+      "name": "Archer Dreamland: Ladyfingers",
+      "overview": null,
+      "air_date": "2017",
+      "still_path": null,
+      "imdb_rating": 7.5,
+      "imdb_votes": 1186
+    },
+    {
+      "season_number": 8,
+      "episode_number": 5,
+      "name": "Archer Dreamland: Sleepers Wake",
+      "overview": null,
+      "air_date": "2017",
+      "still_path": null,
+      "imdb_rating": 7.2,
+      "imdb_votes": 1144
+    },
+    {
+      "season_number": 8,
+      "episode_number": 6,
+      "name": "Archer Dreamland: Waxing Gibbous",
+      "overview": null,
+      "air_date": "2017",
+      "still_path": null,
+      "imdb_rating": 7.7,
+      "imdb_votes": 1182
+    },
+    {
+      "season_number": 8,
+      "episode_number": 7,
+      "name": "Archer Dreamland: Gramercy, Halberd!",
+      "overview": null,
+      "air_date": "2017",
+      "still_path": null,
+      "imdb_rating": 7.9,
+      "imdb_votes": 1200
+    },
+    {
+      "season_number": 8,
+      "episode_number": 8,
+      "name": "Archer Dreamland: Aufl\u00f6sung",
+      "overview": null,
+      "air_date": "2017",
+      "still_path": null,
+      "imdb_rating": 7.5,
+      "imdb_votes": 1236
+    },
+    {
+      "season_number": 9,
+      "episode_number": 1,
+      "name": "Danger Island: Strange Pilot",
+      "overview": null,
+      "air_date": "2018",
+      "still_path": null,
+      "imdb_rating": 7.2,
+      "imdb_votes": 1323
+    },
+    {
+      "season_number": 9,
+      "episode_number": 2,
+      "name": "Danger Island: Disheartening Situation",
+      "overview": null,
+      "air_date": "2018",
+      "still_path": null,
+      "imdb_rating": 7.2,
+      "imdb_votes": 1160
+    },
+    {
+      "season_number": 9,
+      "episode_number": 3,
+      "name": "Danger Island: Different Modes of Preparing the Fruit",
+      "overview": null,
+      "air_date": "2018",
+      "still_path": null,
+      "imdb_rating": 7.0,
+      "imdb_votes": 1097
+    },
+    {
+      "season_number": 9,
+      "episode_number": 4,
+      "name": "Danger Island: A Warrior in Costume",
+      "overview": null,
+      "air_date": "2018",
+      "still_path": null,
+      "imdb_rating": 7.2,
+      "imdb_votes": 1078
+    },
+    {
+      "season_number": 9,
+      "episode_number": 5,
+      "name": "Danger Island: Strange Doings in the Taboo Groves",
+      "overview": null,
+      "air_date": "2018",
+      "still_path": null,
+      "imdb_rating": 7.3,
+      "imdb_votes": 1056
+    },
+    {
+      "season_number": 9,
+      "episode_number": 6,
+      "name": "Danger Island: Some Remarks on Cannibalism",
+      "overview": null,
+      "air_date": "2018",
+      "still_path": null,
+      "imdb_rating": 7.3,
+      "imdb_votes": 1047
+    },
+    {
+      "season_number": 9,
+      "episode_number": 7,
+      "name": "Danger Island: Comparative Wickedness of Civilized and Unenlightened Peoples",
+      "overview": null,
+      "air_date": "2018",
+      "still_path": null,
+      "imdb_rating": 7.8,
+      "imdb_votes": 1102
+    },
+    {
+      "season_number": 9,
+      "episode_number": 8,
+      "name": "Danger Island: A Discovery",
+      "overview": null,
+      "air_date": "2018",
+      "still_path": null,
+      "imdb_rating": 7.7,
+      "imdb_votes": 1114
+    },
+    {
+      "season_number": 10,
+      "episode_number": 1,
+      "name": "Archer: 1999 -- Bort the Garj",
+      "overview": null,
+      "air_date": "2019",
+      "still_path": null,
+      "imdb_rating": 7.1,
+      "imdb_votes": 1263
+    },
+    {
+      "season_number": 10,
+      "episode_number": 2,
+      "name": "Archer: 1999 -- Happy Borthday",
+      "overview": null,
+      "air_date": "2019",
+      "still_path": null,
+      "imdb_rating": 7.3,
+      "imdb_votes": 1126
+    },
+    {
+      "season_number": 10,
+      "episode_number": 3,
+      "name": "Archer: 1999 -- The Leftovers",
+      "overview": null,
+      "air_date": "2019",
+      "still_path": null,
+      "imdb_rating": 7.4,
+      "imdb_votes": 1069
+    },
+    {
+      "season_number": 10,
+      "episode_number": 4,
+      "name": "Archer: 1999 -- Dining with the Zarglorp",
+      "overview": null,
+      "air_date": "2019",
+      "still_path": null,
+      "imdb_rating": 7.2,
+      "imdb_votes": 1026
+    },
+    {
+      "season_number": 10,
+      "episode_number": 5,
+      "name": "Archer: 1999 -- Mr. Deadly Goes to Town",
+      "overview": null,
+      "air_date": "2019",
+      "still_path": null,
+      "imdb_rating": 7.9,
+      "imdb_votes": 1166
+    },
+    {
+      "season_number": 10,
+      "episode_number": 6,
+      "name": "Archer: 1999 -- Road Trip",
+      "overview": null,
+      "air_date": "2019",
+      "still_path": null,
+      "imdb_rating": 7.3,
+      "imdb_votes": 997
+    },
+    {
+      "season_number": 10,
+      "episode_number": 7,
+      "name": "Archer: 1999 -- Space Pirates",
+      "overview": null,
+      "air_date": "2019",
+      "still_path": null,
+      "imdb_rating": 7.6,
+      "imdb_votes": 1011
+    },
+    {
+      "season_number": 10,
+      "episode_number": 8,
+      "name": "Archer: 1999 -- Cubert",
+      "overview": null,
+      "air_date": "2019",
+      "still_path": null,
+      "imdb_rating": 8.0,
+      "imdb_votes": 1045
+    },
+    {
+      "season_number": 10,
+      "episode_number": 9,
+      "name": "Archer: 1999 -- Robert De Niro",
+      "overview": null,
+      "air_date": "2019",
+      "still_path": null,
+      "imdb_rating": 8.5,
+      "imdb_votes": 1255
+    },
+    {
+      "season_number": 11,
+      "episode_number": 1,
+      "name": "The Orpheus Gambit",
+      "overview": null,
+      "air_date": "2020",
+      "still_path": null,
+      "imdb_rating": 8.0,
+      "imdb_votes": 1311
+    },
+    {
+      "season_number": 11,
+      "episode_number": 2,
+      "name": "Bloodsploosh",
+      "overview": null,
+      "air_date": "2020",
+      "still_path": null,
+      "imdb_rating": 7.8,
+      "imdb_votes": 1189
+    },
+    {
+      "season_number": 11,
+      "episode_number": 3,
+      "name": "Helping Hands",
+      "overview": null,
+      "air_date": "2020",
+      "still_path": null,
+      "imdb_rating": 7.9,
+      "imdb_votes": 1124
+    },
+    {
+      "season_number": 11,
+      "episode_number": 4,
+      "name": "Robot Factory",
+      "overview": null,
+      "air_date": "2020",
+      "still_path": null,
+      "imdb_rating": 8.5,
+      "imdb_votes": 1203
+    },
+    {
+      "season_number": 11,
+      "episode_number": 5,
+      "name": "Best Friends",
+      "overview": null,
+      "air_date": "2020",
+      "still_path": null,
+      "imdb_rating": 8.5,
+      "imdb_votes": 1158
+    },
+    {
+      "season_number": 11,
+      "episode_number": 6,
+      "name": "The Double Date",
+      "overview": null,
+      "air_date": "2020",
+      "still_path": null,
+      "imdb_rating": 8.0,
+      "imdb_votes": 1082
+    },
+    {
+      "season_number": 11,
+      "episode_number": 7,
+      "name": "Caught Napping",
+      "overview": null,
+      "air_date": "2020",
+      "still_path": null,
+      "imdb_rating": 8.3,
+      "imdb_votes": 1100
+    },
+    {
+      "season_number": 11,
+      "episode_number": 8,
+      "name": "Cold Fusion",
+      "overview": null,
+      "air_date": "2020",
+      "still_path": null,
+      "imdb_rating": 7.8,
+      "imdb_votes": 1071
+    },
+    {
+      "season_number": 12,
+      "episode_number": 1,
+      "name": "Identity Crisis",
+      "overview": null,
+      "air_date": "2021",
+      "still_path": null,
+      "imdb_rating": 7.5,
+      "imdb_votes": 1039
+    },
+    {
+      "season_number": 12,
+      "episode_number": 2,
+      "name": "Lowjacked",
+      "overview": null,
+      "air_date": "2021",
+      "still_path": null,
+      "imdb_rating": 7.9,
+      "imdb_votes": 995
+    },
+    {
+      "season_number": 12,
+      "episode_number": 3,
+      "name": "London Time",
+      "overview": null,
+      "air_date": "2021",
+      "still_path": null,
+      "imdb_rating": 7.5,
+      "imdb_votes": 946
+    },
+    {
+      "season_number": 12,
+      "episode_number": 4,
+      "name": "Photo Op",
+      "overview": null,
+      "air_date": "2021",
+      "still_path": null,
+      "imdb_rating": 7.4,
+      "imdb_votes": 927
+    },
+    {
+      "season_number": 12,
+      "episode_number": 5,
+      "name": "Shots",
+      "overview": null,
+      "air_date": "2021",
+      "still_path": null,
+      "imdb_rating": 7.9,
+      "imdb_votes": 932
+    },
+    {
+      "season_number": 12,
+      "episode_number": 6,
+      "name": "Dingo, Baby, et Cetera",
+      "overview": null,
+      "air_date": "2021",
+      "still_path": null,
+      "imdb_rating": 8.5,
+      "imdb_votes": 1035
+    },
+    {
+      "season_number": 12,
+      "episode_number": 7,
+      "name": "Colt Express",
+      "overview": null,
+      "air_date": "2021",
+      "still_path": null,
+      "imdb_rating": 7.9,
+      "imdb_votes": 887
+    },
+    {
+      "season_number": 12,
+      "episode_number": 8,
+      "name": "Mission: Difficult",
+      "overview": null,
+      "air_date": "2021",
+      "still_path": null,
+      "imdb_rating": 9.0,
+      "imdb_votes": 1634
+    },
+    {
+      "season_number": 13,
+      "episode_number": 1,
+      "name": "The Big Con",
+      "overview": null,
+      "air_date": "2022",
+      "still_path": null,
+      "imdb_rating": 7.5,
+      "imdb_votes": 801
+    },
+    {
+      "season_number": 13,
+      "episode_number": 2,
+      "name": "Operation: Fang",
+      "overview": null,
+      "air_date": "2022",
+      "still_path": null,
+      "imdb_rating": 7.3,
+      "imdb_votes": 705
+    },
+    {
+      "season_number": 13,
+      "episode_number": 3,
+      "name": "Saturday",
+      "overview": null,
+      "air_date": "2022",
+      "still_path": null,
+      "imdb_rating": 7.7,
+      "imdb_votes": 739
+    },
+    {
+      "season_number": 13,
+      "episode_number": 4,
+      "name": "The Laws of Attraction",
+      "overview": null,
+      "air_date": "2022",
+      "still_path": null,
+      "imdb_rating": 7.4,
+      "imdb_votes": 666
+    },
+    {
+      "season_number": 13,
+      "episode_number": 5,
+      "name": "Out of Network",
+      "overview": null,
+      "air_date": "2022",
+      "still_path": null,
+      "imdb_rating": 7.5,
+      "imdb_votes": 653
+    },
+    {
+      "season_number": 13,
+      "episode_number": 6,
+      "name": "Bank Run at Mr. Bank's Bank",
+      "overview": null,
+      "air_date": "2022",
+      "still_path": null,
+      "imdb_rating": 7.5,
+      "imdb_votes": 633
+    },
+    {
+      "season_number": 13,
+      "episode_number": 7,
+      "name": "Distraction Action",
+      "overview": null,
+      "air_date": "2022",
+      "still_path": null,
+      "imdb_rating": 7.6,
+      "imdb_votes": 646
+    },
+    {
+      "season_number": 13,
+      "episode_number": 8,
+      "name": "Dough, Ray, and Me",
+      "overview": null,
+      "air_date": "2022",
+      "still_path": null,
+      "imdb_rating": 7.8,
+      "imdb_votes": 658
+    },
+    {
+      "season_number": 14,
+      "episode_number": 1,
+      "name": "The Anglerfish Stratagem",
+      "overview": null,
+      "air_date": "2023",
+      "still_path": null,
+      "imdb_rating": 7.3,
+      "imdb_votes": 678
+    },
+    {
+      "season_number": 14,
+      "episode_number": 2,
+      "name": "30 for 30",
+      "overview": null,
+      "air_date": "2023",
+      "still_path": null,
+      "imdb_rating": 7.4,
+      "imdb_votes": 650
+    },
+    {
+      "season_number": 14,
+      "episode_number": 3,
+      "name": "Plaque Removal",
+      "overview": null,
+      "air_date": "2023",
+      "still_path": null,
+      "imdb_rating": 6.8,
+      "imdb_votes": 653
+    },
+    {
+      "season_number": 14,
+      "episode_number": 4,
+      "name": "Chill Barry",
+      "overview": null,
+      "air_date": "2023",
+      "still_path": null,
+      "imdb_rating": 7.5,
+      "imdb_votes": 583
+    },
+    {
+      "season_number": 14,
+      "episode_number": 5,
+      "name": "Keys Open Doors",
+      "overview": null,
+      "air_date": "2023",
+      "still_path": null,
+      "imdb_rating": 7.5,
+      "imdb_votes": 572
+    },
+    {
+      "season_number": 14,
+      "episode_number": 6,
+      "name": "Face Off",
+      "overview": null,
+      "air_date": "2023",
+      "still_path": null,
+      "imdb_rating": 7.7,
+      "imdb_votes": 571
+    },
+    {
+      "season_number": 14,
+      "episode_number": 7,
+      "name": "Mission Out of Control Room",
+      "overview": null,
+      "air_date": "2023",
+      "still_path": null,
+      "imdb_rating": 7.5,
+      "imdb_votes": 538
+    },
+    {
+      "season_number": 14,
+      "episode_number": 8,
+      "name": "Breaking Fabian",
+      "overview": null,
+      "air_date": "2023",
+      "still_path": null,
+      "imdb_rating": 7.5,
+      "imdb_votes": 550
+    },
+    {
+      "season_number": 14,
+      "episode_number": 9,
+      "name": "Into the Cold",
+      "overview": null,
+      "air_date": "2023",
+      "still_path": null,
+      "imdb_rating": 8.4,
+      "imdb_votes": 810
+    }
+  ]
+}
