@@ -28,6 +28,10 @@
     </section>
 
     <section id="view-shows" class="view hidden">
+      <div id="bias-control" class="bias-control hidden">
+        <label for="bias-slider">Spin bias: <span id="bias-label">True Random</span></label>
+        <input id="bias-slider" type="range" min="0" max="5" step="1" value="0" />
+      </div>
       <button id="surprise-btn" class="primary-btn hidden">🎲 Surprise Me</button>
       <ul id="shows-list" class="card-list"></ul>
       <p id="shows-empty" class="empty-hint">No shows saved yet. Search and add some first.</p>
@@ -45,6 +49,7 @@
             <p id="result-show-name" class="result-show-name"></p>
             <h2 id="result-episode-title"></h2>
             <p id="result-episode-meta"></p>
+            <p id="result-rating" class="result-rating hidden"></p>
             <p id="result-overview" class="result-overview"></p>
           </div>
         </div>
@@ -72,6 +77,7 @@
 
 <script src="js/config.js"></script>
 <script src="js/tmdb.js"></script>
+<script src="js/catalog.js"></script>
 <script src="js/storage.js"></script>
 <script src="js/app.js"></script>
 </body>

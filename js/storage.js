@@ -1,5 +1,6 @@
 const SHOWS_KEY = "er_shows";
 const WATCHED_KEY = "er_watched";
+const BIAS_KEY = "er_bias";
 
 function getShows() {
   return JSON.parse(localStorage.getItem(SHOWS_KEY) || "[]");
@@ -51,4 +52,13 @@ function resetWatched(showId) {
   const map = getWatchedMap();
   delete map[showId];
   saveWatchedMap(map);
+}
+
+function getBias() {
+  const stored = localStorage.getItem(BIAS_KEY);
+  return stored === null ? 0 : Number(stored);
+}
+
+function setBias(value) {
+  localStorage.setItem(BIAS_KEY, String(value));
 }

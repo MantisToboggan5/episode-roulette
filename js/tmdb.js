@@ -14,19 +14,13 @@ async function tmdbGet(path, params = {}) {
   return res.json();
 }
 
+// Live TMDB search is used only for discovering new shows to ingest.
+// Episode data + ratings for spinning come from the local data/shows/*.json
+// catalog (see js/catalog.js) produced by ingest.py.
 async function searchShows(query) {
   if (!query.trim()) return [];
   const data = await tmdbGet("/search/tv", { query, include_adult: false });
   return data.results || [];
-}
-
-async function getShowDetails(showId) {
-  return tmdbGet(`/tv/${showId}`);
-}
-
-async function getSeasonEpisodes(showId, seasonNumber) {
-  const data = await tmdbGet(`/tv/${showId}/season/${seasonNumber}`);
-  return data.episodes || [];
 }
 
 function posterUrl(path, size = "w342") {
