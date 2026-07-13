@@ -15,9 +15,8 @@ Runs entirely off IMDb's official free datasets — **no accounts or API keys ne
 2. Open http://localhost:8000 in a browser (use a phone-sized viewport / real phone
    to see the intended layout). On a phone you can "Add to Home Screen" to install it.
 
-**Dev tip:** the service worker caches app files aggressively (that's the point, for
-offline/installed use). If you edit HTML/CSS/JS and don't see the change, unregister
-it once (DevTools → Application → Service Workers → Unregister, then hard reload).
+The service worker is network-first: when online you always get the latest app and
+show data; the cache only kicks in offline. A plain refresh picks up any update.
 
 ## Adding a show (ingest)
 

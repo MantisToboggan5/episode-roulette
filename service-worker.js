@@ -1,4 +1,4 @@
-const CACHE_NAME = "episode-roulette-v3";
+const CACHE_NAME = "episode-roulette-v4";
 const APP_SHELL = [
   "./",
   "./index.html",
@@ -26,10 +26,20 @@ self.addEventListener("activate", (event) => {
   self.clients.claim();
 });
 
+// Network-first: always serve the latest app/data when online, fall back to
+// cache only when offline. Avoids stale-version confusion after updates.
 self.addEventListener("fetch", (event) => {
   const url = new URL(event.request.url);
-  if (url.origin !== self.location.origin) return; // don't cache TMDB API calls
+  if (url.origin !== self.location.origin) return;
   event.respondWith(
-    caches.match(event.request).then((cached) => cached || fetch(event.request))
+    fetch(event.request)
+      .then((res) => {
+        if (res.ok) {
+          const copy = res.clone();
+          caches.open(CACHE_NAME).then((cache) => cache.put(event.request, copy));
+        }
+        return res;
+      })
+      .catch(() => caches.match(event.request))
   );
 });
