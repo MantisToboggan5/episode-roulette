@@ -1,0 +1,628 @@
+{
+  "id": "tt0903747",
+  "name": "Breaking Bad",
+  "poster_path": null,
+  "imdb_id": "tt0903747",
+  "episodes": [
+    {
+      "season_number": 1,
+      "episode_number": 1,
+      "name": "Pilot",
+      "overview": null,
+      "air_date": "2008",
+      "still_path": null,
+      "imdb_rating": 9.0,
+      "imdb_votes": 83007
+    },
+    {
+      "season_number": 1,
+      "episode_number": 2,
+      "name": "Cat's in the Bag...",
+      "overview": null,
+      "air_date": "2008",
+      "still_path": null,
+      "imdb_rating": 8.6,
+      "imdb_votes": 61727
+    },
+    {
+      "season_number": 1,
+      "episode_number": 3,
+      "name": "...And the Bag's in the River",
+      "overview": null,
+      "air_date": "2008",
+      "still_path": null,
+      "imdb_rating": 8.7,
+      "imdb_votes": 59499
+    },
+    {
+      "season_number": 1,
+      "episode_number": 4,
+      "name": "Cancer Man",
+      "overview": null,
+      "air_date": "2008",
+      "still_path": null,
+      "imdb_rating": 8.2,
+      "imdb_votes": 57175
+    },
+    {
+      "season_number": 1,
+      "episode_number": 5,
+      "name": "Gray Matter",
+      "overview": null,
+      "air_date": "2008",
+      "still_path": null,
+      "imdb_rating": 8.2,
+      "imdb_votes": 56153
+    },
+    {
+      "season_number": 1,
+      "episode_number": 6,
+      "name": "Crazy Handful of Nothin'",
+      "overview": null,
+      "air_date": "2008",
+      "still_path": null,
+      "imdb_rating": 9.3,
+      "imdb_votes": 65520
+    },
+    {
+      "season_number": 1,
+      "episode_number": 7,
+      "name": "A No-Rough-Stuff-Type Deal",
+      "overview": null,
+      "air_date": "2008",
+      "still_path": null,
+      "imdb_rating": 8.8,
+      "imdb_votes": 57088
+    },
+    {
+      "season_number": 2,
+      "episode_number": 1,
+      "name": "Seven Thirty-Seven",
+      "overview": null,
+      "air_date": "2009",
+      "still_path": null,
+      "imdb_rating": 8.6,
+      "imdb_votes": 51360
+    },
+    {
+      "season_number": 2,
+      "episode_number": 2,
+      "name": "Grilled",
+      "overview": null,
+      "air_date": "2009",
+      "still_path": null,
+      "imdb_rating": 9.3,
+      "imdb_votes": 59167
+    },
+    {
+      "season_number": 2,
+      "episode_number": 3,
+      "name": "Bit by a Dead Bee",
+      "overview": null,
+      "air_date": "2009",
+      "still_path": null,
+      "imdb_rating": 8.3,
+      "imdb_votes": 49414
+    },
+    {
+      "season_number": 2,
+      "episode_number": 4,
+      "name": "Down",
+      "overview": null,
+      "air_date": "2009",
+      "still_path": null,
+      "imdb_rating": 8.2,
+      "imdb_votes": 49486
+    },
+    {
+      "season_number": 2,
+      "episode_number": 5,
+      "name": "Breakage",
+      "overview": null,
+      "air_date": "2009",
+      "still_path": null,
+      "imdb_rating": 8.2,
+      "imdb_votes": 48789
+    },
+    {
+      "season_number": 2,
+      "episode_number": 6,
+      "name": "Peekaboo",
+      "overview": null,
+      "air_date": "2009",
+      "still_path": null,
+      "imdb_rating": 8.8,
+      "imdb_votes": 52175
+    },
+    {
+      "season_number": 2,
+      "episode_number": 7,
+      "name": "Negro y Azul",
+      "overview": null,
+      "air_date": "2009",
+      "still_path": null,
+      "imdb_rating": 8.6,
+      "imdb_votes": 48523
+    },
+    {
+      "season_number": 2,
+      "episode_number": 8,
+      "name": "Better Call Saul",
+      "overview": null,
+      "air_date": "2009",
+      "still_path": null,
+      "imdb_rating": 9.3,
+      "imdb_votes": 57304
+    },
+    {
+      "season_number": 2,
+      "episode_number": 9,
+      "name": "4 Days Out",
+      "overview": null,
+      "air_date": "2009",
+      "still_path": null,
+      "imdb_rating": 9.2,
+      "imdb_votes": 55027
+    },
+    {
+      "season_number": 2,
+      "episode_number": 10,
+      "name": "Over",
+      "overview": null,
+      "air_date": "2009",
+      "still_path": null,
+      "imdb_rating": 8.4,
+      "imdb_votes": 47685
+    },
+    {
+      "season_number": 2,
+      "episode_number": 11,
+      "name": "Mandala",
+      "overview": null,
+      "air_date": "2009",
+      "still_path": null,
+      "imdb_rating": 8.9,
+      "imdb_votes": 49561
+    },
+    {
+      "season_number": 2,
+      "episode_number": 12,
+      "name": "Phoenix",
+      "overview": null,
+      "air_date": "2009",
+      "still_path": null,
+      "imdb_rating": 9.3,
+      "imdb_votes": 55779
+    },
+    {
+      "season_number": 2,
+      "episode_number": 13,
+      "name": "ABQ",
+      "overview": null,
+      "air_date": "2009",
+      "still_path": null,
+      "imdb_rating": 9.2,
+      "imdb_votes": 54453
+    },
+    {
+      "season_number": 3,
+      "episode_number": 1,
+      "name": "No M\u00e1s",
+      "overview": null,
+      "air_date": "2010",
+      "still_path": null,
+      "imdb_rating": 8.4,
+      "imdb_votes": 46975
+    },
+    {
+      "season_number": 3,
+      "episode_number": 2,
+      "name": "Caballo sin Nombre",
+      "overview": null,
+      "air_date": "2010",
+      "still_path": null,
+      "imdb_rating": 8.6,
+      "imdb_votes": 45778
+    },
+    {
+      "season_number": 3,
+      "episode_number": 3,
+      "name": "I.F.T.",
+      "overview": null,
+      "air_date": "2010",
+      "still_path": null,
+      "imdb_rating": 8.3,
+      "imdb_votes": 45598
+    },
+    {
+      "season_number": 3,
+      "episode_number": 4,
+      "name": "Green Light",
+      "overview": null,
+      "air_date": "2010",
+      "still_path": null,
+      "imdb_rating": 8.1,
+      "imdb_votes": 47450
+    },
+    {
+      "season_number": 3,
+      "episode_number": 5,
+      "name": "M\u00e1s",
+      "overview": null,
+      "air_date": "2010",
+      "still_path": null,
+      "imdb_rating": 8.5,
+      "imdb_votes": 44812
+    },
+    {
+      "season_number": 3,
+      "episode_number": 6,
+      "name": "Sunset",
+      "overview": null,
+      "air_date": "2010",
+      "still_path": null,
+      "imdb_rating": 9.3,
+      "imdb_votes": 51386
+    },
+    {
+      "season_number": 3,
+      "episode_number": 7,
+      "name": "One Minute",
+      "overview": null,
+      "air_date": "2010",
+      "still_path": null,
+      "imdb_rating": 9.6,
+      "imdb_votes": 62979
+    },
+    {
+      "season_number": 3,
+      "episode_number": 8,
+      "name": "I See You",
+      "overview": null,
+      "air_date": "2010",
+      "still_path": null,
+      "imdb_rating": 8.7,
+      "imdb_votes": 45821
+    },
+    {
+      "season_number": 3,
+      "episode_number": 9,
+      "name": "Kafkaesque",
+      "overview": null,
+      "air_date": "2010",
+      "still_path": null,
+      "imdb_rating": 8.3,
+      "imdb_votes": 45193
+    },
+    {
+      "season_number": 3,
+      "episode_number": 10,
+      "name": "Fly",
+      "overview": null,
+      "air_date": "2010",
+      "still_path": null,
+      "imdb_rating": 7.9,
+      "imdb_votes": 96630
+    },
+    {
+      "season_number": 3,
+      "episode_number": 11,
+      "name": "Abiquiu",
+      "overview": null,
+      "air_date": "2010",
+      "still_path": null,
+      "imdb_rating": 8.4,
+      "imdb_votes": 44978
+    },
+    {
+      "season_number": 3,
+      "episode_number": 12,
+      "name": "Half Measures",
+      "overview": null,
+      "air_date": "2010",
+      "still_path": null,
+      "imdb_rating": 9.5,
+      "imdb_votes": 62339
+    },
+    {
+      "season_number": 3,
+      "episode_number": 13,
+      "name": "Full Measure",
+      "overview": null,
+      "air_date": "2010",
+      "still_path": null,
+      "imdb_rating": 9.7,
+      "imdb_votes": 76159
+    },
+    {
+      "season_number": 4,
+      "episode_number": 1,
+      "name": "Box Cutter",
+      "overview": null,
+      "air_date": "2011",
+      "still_path": null,
+      "imdb_rating": 9.2,
+      "imdb_votes": 54502
+    },
+    {
+      "season_number": 4,
+      "episode_number": 2,
+      "name": "Thirty-Eight Snub",
+      "overview": null,
+      "air_date": "2011",
+      "still_path": null,
+      "imdb_rating": 8.2,
+      "imdb_votes": 46207
+    },
+    {
+      "season_number": 4,
+      "episode_number": 3,
+      "name": "Open House",
+      "overview": null,
+      "air_date": "2011",
+      "still_path": null,
+      "imdb_rating": 7.9,
+      "imdb_votes": 56017
+    },
+    {
+      "season_number": 4,
+      "episode_number": 4,
+      "name": "Bullet Points",
+      "overview": null,
+      "air_date": "2011",
+      "still_path": null,
+      "imdb_rating": 8.5,
+      "imdb_votes": 45253
+    },
+    {
+      "season_number": 4,
+      "episode_number": 5,
+      "name": "Shotgun",
+      "overview": null,
+      "air_date": "2011",
+      "still_path": null,
+      "imdb_rating": 8.6,
+      "imdb_votes": 44894
+    },
+    {
+      "season_number": 4,
+      "episode_number": 6,
+      "name": "Cornered",
+      "overview": null,
+      "air_date": "2011",
+      "still_path": null,
+      "imdb_rating": 8.4,
+      "imdb_votes": 45956
+    },
+    {
+      "season_number": 4,
+      "episode_number": 7,
+      "name": "Problem Dog",
+      "overview": null,
+      "air_date": "2011",
+      "still_path": null,
+      "imdb_rating": 8.8,
+      "imdb_votes": 46376
+    },
+    {
+      "season_number": 4,
+      "episode_number": 8,
+      "name": "Hermanos",
+      "overview": null,
+      "air_date": "2011",
+      "still_path": null,
+      "imdb_rating": 9.3,
+      "imdb_votes": 53143
+    },
+    {
+      "season_number": 4,
+      "episode_number": 9,
+      "name": "Bug",
+      "overview": null,
+      "air_date": "2011",
+      "still_path": null,
+      "imdb_rating": 8.9,
+      "imdb_votes": 48630
+    },
+    {
+      "season_number": 4,
+      "episode_number": 10,
+      "name": "Salud",
+      "overview": null,
+      "air_date": "2011",
+      "still_path": null,
+      "imdb_rating": 9.6,
+      "imdb_votes": 66073
+    },
+    {
+      "season_number": 4,
+      "episode_number": 11,
+      "name": "Crawl Space",
+      "overview": null,
+      "air_date": "2011",
+      "still_path": null,
+      "imdb_rating": 9.7,
+      "imdb_votes": 84396
+    },
+    {
+      "season_number": 4,
+      "episode_number": 12,
+      "name": "End Times",
+      "overview": null,
+      "air_date": "2011",
+      "still_path": null,
+      "imdb_rating": 9.5,
+      "imdb_votes": 61255
+    },
+    {
+      "season_number": 4,
+      "episode_number": 13,
+      "name": "Face Off",
+      "overview": null,
+      "air_date": "2011",
+      "still_path": null,
+      "imdb_rating": 9.8,
+      "imdb_votes": 158173
+    },
+    {
+      "season_number": 5,
+      "episode_number": 1,
+      "name": "Live Free or Die",
+      "overview": null,
+      "air_date": "2012",
+      "still_path": null,
+      "imdb_rating": 9.2,
+      "imdb_votes": 64128
+    },
+    {
+      "season_number": 5,
+      "episode_number": 2,
+      "name": "Madrigal",
+      "overview": null,
+      "air_date": "2012",
+      "still_path": null,
+      "imdb_rating": 8.8,
+      "imdb_votes": 56725
+    },
+    {
+      "season_number": 5,
+      "episode_number": 3,
+      "name": "Hazard Pay",
+      "overview": null,
+      "air_date": "2012",
+      "still_path": null,
+      "imdb_rating": 8.8,
+      "imdb_votes": 56126
+    },
+    {
+      "season_number": 5,
+      "episode_number": 4,
+      "name": "Fifty-One",
+      "overview": null,
+      "air_date": "2012",
+      "still_path": null,
+      "imdb_rating": 8.8,
+      "imdb_votes": 56540
+    },
+    {
+      "season_number": 5,
+      "episode_number": 5,
+      "name": "Dead Freight",
+      "overview": null,
+      "air_date": "2012",
+      "still_path": null,
+      "imdb_rating": 9.6,
+      "imdb_votes": 86109
+    },
+    {
+      "season_number": 5,
+      "episode_number": 6,
+      "name": "Buyout",
+      "overview": null,
+      "air_date": "2012",
+      "still_path": null,
+      "imdb_rating": 9.0,
+      "imdb_votes": 58862
+    },
+    {
+      "season_number": 5,
+      "episode_number": 7,
+      "name": "Say My Name",
+      "overview": null,
+      "air_date": "2012",
+      "still_path": null,
+      "imdb_rating": 9.6,
+      "imdb_votes": 82036
+    },
+    {
+      "season_number": 5,
+      "episode_number": 8,
+      "name": "Gliding Over All",
+      "overview": null,
+      "air_date": "2012",
+      "still_path": null,
+      "imdb_rating": 9.5,
+      "imdb_votes": 72661
+    },
+    {
+      "season_number": 5,
+      "episode_number": 9,
+      "name": "Blood Money",
+      "overview": null,
+      "air_date": "2013",
+      "still_path": null,
+      "imdb_rating": 9.4,
+      "imdb_votes": 68423
+    },
+    {
+      "season_number": 5,
+      "episode_number": 10,
+      "name": "Buried",
+      "overview": null,
+      "air_date": "2013",
+      "still_path": null,
+      "imdb_rating": 9.2,
+      "imdb_votes": 62923
+    },
+    {
+      "season_number": 5,
+      "episode_number": 11,
+      "name": "Confessions",
+      "overview": null,
+      "air_date": "2013",
+      "still_path": null,
+      "imdb_rating": 9.6,
+      "imdb_votes": 80192
+    },
+    {
+      "season_number": 5,
+      "episode_number": 12,
+      "name": "Rabid Dog",
+      "overview": null,
+      "air_date": "2013",
+      "still_path": null,
+      "imdb_rating": 9.1,
+      "imdb_votes": 67655
+    },
+    {
+      "season_number": 5,
+      "episode_number": 13,
+      "name": "To'hajiilee",
+      "overview": null,
+      "air_date": "2013",
+      "still_path": null,
+      "imdb_rating": 9.7,
+      "imdb_votes": 127552
+    },
+    {
+      "season_number": 5,
+      "episode_number": 14,
+      "name": "Ozymandias",
+      "overview": null,
+      "air_date": "2013",
+      "still_path": null,
+      "imdb_rating": 9.5,
+      "imdb_votes": 503658
+    },
+    {
+      "season_number": 5,
+      "episode_number": 15,
+      "name": "Granite State",
+      "overview": null,
+      "air_date": "2013",
+      "still_path": null,
+      "imdb_rating": 9.6,
+      "imdb_votes": 122636
+    },
+    {
+      "season_number": 5,
+      "episode_number": 16,
+      "name": "Felina",
+      "overview": null,
+      "air_date": "2013",
+      "still_path": null,
+      "imdb_rating": 9.8,
+      "imdb_votes": 293314
+    }
+  ]
+}

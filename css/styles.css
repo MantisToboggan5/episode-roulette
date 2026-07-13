@@ -94,6 +94,20 @@ body {
   flex-shrink: 0;
 }
 
+.poster-placeholder {
+  width: 52px;
+  height: 78px;
+  border-radius: 8px;
+  background: linear-gradient(135deg, var(--accent-2), var(--accent));
+  color: white;
+  font-weight: 800;
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
 .show-card .show-info {
   flex: 1;
   min-width: 0;
@@ -167,6 +181,7 @@ body {
 }
 
 .ingest-hint {
+  display: inline-block;
   margin: 0;
   padding: 8px 10px;
   border-radius: 8px;

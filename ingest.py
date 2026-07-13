@@ -1,14 +1,15 @@
 #!/usr/bin/env python3
-"""Ingest a TV show's episodes + IMDb ratings into data/shows/<id>.json.
+"""Ingest a TV show's episodes + IMDb ratings into data/shows/<tconst>.json.
 
 Usage:
     python ingest.py "Breaking Bad"
-    python ingest.py 1396          # TMDB show id directly
+    python ingest.py tt0903747     # IMDb series id directly
 
-Requires a TMDB API key in js/config.js (see README). Downloads IMDb's
-official non-commercial datasets (datasets.imdbws.com) once and caches a
-local SQLite ratings index at data/imdb_cache/episodes.db, refreshed
-every 30 days.
+Runs entirely off IMDb's official non-commercial datasets
+(datasets.imdbws.com) — no API keys or accounts needed. The first run
+downloads three dataset files (~250MB total) and builds a local SQLite
+index at data/imdb_cache/episodes.db, refreshed every 30 days. Ingests
+after that take seconds.
 """
 import argparse
 import gzip
@@ -18,42 +19,20 @@ import shutil
 import sqlite3
 import sys
 import time
-import urllib.parse
 import urllib.request
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
-CONFIG_JS = os.path.join(ROOT, "js", "config.js")
 IMDB_CACHE_DIR = os.path.join(ROOT, "data", "imdb_cache")
 SHOWS_DIR = os.path.join(ROOT, "data", "shows")
 INDEX_PATH = os.path.join(SHOWS_DIR, "index.json")
 DB_PATH = os.path.join(IMDB_CACHE_DIR, "episodes.db")
 
-TMDB_BASE = "https://api.themoviedb.org/3"
+IMDB_BASICS_URL = "https://datasets.imdbws.com/title.basics.tsv.gz"
 IMDB_EPISODE_URL = "https://datasets.imdbws.com/title.episode.tsv.gz"
 IMDB_RATINGS_URL = "https://datasets.imdbws.com/title.ratings.tsv.gz"
 DB_MAX_AGE_DAYS = 30
 USER_AGENT = "episode-roulette-ingest/1.0"
-
-
-def load_api_key():
-    if not os.path.exists(CONFIG_JS):
-        sys.exit("js/config.js not found. Copy js/config.example.js to js/config.js and add your TMDB key.")
-    with open(CONFIG_JS, "r", encoding="utf-8") as f:
-        content = f.read()
-    import re
-    match = re.search(r'TMDB_API_KEY\s*=\s*"([^"]*)"', content)
-    if not match or not match.group(1):
-        sys.exit("No TMDB_API_KEY set in js/config.js. See README for setup.")
-    return match.group(1)
-
-
-def tmdb_get(path, api_key, params=None):
-    params = dict(params or {})
-    params["api_key"] = api_key
-    url = f"{TMDB_BASE}{path}?{urllib.parse.urlencode(params)}"
-    req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
-    with urllib.request.urlopen(req) as res:
-        return json.loads(res.read().decode("utf-8"))
+SERIES_TYPES = {"tvSeries", "tvMiniSeries"}
 
 
 def download(url, dest):
@@ -63,19 +42,23 @@ def download(url, dest):
         shutil.copyfileobj(res, out)
 
 
-def ensure_ratings_db():
+def ensure_db():
     os.makedirs(IMDB_CACHE_DIR, exist_ok=True)
     if os.path.exists(DB_PATH):
         age_days = (time.time() - os.path.getmtime(DB_PATH)) / 86400
         if age_days < DB_MAX_AGE_DAYS:
             return
 
+    basics_gz = os.path.join(IMDB_CACHE_DIR, "title.basics.tsv.gz")
     episode_gz = os.path.join(IMDB_CACHE_DIR, "title.episode.tsv.gz")
     ratings_gz = os.path.join(IMDB_CACHE_DIR, "title.ratings.tsv.gz")
     download(IMDB_RATINGS_URL, ratings_gz)
     download(IMDB_EPISODE_URL, episode_gz)
+    download(IMDB_BASICS_URL, basics_gz)
 
-    print("Building local ratings index (one-time, ~a minute)...")
+    print("Building local index (one-time, a few minutes)...")
+
+    print("  1/3 ratings...")
     ratings = {}
     with gzip.open(ratings_gz, "rt", encoding="utf-8") as f:
         next(f)
@@ -83,15 +66,9 @@ def ensure_ratings_db():
             tconst, avg, votes = line.rstrip("\n").split("\t")
             ratings[tconst] = (float(avg), int(votes))
 
-    if os.path.exists(DB_PATH):
-        os.remove(DB_PATH)
-    conn = sqlite3.connect(DB_PATH)
-    conn.execute(
-        "CREATE TABLE episode_ratings ("
-        "parent_tconst TEXT, tconst TEXT, season_number INTEGER, "
-        "episode_number INTEGER, rating REAL, votes INTEGER)"
-    )
-    rows = []
+    print("  2/3 episode structure...")
+    # tconst -> [parent, season, episode, rating, votes, title, year]
+    episodes = {}
     with gzip.open(episode_gz, "rt", encoding="utf-8") as f:
         next(f)
         for line in f:
@@ -101,104 +78,144 @@ def ensure_ratings_db():
             rating = ratings.get(tconst)
             if not rating:
                 continue
-            rows.append((parent, tconst, int(season), int(episode), rating[0], rating[1]))
-            if len(rows) >= 5000:
-                conn.executemany("INSERT INTO episode_ratings VALUES (?,?,?,?,?,?)", rows)
-                rows = []
-    if rows:
-        conn.executemany("INSERT INTO episode_ratings VALUES (?,?,?,?,?,?)", rows)
+            episodes[tconst] = [parent, int(season), int(episode), rating[0], rating[1], None, None]
+
+    print("  3/3 titles...")
+    if os.path.exists(DB_PATH):
+        os.remove(DB_PATH)
+    conn = sqlite3.connect(DB_PATH)
+    conn.execute(
+        "CREATE TABLE series (tconst TEXT PRIMARY KEY, title TEXT, start_year INTEGER, votes INTEGER)"
+    )
+    conn.execute(
+        "CREATE TABLE episode_ratings ("
+        "parent_tconst TEXT, tconst TEXT, season_number INTEGER, episode_number INTEGER, "
+        "title TEXT, year INTEGER, rating REAL, votes INTEGER)"
+    )
+    series_rows = []
+    with gzip.open(basics_gz, "rt", encoding="utf-8") as f:
+        next(f)
+        for line in f:
+            parts = line.rstrip("\n").split("\t")
+            if len(parts) < 6:
+                continue
+            tconst, title_type, primary_title, _original, _adult, start_year = parts[:6]
+            if title_type in SERIES_TYPES:
+                votes = ratings.get(tconst, (None, 0))[1]
+                year = None if start_year == "\\N" else int(start_year)
+                series_rows.append((tconst, primary_title, year, votes))
+                if len(series_rows) >= 5000:
+                    conn.executemany("INSERT INTO series VALUES (?,?,?,?)", series_rows)
+                    series_rows = []
+            elif title_type == "tvEpisode":
+                ep = episodes.get(tconst)
+                if ep:
+                    ep[5] = primary_title
+                    ep[6] = None if start_year == "\\N" else int(start_year)
+    if series_rows:
+        conn.executemany("INSERT INTO series VALUES (?,?,?,?)", series_rows)
+
+    ep_rows = [
+        (ep[0], tconst, ep[1], ep[2], ep[5], ep[6], ep[3], ep[4])
+        for tconst, ep in episodes.items()
+    ]
+    for i in range(0, len(ep_rows), 5000):
+        conn.executemany("INSERT INTO episode_ratings VALUES (?,?,?,?,?,?,?,?)", ep_rows[i:i + 5000])
+
     conn.execute("CREATE INDEX idx_parent ON episode_ratings(parent_tconst)")
+    conn.execute("CREATE INDEX idx_series_title ON series(title COLLATE NOCASE)")
     conn.commit()
     conn.close()
-    print(f"Ratings index built at {DB_PATH}")
+    print(f"Index built at {DB_PATH}")
 
 
-def get_ratings_for_show(imdb_id):
-    conn = sqlite3.connect(DB_PATH)
-    cur = conn.execute(
-        "SELECT season_number, episode_number, rating, votes FROM episode_ratings WHERE parent_tconst = ?",
-        (imdb_id,),
-    )
-    result = {(s, e): (r, v) for s, e, r, v in cur.fetchall()}
-    conn.close()
-    return result
+def resolve_show(query, conn):
+    if query.startswith("tt") and query[2:].isdigit():
+        row = conn.execute(
+            "SELECT tconst, title, start_year FROM series WHERE tconst = ?", (query,)
+        ).fetchone()
+        if not row:
+            sys.exit(f"No series found for id {query}")
+        return row
+    rows = conn.execute(
+        "SELECT tconst, title, start_year FROM series WHERE title LIKE ? ORDER BY votes DESC LIMIT 5",
+        (query,),
+    ).fetchall()
+    if not rows:
+        rows = conn.execute(
+            "SELECT tconst, title, start_year FROM series WHERE title LIKE ? ORDER BY votes DESC LIMIT 5",
+            (f"%{query}%",),
+        ).fetchall()
+    if not rows:
+        sys.exit(f"No series found matching '{query}'")
+    best = rows[0]
+    print(f"Matched: {best[1]} ({best[2] or '?'}) — {best[0]}")
+    if len(rows) > 1:
+        others = ", ".join(f"{r[1]} ({r[2] or '?'}, {r[0]})" for r in rows[1:])
+        print(f"  Other matches: {others}")
+    return best
 
 
-def resolve_show(query, api_key):
-    if query.isdigit():
-        return int(query)
-    results = tmdb_get("/search/tv", api_key, {"query": query}).get("results", [])
-    if not results:
-        sys.exit(f"No TMDB results for '{query}'")
-    show = results[0]
-    year = (show.get("first_air_date") or "")[:4]
-    print(f"Matched: {show['name']} ({year}) — TMDB id {show['id']}")
-    return show["id"]
-
-
-def update_index(show_id, name, poster_path, imdb_id):
+def update_index(tconst, name):
     index = []
     if os.path.exists(INDEX_PATH):
         with open(INDEX_PATH, "r", encoding="utf-8") as f:
             index = json.load(f)
-    index = [s for s in index if s["id"] != show_id]
-    index.append({"id": show_id, "name": name, "poster_path": poster_path, "imdb_id": imdb_id})
+    index = [s for s in index if s["id"] != tconst]
+    index.append({"id": tconst, "name": name, "poster_path": None, "imdb_id": tconst})
     index.sort(key=lambda s: s["name"].lower())
     with open(INDEX_PATH, "w", encoding="utf-8") as f:
         json.dump(index, f, indent=2)
 
 
-def ingest(query, api_key):
-    show_id = resolve_show(query, api_key)
-    details = tmdb_get(f"/tv/{show_id}", api_key)
-    external = tmdb_get(f"/tv/{show_id}/external_ids", api_key)
-    imdb_id = external.get("imdb_id")
+def ingest(query):
+    ensure_db()
+    conn = sqlite3.connect(DB_PATH)
+    tconst, name, _year = resolve_show(query, conn)
 
-    ensure_ratings_db()
-    ratings = get_ratings_for_show(imdb_id) if imdb_id else {}
-    if imdb_id and not ratings:
-        print(f"Warning: no IMDb ratings found for {imdb_id} — episodes will be unrated.")
+    rows = conn.execute(
+        "SELECT season_number, episode_number, title, year, rating, votes "
+        "FROM episode_ratings WHERE parent_tconst = ? ORDER BY season_number, episode_number",
+        (tconst,),
+    ).fetchall()
+    conn.close()
+    if not rows:
+        sys.exit(f"No rated episodes found for {name} ({tconst})")
 
-    episodes = []
-    seasons = [s for s in details.get("seasons", []) if s["season_number"] > 0]
-    for season in seasons:
-        season_data = tmdb_get(f"/tv/{show_id}/season/{season['season_number']}", api_key)
-        for ep in season_data.get("episodes", []):
-            key = (ep["season_number"], ep["episode_number"])
-            rating, votes = ratings.get(key, (None, None))
-            episodes.append({
-                "season_number": ep["season_number"],
-                "episode_number": ep["episode_number"],
-                "name": ep.get("name"),
-                "overview": ep.get("overview"),
-                "air_date": ep.get("air_date"),
-                "still_path": ep.get("still_path"),
-                "imdb_rating": rating,
-                "imdb_votes": votes,
-            })
+    episodes = [
+        {
+            "season_number": season,
+            "episode_number": episode,
+            "name": title,
+            "overview": None,
+            "air_date": str(year) if year else None,
+            "still_path": None,
+            "imdb_rating": rating,
+            "imdb_votes": votes,
+        }
+        for season, episode, title, year, rating, votes in rows
+    ]
 
     os.makedirs(SHOWS_DIR, exist_ok=True)
     show_record = {
-        "id": show_id,
-        "name": details["name"],
-        "poster_path": details.get("poster_path"),
-        "imdb_id": imdb_id,
+        "id": tconst,
+        "name": name,
+        "poster_path": None,
+        "imdb_id": tconst,
         "episodes": episodes,
     }
-    with open(os.path.join(SHOWS_DIR, f"{show_id}.json"), "w", encoding="utf-8") as f:
+    with open(os.path.join(SHOWS_DIR, f"{tconst}.json"), "w", encoding="utf-8") as f:
         json.dump(show_record, f, indent=2)
 
-    update_index(show_id, details["name"], details.get("poster_path"), imdb_id)
-    rated_count = sum(1 for e in episodes if e["imdb_rating"] is not None)
-    print(f"Wrote data/shows/{show_id}.json — {len(episodes)} episodes, {rated_count} with IMDb ratings.")
+    update_index(tconst, name)
+    print(f"Wrote data/shows/{tconst}.json — {len(episodes)} rated episodes.")
 
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("show", help="Show name to search TMDB for, or a TMDB show id")
+    parser.add_argument("show", help="Show name to search for, or an IMDb series id (tt...)")
     args = parser.parse_args()
-    api_key = load_api_key()
-    ingest(args.show, api_key)
+    ingest(args.show)
 
 
 if __name__ == "__main__":

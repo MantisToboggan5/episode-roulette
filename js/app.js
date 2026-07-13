@@ -75,64 +75,57 @@ els.searchInput.addEventListener("input", () => {
   searchDebounce = setTimeout(() => runSearch(query), 350);
 });
 
+function posterPlaceholder(name) {
+  const initials = name
+    .split(/\s+/)
+    .filter((w) => w && !/^(the|a|an|of)$/i.test(w))
+    .slice(0, 2)
+    .map((w) => w[0].toUpperCase())
+    .join("");
+  return `<div class="poster-placeholder">${escapeHtml(initials || "?")}</div>`;
+}
+
 async function runSearch(query) {
   if (!query.trim()) {
     els.searchResults.innerHTML = "";
     els.searchEmpty.classList.remove("hidden");
     return;
   }
-  let results;
   let catalogIndex;
   try {
-    [results, catalogIndex] = await Promise.all([searchShows(query), loadCatalogIndex()]);
+    catalogIndex = await loadCatalogIndex();
   } catch (err) {
     els.searchResults.innerHTML = `<li class="empty-hint">Search failed: ${err.message}</li>`;
     return;
   }
   els.searchEmpty.classList.add("hidden");
-  const ingestedIds = new Set(catalogIndex.map((s) => s.id));
+  const needle = query.trim().toLowerCase();
+  const results = catalogIndex.filter((s) => s.name.toLowerCase().includes(needle));
   const savedIds = new Set(getShows().map((s) => s.id));
   els.searchResults.innerHTML = "";
+  if (results.length === 0) {
+    els.searchResults.innerHTML = `
+      <li class="empty-hint">No ingested show matches "${escapeHtml(query)}".<br><br>
+      To add a new show, run this on the PC:<br>
+      <span class="ingest-hint">python ingest.py "${escapeHtml(query)}"</span></li>
+    `;
+    return;
+  }
   for (const show of results) {
-    if (!show.name) continue;
     const li = document.createElement("li");
-    li.className = "show-card-wrap";
-    const year = (show.first_air_date || "").slice(0, 4);
-    const ingested = ingestedIds.has(show.id);
+    li.className = "show-card";
     const added = savedIds.has(show.id);
-    let btnLabel = "Add";
-    let btnClass = "";
-    if (!ingested) {
-      btnLabel = "Ingest first";
-      btnClass = "remove";
-    } else if (added) {
-      btnLabel = "Added";
-      btnClass = "added";
-    }
     li.innerHTML = `
-      <div class="show-card">
-        <img src="${posterUrl(show.poster_path) || ""}" alt="" onerror="this.style.visibility='hidden'" />
-        <div class="show-info">
-          <div class="name">${escapeHtml(show.name)}</div>
-          <div class="year">${year}</div>
-        </div>
-        <button class="${btnClass}">${btnLabel}</button>
+      ${posterPlaceholder(show.name)}
+      <div class="show-info">
+        <div class="name">${escapeHtml(show.name)}</div>
       </div>
-      <p class="ingest-hint hidden">python ingest.py ${show.id}</p>
+      <button class="${added ? "added" : ""}">${added ? "Added" : "Add"}</button>
     `;
     const btn = li.querySelector("button");
-    const hint = li.querySelector(".ingest-hint");
     btn.addEventListener("click", () => {
-      if (!ingested) {
-        hint.classList.toggle("hidden");
-        return;
-      }
       if (savedIds.has(show.id)) return;
-      addShow({
-        id: show.id,
-        name: show.name,
-        poster_path: show.poster_path || null,
-      });
+      addShow({ id: show.id, name: show.name, poster_path: null });
       savedIds.add(show.id);
       btn.textContent = "Added";
       btn.classList.add("added");
@@ -153,7 +146,7 @@ function renderShowsList() {
     const li = document.createElement("li");
     li.className = "show-card";
     li.innerHTML = `
-      <img src="${posterUrl(show.poster_path) || ""}" alt="" onerror="this.style.visibility='hidden'" />
+      ${posterPlaceholder(show.name)}
       <div class="show-info">
         <div class="name">${escapeHtml(show.name)}</div>
       </div>
@@ -182,7 +175,8 @@ const today = () => new Date().toISOString().slice(0, 10);
 async function getAiredEpisodes(showId) {
   const data = await loadShowData(showId);
   const cutoff = today();
-  return data.episodes.filter((ep) => ep.air_date && ep.air_date <= cutoff);
+  // Include undated episodes; year-only strings ("2020") compare fine vs "2026-07-12".
+  return data.episodes.filter((ep) => !ep.air_date || ep.air_date <= cutoff);
 }
 
 function showAverageRating(episodes) {
@@ -204,9 +198,13 @@ function pickWeighted(showId, episodes) {
   }
 
   const avg = showAverageRating(episodes);
+  // Softmax-style: bias acts as temperature on distance from the show's own
+  // average, so the skew is meaningful even when all episodes rate 8-10.
+  // Unrated episodes sit at the average (weight 1). At bias 5, an episode a
+  // full point above average is picked ~150x more often than one at average.
   const weights = unwatched.map((ep) => {
     const rating = ep.imdb_rating != null ? ep.imdb_rating : avg;
-    return Math.pow(Math.max(rating, 0.1), bias);
+    return Math.exp(bias * (rating - avg));
   });
   const total = weights.reduce((a, b) => a + b, 0);
   let roll = Math.random() * total;
@@ -279,17 +277,17 @@ async function revealResult(show, episode, showHasNoEpisodes) {
   activeResult = { show, episode };
   els.resultShowName.textContent = show.name;
   els.resultEpisodeTitle.textContent = episode.name || "Untitled episode";
-  els.resultEpisodeMeta.textContent = `S${episode.season_number}E${episode.episode_number} · ${episode.air_date || "unknown air date"}`;
+  els.resultEpisodeMeta.textContent =
+    `S${episode.season_number}E${episode.episode_number}` +
+    (episode.air_date ? ` · ${episode.air_date}` : "");
   if (episode.imdb_rating != null) {
     els.resultRating.textContent = `★ ${episode.imdb_rating.toFixed(1)} IMDb (${episode.imdb_votes.toLocaleString()} votes)`;
     els.resultRating.classList.remove("hidden");
   } else {
     els.resultRating.classList.add("hidden");
   }
-  els.resultOverview.textContent = episode.overview || "No synopsis available.";
-  const still = stillUrl(episode.still_path);
-  els.resultStill.src = still || posterUrl(show.poster_path) || "";
-  els.resultStill.style.visibility = still || show.poster_path ? "visible" : "hidden";
+  els.resultOverview.textContent = episode.overview || "";
+  els.resultStill.style.display = "none"; // no imagery in IMDb-only mode
 
   els.resultContent.classList.remove("hidden");
   els.resultActions.classList.remove("hidden");
