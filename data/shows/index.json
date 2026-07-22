@@ -10,5 +10,23 @@
     "name": "Breaking Bad",
     "poster": "data/posters/tt0903747.jpg",
     "imdb_id": "tt0903747"
+  },
+  {
+    "id": "tt0149460",
+    "name": "Futurama",
+    "poster": "data/posters/tt0149460.jpg",
+    "imdb_id": "tt0149460"
+  },
+  {
+    "id": "tt0472954",
+    "name": "It's Always Sunny in Philadelphia",
+    "poster": "data/posters/tt0472954.jpg",
+    "imdb_id": "tt0472954"
+  },
+  {
+    "id": "tt2861424",
+    "name": "Rick and Morty",
+    "poster": "data/posters/tt2861424.jpg",
+    "imdb_id": "tt2861424"
   }
 ]

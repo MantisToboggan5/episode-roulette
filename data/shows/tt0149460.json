@@ -1,0 +1,1708 @@
+{
+  "id": "tt0149460",
+  "name": "Futurama",
+  "poster": "data/posters/tt0149460.jpg",
+  "imdb_id": "tt0149460",
+  "episodes": [
+    {
+      "season_number": 1,
+      "episode_number": 1,
+      "name": "Space Pilot 3000",
+      "overview": null,
+      "air_date": "1999",
+      "still_path": null,
+      "imdb_rating": 8.6,
+      "imdb_votes": 5703
+    },
+    {
+      "season_number": 1,
+      "episode_number": 2,
+      "name": "The Series Has Landed",
+      "overview": null,
+      "air_date": "1999",
+      "still_path": null,
+      "imdb_rating": 8.0,
+      "imdb_votes": 4536
+    },
+    {
+      "season_number": 1,
+      "episode_number": 3,
+      "name": "I, Roommate",
+      "overview": null,
+      "air_date": "1999",
+      "still_path": null,
+      "imdb_rating": 8.2,
+      "imdb_votes": 4396
+    },
+    {
+      "season_number": 1,
+      "episode_number": 4,
+      "name": "Love's Labours Lost in Space",
+      "overview": null,
+      "air_date": "1999",
+      "still_path": null,
+      "imdb_rating": 8.0,
+      "imdb_votes": 4141
+    },
+    {
+      "season_number": 1,
+      "episode_number": 5,
+      "name": "Fear of a Bot Planet",
+      "overview": null,
+      "air_date": "1999",
+      "still_path": null,
+      "imdb_rating": 7.8,
+      "imdb_votes": 3923
+    },
+    {
+      "season_number": 1,
+      "episode_number": 6,
+      "name": "A Fishful of Dollars",
+      "overview": null,
+      "air_date": "1999",
+      "still_path": null,
+      "imdb_rating": 8.2,
+      "imdb_votes": 4030
+    },
+    {
+      "season_number": 1,
+      "episode_number": 7,
+      "name": "My Three Suns",
+      "overview": null,
+      "air_date": "1999",
+      "still_path": null,
+      "imdb_rating": 7.7,
+      "imdb_votes": 3813
+    },
+    {
+      "season_number": 1,
+      "episode_number": 8,
+      "name": "A Big Piece of Garbage",
+      "overview": null,
+      "air_date": "1999",
+      "still_path": null,
+      "imdb_rating": 8.0,
+      "imdb_votes": 3778
+    },
+    {
+      "season_number": 1,
+      "episode_number": 9,
+      "name": "Hell Is Other Robots",
+      "overview": null,
+      "air_date": "1999",
+      "still_path": null,
+      "imdb_rating": 8.1,
+      "imdb_votes": 3889
+    },
+    {
+      "season_number": 2,
+      "episode_number": 1,
+      "name": "A Flight to Remember",
+      "overview": null,
+      "air_date": "1999",
+      "still_path": null,
+      "imdb_rating": 8.2,
+      "imdb_votes": 3769
+    },
+    {
+      "season_number": 2,
+      "episode_number": 2,
+      "name": "Mars University",
+      "overview": null,
+      "air_date": "1999",
+      "still_path": null,
+      "imdb_rating": 7.7,
+      "imdb_votes": 3552
+    },
+    {
+      "season_number": 2,
+      "episode_number": 3,
+      "name": "When Aliens Attack",
+      "overview": null,
+      "air_date": "1999",
+      "still_path": null,
+      "imdb_rating": 8.0,
+      "imdb_votes": 3428
+    },
+    {
+      "season_number": 2,
+      "episode_number": 4,
+      "name": "Fry and the Slurm Factory",
+      "overview": null,
+      "air_date": "1999",
+      "still_path": null,
+      "imdb_rating": 8.3,
+      "imdb_votes": 3771
+    },
+    {
+      "season_number": 2,
+      "episode_number": 5,
+      "name": "I Second That Emotion",
+      "overview": null,
+      "air_date": "1999",
+      "still_path": null,
+      "imdb_rating": 7.6,
+      "imdb_votes": 3300
+    },
+    {
+      "season_number": 2,
+      "episode_number": 6,
+      "name": "Brannigan, Begin Again",
+      "overview": null,
+      "air_date": "1999",
+      "still_path": null,
+      "imdb_rating": 7.8,
+      "imdb_votes": 3291
+    },
+    {
+      "season_number": 2,
+      "episode_number": 7,
+      "name": "A Head in the Polls",
+      "overview": null,
+      "air_date": "1999",
+      "still_path": null,
+      "imdb_rating": 7.6,
+      "imdb_votes": 3198
+    },
+    {
+      "season_number": 2,
+      "episode_number": 8,
+      "name": "Xmas Story",
+      "overview": null,
+      "air_date": "1999",
+      "still_path": null,
+      "imdb_rating": 8.1,
+      "imdb_votes": 3456
+    },
+    {
+      "season_number": 2,
+      "episode_number": 9,
+      "name": "Why Must I Be a Crustacean in Love?",
+      "overview": null,
+      "air_date": "2000",
+      "still_path": null,
+      "imdb_rating": 8.0,
+      "imdb_votes": 3275
+    },
+    {
+      "season_number": 2,
+      "episode_number": 10,
+      "name": "Put Your Head on My Shoulders",
+      "overview": null,
+      "air_date": "2000",
+      "still_path": null,
+      "imdb_rating": 7.5,
+      "imdb_votes": 3064
+    },
+    {
+      "season_number": 2,
+      "episode_number": 11,
+      "name": "The Lesser of Two Evils",
+      "overview": null,
+      "air_date": "2000",
+      "still_path": null,
+      "imdb_rating": 7.6,
+      "imdb_votes": 3028
+    },
+    {
+      "season_number": 2,
+      "episode_number": 12,
+      "name": "Raging Bender",
+      "overview": null,
+      "air_date": "2000",
+      "still_path": null,
+      "imdb_rating": 7.6,
+      "imdb_votes": 2977
+    },
+    {
+      "season_number": 2,
+      "episode_number": 13,
+      "name": "A Bicyclops Built for Two",
+      "overview": null,
+      "air_date": "2000",
+      "still_path": null,
+      "imdb_rating": 8.0,
+      "imdb_votes": 3178
+    },
+    {
+      "season_number": 2,
+      "episode_number": 14,
+      "name": "How Hermes Requisitioned His Groove Back",
+      "overview": null,
+      "air_date": "2000",
+      "still_path": null,
+      "imdb_rating": 8.0,
+      "imdb_votes": 3092
+    },
+    {
+      "season_number": 2,
+      "episode_number": 15,
+      "name": "A Clone of My Own",
+      "overview": null,
+      "air_date": "2000",
+      "still_path": null,
+      "imdb_rating": 7.5,
+      "imdb_votes": 2942
+    },
+    {
+      "season_number": 2,
+      "episode_number": 16,
+      "name": "The Deep South",
+      "overview": null,
+      "air_date": "2000",
+      "still_path": null,
+      "imdb_rating": 7.8,
+      "imdb_votes": 3068
+    },
+    {
+      "season_number": 2,
+      "episode_number": 17,
+      "name": "Bender Gets Made",
+      "overview": null,
+      "air_date": "2000",
+      "still_path": null,
+      "imdb_rating": 7.6,
+      "imdb_votes": 2926
+    },
+    {
+      "season_number": 2,
+      "episode_number": 18,
+      "name": "The Problem with Popplers",
+      "overview": null,
+      "air_date": "2000",
+      "still_path": null,
+      "imdb_rating": 8.5,
+      "imdb_votes": 3277
+    },
+    {
+      "season_number": 2,
+      "episode_number": 19,
+      "name": "Mother's Day",
+      "overview": null,
+      "air_date": "2000",
+      "still_path": null,
+      "imdb_rating": 7.8,
+      "imdb_votes": 2910
+    },
+    {
+      "season_number": 2,
+      "episode_number": 20,
+      "name": "Anthology of Interest I",
+      "overview": null,
+      "air_date": "2000",
+      "still_path": null,
+      "imdb_rating": 8.5,
+      "imdb_votes": 3299
+    },
+    {
+      "season_number": 3,
+      "episode_number": 1,
+      "name": "The Honking",
+      "overview": null,
+      "air_date": "2000",
+      "still_path": null,
+      "imdb_rating": 7.5,
+      "imdb_votes": 2987
+    },
+    {
+      "season_number": 3,
+      "episode_number": 2,
+      "name": "War Is the H-Word",
+      "overview": null,
+      "air_date": "2000",
+      "still_path": null,
+      "imdb_rating": 8.4,
+      "imdb_votes": 3195
+    },
+    {
+      "season_number": 3,
+      "episode_number": 3,
+      "name": "The Cryonic Woman",
+      "overview": null,
+      "air_date": "2000",
+      "still_path": null,
+      "imdb_rating": 7.4,
+      "imdb_votes": 2856
+    },
+    {
+      "season_number": 3,
+      "episode_number": 4,
+      "name": "Parasites Lost",
+      "overview": null,
+      "air_date": "2001",
+      "still_path": null,
+      "imdb_rating": 9.0,
+      "imdb_votes": 3731
+    },
+    {
+      "season_number": 3,
+      "episode_number": 5,
+      "name": "Amazon Women in the Mood",
+      "overview": null,
+      "air_date": "2001",
+      "still_path": null,
+      "imdb_rating": 8.6,
+      "imdb_votes": 3670
+    },
+    {
+      "season_number": 3,
+      "episode_number": 6,
+      "name": "Bendless Love",
+      "overview": null,
+      "air_date": "2001",
+      "still_path": null,
+      "imdb_rating": 7.3,
+      "imdb_votes": 2739
+    },
+    {
+      "season_number": 3,
+      "episode_number": 7,
+      "name": "The Day the Earth Stood Stupid",
+      "overview": null,
+      "air_date": "2001",
+      "still_path": null,
+      "imdb_rating": 8.5,
+      "imdb_votes": 3067
+    },
+    {
+      "season_number": 3,
+      "episode_number": 8,
+      "name": "That's Lobstertainment!",
+      "overview": null,
+      "air_date": "2001",
+      "still_path": null,
+      "imdb_rating": 7.1,
+      "imdb_votes": 2757
+    },
+    {
+      "season_number": 3,
+      "episode_number": 9,
+      "name": "The Birdbot of Ice-Catraz",
+      "overview": null,
+      "air_date": "2001",
+      "still_path": null,
+      "imdb_rating": 7.5,
+      "imdb_votes": 2694
+    },
+    {
+      "season_number": 3,
+      "episode_number": 10,
+      "name": "The Luck of the Fryrish",
+      "overview": null,
+      "air_date": "2001",
+      "still_path": null,
+      "imdb_rating": 9.4,
+      "imdb_votes": 6041
+    },
+    {
+      "season_number": 3,
+      "episode_number": 11,
+      "name": "The Cyber House Rules",
+      "overview": null,
+      "air_date": "2001",
+      "still_path": null,
+      "imdb_rating": 7.7,
+      "imdb_votes": 2765
+    },
+    {
+      "season_number": 3,
+      "episode_number": 12,
+      "name": "Insane in the Mainframe",
+      "overview": null,
+      "air_date": "2001",
+      "still_path": null,
+      "imdb_rating": 8.1,
+      "imdb_votes": 2882
+    },
+    {
+      "season_number": 3,
+      "episode_number": 13,
+      "name": "Bendin' in the Wind",
+      "overview": null,
+      "air_date": "2001",
+      "still_path": null,
+      "imdb_rating": 7.3,
+      "imdb_votes": 2772
+    },
+    {
+      "season_number": 3,
+      "episode_number": 14,
+      "name": "Time Keeps on Slipping",
+      "overview": null,
+      "air_date": "2001",
+      "still_path": null,
+      "imdb_rating": 8.3,
+      "imdb_votes": 3051
+    },
+    {
+      "season_number": 3,
+      "episode_number": 15,
+      "name": "I Dated a Robot",
+      "overview": null,
+      "air_date": "2001",
+      "still_path": null,
+      "imdb_rating": 7.6,
+      "imdb_votes": 2770
+    },
+    {
+      "season_number": 4,
+      "episode_number": 1,
+      "name": "Roswell That Ends Well",
+      "overview": null,
+      "air_date": "2001",
+      "still_path": null,
+      "imdb_rating": 9.1,
+      "imdb_votes": 3902
+    },
+    {
+      "season_number": 4,
+      "episode_number": 2,
+      "name": "A Tale of Two Santas",
+      "overview": null,
+      "air_date": "2001",
+      "still_path": null,
+      "imdb_rating": 7.7,
+      "imdb_votes": 2715
+    },
+    {
+      "season_number": 4,
+      "episode_number": 3,
+      "name": "Anthology of Interest II",
+      "overview": null,
+      "air_date": "2002",
+      "still_path": null,
+      "imdb_rating": 8.2,
+      "imdb_votes": 2856
+    },
+    {
+      "season_number": 4,
+      "episode_number": 4,
+      "name": "Love and Rocket",
+      "overview": null,
+      "air_date": "2002",
+      "still_path": null,
+      "imdb_rating": 7.7,
+      "imdb_votes": 2706
+    },
+    {
+      "season_number": 4,
+      "episode_number": 5,
+      "name": "Leela's Homeworld",
+      "overview": null,
+      "air_date": "2002",
+      "still_path": null,
+      "imdb_rating": 8.7,
+      "imdb_votes": 3247
+    },
+    {
+      "season_number": 4,
+      "episode_number": 6,
+      "name": "Where the Buggalo Roam",
+      "overview": null,
+      "air_date": "2002",
+      "still_path": null,
+      "imdb_rating": 7.5,
+      "imdb_votes": 2609
+    },
+    {
+      "season_number": 4,
+      "episode_number": 7,
+      "name": "A Pharaoh to Remember",
+      "overview": null,
+      "air_date": "2002",
+      "still_path": null,
+      "imdb_rating": 7.6,
+      "imdb_votes": 2683
+    },
+    {
+      "season_number": 4,
+      "episode_number": 8,
+      "name": "Godfellas",
+      "overview": null,
+      "air_date": "2002",
+      "still_path": null,
+      "imdb_rating": 8.9,
+      "imdb_votes": 3846
+    },
+    {
+      "season_number": 4,
+      "episode_number": 9,
+      "name": "Future Stock",
+      "overview": null,
+      "air_date": "2002",
+      "still_path": null,
+      "imdb_rating": 7.7,
+      "imdb_votes": 2653
+    },
+    {
+      "season_number": 4,
+      "episode_number": 10,
+      "name": "A Leela of Her Own",
+      "overview": null,
+      "air_date": "2002",
+      "still_path": null,
+      "imdb_rating": 6.9,
+      "imdb_votes": 2569
+    },
+    {
+      "season_number": 4,
+      "episode_number": 11,
+      "name": "The 30% Iron Chef",
+      "overview": null,
+      "air_date": "2002",
+      "still_path": null,
+      "imdb_rating": 7.6,
+      "imdb_votes": 2571
+    },
+    {
+      "season_number": 4,
+      "episode_number": 12,
+      "name": "Where No Fan Has Gone Before",
+      "overview": null,
+      "air_date": "2002",
+      "still_path": null,
+      "imdb_rating": 8.3,
+      "imdb_votes": 3128
+    },
+    {
+      "season_number": 5,
+      "episode_number": 1,
+      "name": "Crimes of the Hot",
+      "overview": null,
+      "air_date": "2002",
+      "still_path": null,
+      "imdb_rating": 7.8,
+      "imdb_votes": 2557
+    },
+    {
+      "season_number": 5,
+      "episode_number": 2,
+      "name": "Jurassic Bark",
+      "overview": null,
+      "air_date": "2002",
+      "still_path": null,
+      "imdb_rating": 9.5,
+      "imdb_votes": 7570
+    },
+    {
+      "season_number": 5,
+      "episode_number": 3,
+      "name": "The Route of All Evil",
+      "overview": null,
+      "air_date": "2002",
+      "still_path": null,
+      "imdb_rating": 7.3,
+      "imdb_votes": 2506
+    },
+    {
+      "season_number": 5,
+      "episode_number": 4,
+      "name": "A Taste of Freedom",
+      "overview": null,
+      "air_date": "2002",
+      "still_path": null,
+      "imdb_rating": 7.7,
+      "imdb_votes": 2531
+    },
+    {
+      "season_number": 5,
+      "episode_number": 5,
+      "name": "Kif Gets Knocked Up a Notch",
+      "overview": null,
+      "air_date": "2003",
+      "still_path": null,
+      "imdb_rating": 7.5,
+      "imdb_votes": 2556
+    },
+    {
+      "season_number": 5,
+      "episode_number": 6,
+      "name": "Less Than Hero",
+      "overview": null,
+      "air_date": "2003",
+      "still_path": null,
+      "imdb_rating": 7.7,
+      "imdb_votes": 2554
+    },
+    {
+      "season_number": 5,
+      "episode_number": 7,
+      "name": "Teenage Mutant Leela's Hurdles",
+      "overview": null,
+      "air_date": "2003",
+      "still_path": null,
+      "imdb_rating": 8.3,
+      "imdb_votes": 2704
+    },
+    {
+      "season_number": 5,
+      "episode_number": 8,
+      "name": "The Why of Fry",
+      "overview": null,
+      "air_date": "2003",
+      "still_path": null,
+      "imdb_rating": 8.7,
+      "imdb_votes": 2983
+    },
+    {
+      "season_number": 5,
+      "episode_number": 9,
+      "name": "The Sting",
+      "overview": null,
+      "air_date": "2003",
+      "still_path": null,
+      "imdb_rating": 9.2,
+      "imdb_votes": 4092
+    },
+    {
+      "season_number": 5,
+      "episode_number": 10,
+      "name": "The Farnsworth Parabox",
+      "overview": null,
+      "air_date": "2003",
+      "still_path": null,
+      "imdb_rating": 8.9,
+      "imdb_votes": 3299
+    },
+    {
+      "season_number": 5,
+      "episode_number": 11,
+      "name": "Three Hundred Big Boys",
+      "overview": null,
+      "air_date": "2003",
+      "still_path": null,
+      "imdb_rating": 8.2,
+      "imdb_votes": 2730
+    },
+    {
+      "season_number": 5,
+      "episode_number": 12,
+      "name": "Spanish Fry",
+      "overview": null,
+      "air_date": "2003",
+      "still_path": null,
+      "imdb_rating": 7.6,
+      "imdb_votes": 2507
+    },
+    {
+      "season_number": 5,
+      "episode_number": 13,
+      "name": "Bend Her",
+      "overview": null,
+      "air_date": "2003",
+      "still_path": null,
+      "imdb_rating": 7.2,
+      "imdb_votes": 2555
+    },
+    {
+      "season_number": 5,
+      "episode_number": 14,
+      "name": "Obsoletely Fabulous",
+      "overview": null,
+      "air_date": "2003",
+      "still_path": null,
+      "imdb_rating": 7.7,
+      "imdb_votes": 2451
+    },
+    {
+      "season_number": 5,
+      "episode_number": 15,
+      "name": "Bender Should Not Be Allowed on TV",
+      "overview": null,
+      "air_date": "2003",
+      "still_path": null,
+      "imdb_rating": 7.5,
+      "imdb_votes": 2462
+    },
+    {
+      "season_number": 5,
+      "episode_number": 16,
+      "name": "The Devil's Hands Are Idle Playthings",
+      "overview": null,
+      "air_date": "2003",
+      "still_path": null,
+      "imdb_rating": 9.1,
+      "imdb_votes": 4047
+    },
+    {
+      "season_number": 6,
+      "episode_number": 1,
+      "name": "Bender's Big Score: Part 1",
+      "overview": null,
+      "air_date": "2008",
+      "still_path": null,
+      "imdb_rating": 7.8,
+      "imdb_votes": 1020
+    },
+    {
+      "season_number": 6,
+      "episode_number": 2,
+      "name": "Bender's Big Score: Part 2",
+      "overview": null,
+      "air_date": "2008",
+      "still_path": null,
+      "imdb_rating": 7.9,
+      "imdb_votes": 986
+    },
+    {
+      "season_number": 6,
+      "episode_number": 3,
+      "name": "Bender's Big Score: Part 3",
+      "overview": null,
+      "air_date": "2008",
+      "still_path": null,
+      "imdb_rating": 7.9,
+      "imdb_votes": 979
+    },
+    {
+      "season_number": 6,
+      "episode_number": 4,
+      "name": "Bender's Big Score: Part 4",
+      "overview": null,
+      "air_date": "2008",
+      "still_path": null,
+      "imdb_rating": 8.2,
+      "imdb_votes": 1011
+    },
+    {
+      "season_number": 6,
+      "episode_number": 5,
+      "name": "The Beast with a Billion Backs: Part 1",
+      "overview": null,
+      "air_date": "2008",
+      "still_path": null,
+      "imdb_rating": 7.3,
+      "imdb_votes": 886
+    },
+    {
+      "season_number": 6,
+      "episode_number": 6,
+      "name": "The Beast with a Billion Backs: Part 2",
+      "overview": null,
+      "air_date": "2008",
+      "still_path": null,
+      "imdb_rating": 7.3,
+      "imdb_votes": 873
+    },
+    {
+      "season_number": 6,
+      "episode_number": 7,
+      "name": "The Beast with a Billion Backs: Part 3",
+      "overview": null,
+      "air_date": "2008",
+      "still_path": null,
+      "imdb_rating": 7.3,
+      "imdb_votes": 872
+    },
+    {
+      "season_number": 6,
+      "episode_number": 8,
+      "name": "The Beast with a Billion Backs: Part 4",
+      "overview": null,
+      "air_date": "2008",
+      "still_path": null,
+      "imdb_rating": 7.2,
+      "imdb_votes": 879
+    },
+    {
+      "season_number": 6,
+      "episode_number": 9,
+      "name": "Bender's Game: Part 1",
+      "overview": null,
+      "air_date": "2009",
+      "still_path": null,
+      "imdb_rating": 7.3,
+      "imdb_votes": 834
+    },
+    {
+      "season_number": 6,
+      "episode_number": 10,
+      "name": "Bender's Game: Part 2",
+      "overview": null,
+      "air_date": "2009",
+      "still_path": null,
+      "imdb_rating": 7.3,
+      "imdb_votes": 830
+    },
+    {
+      "season_number": 6,
+      "episode_number": 11,
+      "name": "Bender's Game: Part 3",
+      "overview": null,
+      "air_date": "2009",
+      "still_path": null,
+      "imdb_rating": 7.3,
+      "imdb_votes": 828
+    },
+    {
+      "season_number": 6,
+      "episode_number": 12,
+      "name": "Bender's Game: Part 4",
+      "overview": null,
+      "air_date": "2009",
+      "still_path": null,
+      "imdb_rating": 7.4,
+      "imdb_votes": 834
+    },
+    {
+      "season_number": 6,
+      "episode_number": 13,
+      "name": "Into the Wild Green Yonder: Part 1",
+      "overview": null,
+      "air_date": "2009",
+      "still_path": null,
+      "imdb_rating": 7.4,
+      "imdb_votes": 821
+    },
+    {
+      "season_number": 6,
+      "episode_number": 14,
+      "name": "Into the Wild Green Yonder: Part 2",
+      "overview": null,
+      "air_date": "2009",
+      "still_path": null,
+      "imdb_rating": 7.2,
+      "imdb_votes": 812
+    },
+    {
+      "season_number": 6,
+      "episode_number": 15,
+      "name": "Into the Wild Green Yonder: Part 3",
+      "overview": null,
+      "air_date": "2009",
+      "still_path": null,
+      "imdb_rating": 7.2,
+      "imdb_votes": 801
+    },
+    {
+      "season_number": 6,
+      "episode_number": 16,
+      "name": "Into the Wild Green Yonder: Part 4",
+      "overview": null,
+      "air_date": "2009",
+      "still_path": null,
+      "imdb_rating": 7.5,
+      "imdb_votes": 831
+    },
+    {
+      "season_number": 7,
+      "episode_number": 1,
+      "name": "Rebirth",
+      "overview": null,
+      "air_date": "2010",
+      "still_path": null,
+      "imdb_rating": 7.8,
+      "imdb_votes": 2807
+    },
+    {
+      "season_number": 7,
+      "episode_number": 2,
+      "name": "In-A-Gadda-Da-Leela",
+      "overview": null,
+      "air_date": "2010",
+      "still_path": null,
+      "imdb_rating": 7.1,
+      "imdb_votes": 2531
+    },
+    {
+      "season_number": 7,
+      "episode_number": 3,
+      "name": "Attack of the Killer App",
+      "overview": null,
+      "air_date": "2010",
+      "still_path": null,
+      "imdb_rating": 7.6,
+      "imdb_votes": 2567
+    },
+    {
+      "season_number": 7,
+      "episode_number": 4,
+      "name": "Proposition Infinity",
+      "overview": null,
+      "air_date": "2010",
+      "still_path": null,
+      "imdb_rating": 7.2,
+      "imdb_votes": 2386
+    },
+    {
+      "season_number": 7,
+      "episode_number": 5,
+      "name": "The Duh-Vinci Code",
+      "overview": null,
+      "air_date": "2010",
+      "still_path": null,
+      "imdb_rating": 7.3,
+      "imdb_votes": 2373
+    },
+    {
+      "season_number": 7,
+      "episode_number": 6,
+      "name": "Lethal Inspection",
+      "overview": null,
+      "air_date": "2010",
+      "still_path": null,
+      "imdb_rating": 8.5,
+      "imdb_votes": 2925
+    },
+    {
+      "season_number": 7,
+      "episode_number": 7,
+      "name": "The Late Philip J. Fry",
+      "overview": null,
+      "air_date": "2010",
+      "still_path": null,
+      "imdb_rating": 9.3,
+      "imdb_votes": 4535
+    },
+    {
+      "season_number": 7,
+      "episode_number": 8,
+      "name": "That Darn Katz!",
+      "overview": null,
+      "air_date": "2010",
+      "still_path": null,
+      "imdb_rating": 7.2,
+      "imdb_votes": 2235
+    },
+    {
+      "season_number": 7,
+      "episode_number": 9,
+      "name": "A Clockwork Origin",
+      "overview": null,
+      "air_date": "2010",
+      "still_path": null,
+      "imdb_rating": 7.9,
+      "imdb_votes": 2352
+    },
+    {
+      "season_number": 7,
+      "episode_number": 10,
+      "name": "The Prisoner of Benda",
+      "overview": null,
+      "air_date": "2010",
+      "still_path": null,
+      "imdb_rating": 8.3,
+      "imdb_votes": 2440
+    },
+    {
+      "season_number": 7,
+      "episode_number": 11,
+      "name": "Lrrreconcilable Ndndifferences",
+      "overview": null,
+      "air_date": "2010",
+      "still_path": null,
+      "imdb_rating": 7.2,
+      "imdb_votes": 2112
+    },
+    {
+      "season_number": 7,
+      "episode_number": 12,
+      "name": "The Mutants Are Revolting",
+      "overview": null,
+      "air_date": "2010",
+      "still_path": null,
+      "imdb_rating": 7.5,
+      "imdb_votes": 2079
+    },
+    {
+      "season_number": 7,
+      "episode_number": 13,
+      "name": "The Futurama Holiday Spectacular",
+      "overview": null,
+      "air_date": "2010",
+      "still_path": null,
+      "imdb_rating": 6.4,
+      "imdb_votes": 2170
+    },
+    {
+      "season_number": 8,
+      "episode_number": 1,
+      "name": "Neutopia",
+      "overview": null,
+      "air_date": "2011",
+      "still_path": null,
+      "imdb_rating": 7.4,
+      "imdb_votes": 2237
+    },
+    {
+      "season_number": 8,
+      "episode_number": 2,
+      "name": "Benderama",
+      "overview": null,
+      "air_date": "2011",
+      "still_path": null,
+      "imdb_rating": 7.6,
+      "imdb_votes": 2184
+    },
+    {
+      "season_number": 8,
+      "episode_number": 3,
+      "name": "Ghost in the Machines",
+      "overview": null,
+      "air_date": "2011",
+      "still_path": null,
+      "imdb_rating": 7.5,
+      "imdb_votes": 2037
+    },
+    {
+      "season_number": 8,
+      "episode_number": 4,
+      "name": "Law and Oracle",
+      "overview": null,
+      "air_date": "2011",
+      "still_path": null,
+      "imdb_rating": 8.1,
+      "imdb_votes": 2188
+    },
+    {
+      "season_number": 8,
+      "episode_number": 5,
+      "name": "The Silence of the Clamps",
+      "overview": null,
+      "air_date": "2011",
+      "still_path": null,
+      "imdb_rating": 7.5,
+      "imdb_votes": 2019
+    },
+    {
+      "season_number": 8,
+      "episode_number": 6,
+      "name": "Yo Leela Leela",
+      "overview": null,
+      "air_date": "2011",
+      "still_path": null,
+      "imdb_rating": 6.8,
+      "imdb_votes": 2038
+    },
+    {
+      "season_number": 8,
+      "episode_number": 7,
+      "name": "All the Presidents' Heads",
+      "overview": null,
+      "air_date": "2011",
+      "still_path": null,
+      "imdb_rating": 7.3,
+      "imdb_votes": 1989
+    },
+    {
+      "season_number": 8,
+      "episode_number": 8,
+      "name": "M\u00f6bius Dick",
+      "overview": null,
+      "air_date": "2011",
+      "still_path": null,
+      "imdb_rating": 7.3,
+      "imdb_votes": 1998
+    },
+    {
+      "season_number": 8,
+      "episode_number": 9,
+      "name": "Fry Am the Egg Man",
+      "overview": null,
+      "air_date": "2011",
+      "still_path": null,
+      "imdb_rating": 7.2,
+      "imdb_votes": 1912
+    },
+    {
+      "season_number": 8,
+      "episode_number": 10,
+      "name": "The Tip of the Zoidberg",
+      "overview": null,
+      "air_date": "2011",
+      "still_path": null,
+      "imdb_rating": 7.7,
+      "imdb_votes": 2044
+    },
+    {
+      "season_number": 8,
+      "episode_number": 11,
+      "name": "Cold Warriors",
+      "overview": null,
+      "air_date": "2011",
+      "still_path": null,
+      "imdb_rating": 7.7,
+      "imdb_votes": 2041
+    },
+    {
+      "season_number": 8,
+      "episode_number": 12,
+      "name": "Overclockwise",
+      "overview": null,
+      "air_date": "2011",
+      "still_path": null,
+      "imdb_rating": 8.0,
+      "imdb_votes": 2097
+    },
+    {
+      "season_number": 8,
+      "episode_number": 13,
+      "name": "Reincarnation",
+      "overview": null,
+      "air_date": "2011",
+      "still_path": null,
+      "imdb_rating": 7.9,
+      "imdb_votes": 2265
+    },
+    {
+      "season_number": 9,
+      "episode_number": 1,
+      "name": "The Bots and the Bees",
+      "overview": null,
+      "air_date": "2012",
+      "still_path": null,
+      "imdb_rating": 7.7,
+      "imdb_votes": 2230
+    },
+    {
+      "season_number": 9,
+      "episode_number": 2,
+      "name": "A Farewell to Arms",
+      "overview": null,
+      "air_date": "2012",
+      "still_path": null,
+      "imdb_rating": 7.6,
+      "imdb_votes": 1994
+    },
+    {
+      "season_number": 9,
+      "episode_number": 3,
+      "name": "Decision 3012",
+      "overview": null,
+      "air_date": "2012",
+      "still_path": null,
+      "imdb_rating": 7.5,
+      "imdb_votes": 2036
+    },
+    {
+      "season_number": 9,
+      "episode_number": 4,
+      "name": "The Thief of Baghead",
+      "overview": null,
+      "air_date": "2012",
+      "still_path": null,
+      "imdb_rating": 7.2,
+      "imdb_votes": 1930
+    },
+    {
+      "season_number": 9,
+      "episode_number": 5,
+      "name": "Zapp Dingbat",
+      "overview": null,
+      "air_date": "2012",
+      "still_path": null,
+      "imdb_rating": 7.0,
+      "imdb_votes": 1884
+    },
+    {
+      "season_number": 9,
+      "episode_number": 6,
+      "name": "The Butterjunk Effect",
+      "overview": null,
+      "air_date": "2012",
+      "still_path": null,
+      "imdb_rating": 6.9,
+      "imdb_votes": 1933
+    },
+    {
+      "season_number": 9,
+      "episode_number": 7,
+      "name": "The Six Million Dollar Mon",
+      "overview": null,
+      "air_date": "2012",
+      "still_path": null,
+      "imdb_rating": 7.2,
+      "imdb_votes": 1926
+    },
+    {
+      "season_number": 9,
+      "episode_number": 8,
+      "name": "Fun on a Bun",
+      "overview": null,
+      "air_date": "2012",
+      "still_path": null,
+      "imdb_rating": 7.6,
+      "imdb_votes": 1977
+    },
+    {
+      "season_number": 9,
+      "episode_number": 9,
+      "name": "Free Will Hunting",
+      "overview": null,
+      "air_date": "2012",
+      "still_path": null,
+      "imdb_rating": 7.3,
+      "imdb_votes": 1870
+    },
+    {
+      "season_number": 9,
+      "episode_number": 10,
+      "name": "Near-Death Wish",
+      "overview": null,
+      "air_date": "2012",
+      "still_path": null,
+      "imdb_rating": 7.6,
+      "imdb_votes": 1948
+    },
+    {
+      "season_number": 9,
+      "episode_number": 11,
+      "name": "Viva Mars Vegas",
+      "overview": null,
+      "air_date": "2012",
+      "still_path": null,
+      "imdb_rating": 7.5,
+      "imdb_votes": 1844
+    },
+    {
+      "season_number": 9,
+      "episode_number": 12,
+      "name": "31st Century Fox",
+      "overview": null,
+      "air_date": "2012",
+      "still_path": null,
+      "imdb_rating": 7.1,
+      "imdb_votes": 1859
+    },
+    {
+      "season_number": 9,
+      "episode_number": 13,
+      "name": "Naturama",
+      "overview": null,
+      "air_date": "2012",
+      "still_path": null,
+      "imdb_rating": 7.2,
+      "imdb_votes": 2077
+    },
+    {
+      "season_number": 10,
+      "episode_number": 1,
+      "name": "2-D Blacktop",
+      "overview": null,
+      "air_date": "2013",
+      "still_path": null,
+      "imdb_rating": 7.2,
+      "imdb_votes": 1963
+    },
+    {
+      "season_number": 10,
+      "episode_number": 2,
+      "name": "Fry and Leela's Big Fling",
+      "overview": null,
+      "air_date": "2013",
+      "still_path": null,
+      "imdb_rating": 7.9,
+      "imdb_votes": 1992
+    },
+    {
+      "season_number": 10,
+      "episode_number": 3,
+      "name": "T.: The Terrestrial",
+      "overview": null,
+      "air_date": "2013",
+      "still_path": null,
+      "imdb_rating": 7.3,
+      "imdb_votes": 1887
+    },
+    {
+      "season_number": 10,
+      "episode_number": 4,
+      "name": "Forty Percent Leadbelly",
+      "overview": null,
+      "air_date": "2013",
+      "still_path": null,
+      "imdb_rating": 6.6,
+      "imdb_votes": 1942
+    },
+    {
+      "season_number": 10,
+      "episode_number": 5,
+      "name": "The Inhuman Torch",
+      "overview": null,
+      "air_date": "2013",
+      "still_path": null,
+      "imdb_rating": 7.2,
+      "imdb_votes": 1860
+    },
+    {
+      "season_number": 10,
+      "episode_number": 6,
+      "name": "Saturday Morning Fun Pit",
+      "overview": null,
+      "air_date": "2013",
+      "still_path": null,
+      "imdb_rating": 6.8,
+      "imdb_votes": 2199
+    },
+    {
+      "season_number": 10,
+      "episode_number": 7,
+      "name": "Calculon 2.0",
+      "overview": null,
+      "air_date": "2013",
+      "still_path": null,
+      "imdb_rating": 7.1,
+      "imdb_votes": 1869
+    },
+    {
+      "season_number": 10,
+      "episode_number": 8,
+      "name": "Assie Come Home",
+      "overview": null,
+      "air_date": "2013",
+      "still_path": null,
+      "imdb_rating": 7.1,
+      "imdb_votes": 1856
+    },
+    {
+      "season_number": 10,
+      "episode_number": 9,
+      "name": "Leela and the Genestalk",
+      "overview": null,
+      "air_date": "2013",
+      "still_path": null,
+      "imdb_rating": 7.1,
+      "imdb_votes": 1833
+    },
+    {
+      "season_number": 10,
+      "episode_number": 10,
+      "name": "Game of Tones",
+      "overview": null,
+      "air_date": "2013",
+      "still_path": null,
+      "imdb_rating": 8.5,
+      "imdb_votes": 2692
+    },
+    {
+      "season_number": 10,
+      "episode_number": 11,
+      "name": "Murder on the Planet Express",
+      "overview": null,
+      "air_date": "2013",
+      "still_path": null,
+      "imdb_rating": 8.5,
+      "imdb_votes": 2293
+    },
+    {
+      "season_number": 10,
+      "episode_number": 12,
+      "name": "Stench and Stenchibility",
+      "overview": null,
+      "air_date": "2013",
+      "still_path": null,
+      "imdb_rating": 8.0,
+      "imdb_votes": 2226
+    },
+    {
+      "season_number": 10,
+      "episode_number": 13,
+      "name": "Meanwhile",
+      "overview": null,
+      "air_date": "2013",
+      "still_path": null,
+      "imdb_rating": 9.5,
+      "imdb_votes": 4971
+    },
+    {
+      "season_number": 11,
+      "episode_number": 1,
+      "name": "The Impossible Stream",
+      "overview": null,
+      "air_date": "2023",
+      "still_path": null,
+      "imdb_rating": 7.2,
+      "imdb_votes": 3066
+    },
+    {
+      "season_number": 11,
+      "episode_number": 2,
+      "name": "Children of a Lesser Bog",
+      "overview": null,
+      "air_date": "2023",
+      "still_path": null,
+      "imdb_rating": 6.8,
+      "imdb_votes": 2201
+    },
+    {
+      "season_number": 11,
+      "episode_number": 3,
+      "name": "How the West Was 1010001",
+      "overview": null,
+      "air_date": "2023",
+      "still_path": null,
+      "imdb_rating": 6.7,
+      "imdb_votes": 2021
+    },
+    {
+      "season_number": 11,
+      "episode_number": 4,
+      "name": "Parasites Regained",
+      "overview": null,
+      "air_date": "2023",
+      "still_path": null,
+      "imdb_rating": 6.7,
+      "imdb_votes": 1838
+    },
+    {
+      "season_number": 11,
+      "episode_number": 5,
+      "name": "Related to Items You've Viewed",
+      "overview": null,
+      "air_date": "2023",
+      "still_path": null,
+      "imdb_rating": 7.5,
+      "imdb_votes": 1742
+    },
+    {
+      "season_number": 11,
+      "episode_number": 6,
+      "name": "I Know What You Did Next Xmas",
+      "overview": null,
+      "air_date": "2023",
+      "still_path": null,
+      "imdb_rating": 7.4,
+      "imdb_votes": 1685
+    },
+    {
+      "season_number": 11,
+      "episode_number": 7,
+      "name": "Rage Against the Vaccine",
+      "overview": null,
+      "air_date": "2023",
+      "still_path": null,
+      "imdb_rating": 6.3,
+      "imdb_votes": 1871
+    },
+    {
+      "season_number": 11,
+      "episode_number": 8,
+      "name": "Zapp Gets Canceled",
+      "overview": null,
+      "air_date": "2023",
+      "still_path": null,
+      "imdb_rating": 7.0,
+      "imdb_votes": 1465
+    },
+    {
+      "season_number": 11,
+      "episode_number": 9,
+      "name": "The Prince and the Product",
+      "overview": null,
+      "air_date": "2023",
+      "still_path": null,
+      "imdb_rating": 4.3,
+      "imdb_votes": 2314
+    },
+    {
+      "season_number": 11,
+      "episode_number": 10,
+      "name": "All the Way Down",
+      "overview": null,
+      "air_date": "2023",
+      "still_path": null,
+      "imdb_rating": 8.0,
+      "imdb_votes": 1773
+    },
+    {
+      "season_number": 12,
+      "episode_number": 1,
+      "name": "The One Amigo",
+      "overview": null,
+      "air_date": "2024",
+      "still_path": null,
+      "imdb_rating": 6.3,
+      "imdb_votes": 1346
+    },
+    {
+      "season_number": 12,
+      "episode_number": 2,
+      "name": "Quids Game",
+      "overview": null,
+      "air_date": "2024",
+      "still_path": null,
+      "imdb_rating": 6.8,
+      "imdb_votes": 1292
+    },
+    {
+      "season_number": 12,
+      "episode_number": 3,
+      "name": "The Temp",
+      "overview": null,
+      "air_date": "2024",
+      "still_path": null,
+      "imdb_rating": 7.2,
+      "imdb_votes": 1133
+    },
+    {
+      "season_number": 12,
+      "episode_number": 4,
+      "name": "Beauty and the Bug",
+      "overview": null,
+      "air_date": "2024",
+      "still_path": null,
+      "imdb_rating": 6.4,
+      "imdb_votes": 995
+    },
+    {
+      "season_number": 12,
+      "episode_number": 5,
+      "name": "One Is Silicon and the Other Gold",
+      "overview": null,
+      "air_date": "2024",
+      "still_path": null,
+      "imdb_rating": 6.6,
+      "imdb_votes": 946
+    },
+    {
+      "season_number": 12,
+      "episode_number": 6,
+      "name": "Attack of the Clothes",
+      "overview": null,
+      "air_date": "2024",
+      "still_path": null,
+      "imdb_rating": 7.0,
+      "imdb_votes": 995
+    },
+    {
+      "season_number": 12,
+      "episode_number": 7,
+      "name": "Planet Espresso",
+      "overview": null,
+      "air_date": "2024",
+      "still_path": null,
+      "imdb_rating": 6.9,
+      "imdb_votes": 909
+    },
+    {
+      "season_number": 12,
+      "episode_number": 8,
+      "name": "Cuteness Overlord",
+      "overview": null,
+      "air_date": "2024",
+      "still_path": null,
+      "imdb_rating": 7.0,
+      "imdb_votes": 859
+    },
+    {
+      "season_number": 12,
+      "episode_number": 9,
+      "name": "The Futurama Mystery Liberry",
+      "overview": null,
+      "air_date": "2024",
+      "still_path": null,
+      "imdb_rating": 6.1,
+      "imdb_votes": 888
+    },
+    {
+      "season_number": 12,
+      "episode_number": 10,
+      "name": "Otherwise",
+      "overview": null,
+      "air_date": "2024",
+      "still_path": null,
+      "imdb_rating": 7.5,
+      "imdb_votes": 870
+    },
+    {
+      "season_number": 13,
+      "episode_number": 1,
+      "name": "Destroy Tall Monsters",
+      "overview": null,
+      "air_date": "2025",
+      "still_path": null,
+      "imdb_rating": 6.9,
+      "imdb_votes": 760
+    },
+    {
+      "season_number": 13,
+      "episode_number": 2,
+      "name": "The World is Hot Enough",
+      "overview": null,
+      "air_date": "2025",
+      "still_path": null,
+      "imdb_rating": 6.8,
+      "imdb_votes": 775
+    },
+    {
+      "season_number": 13,
+      "episode_number": 3,
+      "name": "Fifty Shades of Green",
+      "overview": null,
+      "air_date": "2025",
+      "still_path": null,
+      "imdb_rating": 6.7,
+      "imdb_votes": 678
+    },
+    {
+      "season_number": 13,
+      "episode_number": 4,
+      "name": "The Numberland Gap",
+      "overview": null,
+      "air_date": "2025",
+      "still_path": null,
+      "imdb_rating": 7.3,
+      "imdb_votes": 716
+    },
+    {
+      "season_number": 13,
+      "episode_number": 5,
+      "name": "Scared Screenless",
+      "overview": null,
+      "air_date": "2025",
+      "still_path": null,
+      "imdb_rating": 6.7,
+      "imdb_votes": 629
+    },
+    {
+      "season_number": 13,
+      "episode_number": 6,
+      "name": "Wicked Human",
+      "overview": null,
+      "air_date": "2025",
+      "still_path": null,
+      "imdb_rating": 7.1,
+      "imdb_votes": 628
+    },
+    {
+      "season_number": 13,
+      "episode_number": 7,
+      "name": "Murderoni",
+      "overview": null,
+      "air_date": "2025",
+      "still_path": null,
+      "imdb_rating": 7.0,
+      "imdb_votes": 616
+    },
+    {
+      "season_number": 13,
+      "episode_number": 8,
+      "name": "Crab Splatter",
+      "overview": null,
+      "air_date": "2025",
+      "still_path": null,
+      "imdb_rating": 7.4,
+      "imdb_votes": 597
+    },
+    {
+      "season_number": 13,
+      "episode_number": 9,
+      "name": "The Trouble with Truffles",
+      "overview": null,
+      "air_date": "2025",
+      "still_path": null,
+      "imdb_rating": 7.2,
+      "imdb_votes": 588
+    },
+    {
+      "season_number": 13,
+      "episode_number": 10,
+      "name": "The White Hole",
+      "overview": null,
+      "air_date": "2025",
+      "still_path": null,
+      "imdb_rating": 8.1,
+      "imdb_votes": 655
+    }
+  ]
+}

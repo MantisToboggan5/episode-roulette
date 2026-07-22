@@ -1,0 +1,1778 @@
+{
+  "id": "tt0472954",
+  "name": "It's Always Sunny in Philadelphia",
+  "poster": "data/posters/tt0472954.jpg",
+  "imdb_id": "tt0472954",
+  "episodes": [
+    {
+      "season_number": 1,
+      "episode_number": 1,
+      "name": "The Gang Gets Racist",
+      "overview": null,
+      "air_date": "2005",
+      "still_path": null,
+      "imdb_rating": 8.1,
+      "imdb_votes": 6435
+    },
+    {
+      "season_number": 1,
+      "episode_number": 2,
+      "name": "Charlie Wants an Abortion",
+      "overview": null,
+      "air_date": "2005",
+      "still_path": null,
+      "imdb_rating": 8.1,
+      "imdb_votes": 5709
+    },
+    {
+      "season_number": 1,
+      "episode_number": 3,
+      "name": "Underage Drinking: A National Concern",
+      "overview": null,
+      "air_date": "2005",
+      "still_path": null,
+      "imdb_rating": 8.2,
+      "imdb_votes": 5538
+    },
+    {
+      "season_number": 1,
+      "episode_number": 4,
+      "name": "Charlie Has Cancer",
+      "overview": null,
+      "air_date": "2005",
+      "still_path": null,
+      "imdb_rating": 8.0,
+      "imdb_votes": 5155
+    },
+    {
+      "season_number": 1,
+      "episode_number": 5,
+      "name": "Gun Fever",
+      "overview": null,
+      "air_date": "2005",
+      "still_path": null,
+      "imdb_rating": 7.8,
+      "imdb_votes": 4888
+    },
+    {
+      "season_number": 1,
+      "episode_number": 6,
+      "name": "The Gang Finds a Dead Guy",
+      "overview": null,
+      "air_date": "2005",
+      "still_path": null,
+      "imdb_rating": 8.0,
+      "imdb_votes": 4788
+    },
+    {
+      "season_number": 1,
+      "episode_number": 7,
+      "name": "Charlie Got Molested",
+      "overview": null,
+      "air_date": "2005",
+      "still_path": null,
+      "imdb_rating": 8.4,
+      "imdb_votes": 5102
+    },
+    {
+      "season_number": 2,
+      "episode_number": 1,
+      "name": "Charlie Gets Crippled",
+      "overview": null,
+      "air_date": "2006",
+      "still_path": null,
+      "imdb_rating": 8.4,
+      "imdb_votes": 5031
+    },
+    {
+      "season_number": 2,
+      "episode_number": 2,
+      "name": "The Gang Goes Jihad",
+      "overview": null,
+      "air_date": "2006",
+      "still_path": null,
+      "imdb_rating": 8.5,
+      "imdb_votes": 5087
+    },
+    {
+      "season_number": 2,
+      "episode_number": 3,
+      "name": "Dennis and Dee Go on Welfare",
+      "overview": null,
+      "air_date": "2006",
+      "still_path": null,
+      "imdb_rating": 9.0,
+      "imdb_votes": 5907
+    },
+    {
+      "season_number": 2,
+      "episode_number": 4,
+      "name": "Mac Bangs Dennis' Mom",
+      "overview": null,
+      "air_date": "2006",
+      "still_path": null,
+      "imdb_rating": 9.2,
+      "imdb_votes": 6323
+    },
+    {
+      "season_number": 2,
+      "episode_number": 5,
+      "name": "Hundred Dollar Baby",
+      "overview": null,
+      "air_date": "2006",
+      "still_path": null,
+      "imdb_rating": 8.6,
+      "imdb_votes": 5109
+    },
+    {
+      "season_number": 2,
+      "episode_number": 6,
+      "name": "The Gang Gives Back",
+      "overview": null,
+      "air_date": "2006",
+      "still_path": null,
+      "imdb_rating": 8.3,
+      "imdb_votes": 4503
+    },
+    {
+      "season_number": 2,
+      "episode_number": 7,
+      "name": "The Gang Exploits a Miracle",
+      "overview": null,
+      "air_date": "2006",
+      "still_path": null,
+      "imdb_rating": 7.9,
+      "imdb_votes": 4225
+    },
+    {
+      "season_number": 2,
+      "episode_number": 8,
+      "name": "The Gang Runs for Office",
+      "overview": null,
+      "air_date": "2006",
+      "still_path": null,
+      "imdb_rating": 7.9,
+      "imdb_votes": 4156
+    },
+    {
+      "season_number": 2,
+      "episode_number": 9,
+      "name": "Charlie Goes America All Over Everybody's Ass",
+      "overview": null,
+      "air_date": "2006",
+      "still_path": null,
+      "imdb_rating": 8.2,
+      "imdb_votes": 4238
+    },
+    {
+      "season_number": 2,
+      "episode_number": 10,
+      "name": "Dennis and Dee Get a New Dad",
+      "overview": null,
+      "air_date": "2006",
+      "still_path": null,
+      "imdb_rating": 8.5,
+      "imdb_votes": 4320
+    },
+    {
+      "season_number": 3,
+      "episode_number": 1,
+      "name": "The Gang Finds a Dumpster Baby",
+      "overview": null,
+      "air_date": "2007",
+      "still_path": null,
+      "imdb_rating": 8.5,
+      "imdb_votes": 4604
+    },
+    {
+      "season_number": 3,
+      "episode_number": 2,
+      "name": "The Gang Gets Invincible",
+      "overview": null,
+      "air_date": "2007",
+      "still_path": null,
+      "imdb_rating": 8.6,
+      "imdb_votes": 4683
+    },
+    {
+      "season_number": 3,
+      "episode_number": 3,
+      "name": "Dennis and Dee's Mom Is Dead",
+      "overview": null,
+      "air_date": "2007",
+      "still_path": null,
+      "imdb_rating": 8.2,
+      "imdb_votes": 4048
+    },
+    {
+      "season_number": 3,
+      "episode_number": 4,
+      "name": "The Gang Gets Held Hostage",
+      "overview": null,
+      "air_date": "2007",
+      "still_path": null,
+      "imdb_rating": 8.9,
+      "imdb_votes": 4989
+    },
+    {
+      "season_number": 3,
+      "episode_number": 5,
+      "name": "The Aluminum Monster vs. Fatty Magoo",
+      "overview": null,
+      "air_date": "2007",
+      "still_path": null,
+      "imdb_rating": 7.9,
+      "imdb_votes": 4016
+    },
+    {
+      "season_number": 3,
+      "episode_number": 6,
+      "name": "The Gang Solves the North Korea Situation",
+      "overview": null,
+      "air_date": "2007",
+      "still_path": null,
+      "imdb_rating": 8.3,
+      "imdb_votes": 4087
+    },
+    {
+      "season_number": 3,
+      "episode_number": 7,
+      "name": "The Gang Sells Out",
+      "overview": null,
+      "air_date": "2007",
+      "still_path": null,
+      "imdb_rating": 8.1,
+      "imdb_votes": 3783
+    },
+    {
+      "season_number": 3,
+      "episode_number": 8,
+      "name": "Frank Sets Sweet Dee on Fire",
+      "overview": null,
+      "air_date": "2007",
+      "still_path": null,
+      "imdb_rating": 8.4,
+      "imdb_votes": 4074
+    },
+    {
+      "season_number": 3,
+      "episode_number": 9,
+      "name": "Sweet Dee's Dating a Retarded Person",
+      "overview": null,
+      "air_date": "2007",
+      "still_path": null,
+      "imdb_rating": 9.2,
+      "imdb_votes": 6033
+    },
+    {
+      "season_number": 3,
+      "episode_number": 10,
+      "name": "Mac Is a Serial Killer",
+      "overview": null,
+      "air_date": "2007",
+      "still_path": null,
+      "imdb_rating": 9.0,
+      "imdb_votes": 4912
+    },
+    {
+      "season_number": 3,
+      "episode_number": 11,
+      "name": "Dennis Looks Like a Registered Sex Offender",
+      "overview": null,
+      "air_date": "2007",
+      "still_path": null,
+      "imdb_rating": 8.4,
+      "imdb_votes": 3865
+    },
+    {
+      "season_number": 3,
+      "episode_number": 12,
+      "name": "The Gang Gets Whacked: Part 1",
+      "overview": null,
+      "air_date": "2007",
+      "still_path": null,
+      "imdb_rating": 8.1,
+      "imdb_votes": 3640
+    },
+    {
+      "season_number": 3,
+      "episode_number": 13,
+      "name": "The Gang Gets Whacked: Part 2",
+      "overview": null,
+      "air_date": "2007",
+      "still_path": null,
+      "imdb_rating": 8.3,
+      "imdb_votes": 3671
+    },
+    {
+      "season_number": 3,
+      "episode_number": 14,
+      "name": "Bums: Making a Mess All Over the City",
+      "overview": null,
+      "air_date": "2007",
+      "still_path": null,
+      "imdb_rating": 8.5,
+      "imdb_votes": 3906
+    },
+    {
+      "season_number": 3,
+      "episode_number": 15,
+      "name": "The Gang Dances Their Asses Off",
+      "overview": null,
+      "air_date": "2007",
+      "still_path": null,
+      "imdb_rating": 8.9,
+      "imdb_votes": 4624
+    },
+    {
+      "season_number": 4,
+      "episode_number": 1,
+      "name": "Mac and Dennis: Manhunters",
+      "overview": null,
+      "air_date": "2008",
+      "still_path": null,
+      "imdb_rating": 8.4,
+      "imdb_votes": 3972
+    },
+    {
+      "season_number": 4,
+      "episode_number": 2,
+      "name": "The Gang Solves the Gas Crisis",
+      "overview": null,
+      "air_date": "2008",
+      "still_path": null,
+      "imdb_rating": 9.1,
+      "imdb_votes": 5291
+    },
+    {
+      "season_number": 4,
+      "episode_number": 3,
+      "name": "America's Next Top Paddy's Billboard Model Contest",
+      "overview": null,
+      "air_date": "2008",
+      "still_path": null,
+      "imdb_rating": 8.3,
+      "imdb_votes": 3283
+    },
+    {
+      "season_number": 4,
+      "episode_number": 4,
+      "name": "Mac's Banging the Waitress",
+      "overview": null,
+      "air_date": "2008",
+      "still_path": null,
+      "imdb_rating": 8.5,
+      "imdb_votes": 3821
+    },
+    {
+      "season_number": 4,
+      "episode_number": 5,
+      "name": "Mac & Charlie Die: Part 1",
+      "overview": null,
+      "air_date": "2008",
+      "still_path": null,
+      "imdb_rating": 9.0,
+      "imdb_votes": 4376
+    },
+    {
+      "season_number": 4,
+      "episode_number": 6,
+      "name": "Mac & Charlie Die: Part 2",
+      "overview": null,
+      "air_date": "2008",
+      "still_path": null,
+      "imdb_rating": 8.5,
+      "imdb_votes": 3829
+    },
+    {
+      "season_number": 4,
+      "episode_number": 7,
+      "name": "Who Pooped the Bed?",
+      "overview": null,
+      "air_date": "2008",
+      "still_path": null,
+      "imdb_rating": 8.3,
+      "imdb_votes": 4249
+    },
+    {
+      "season_number": 4,
+      "episode_number": 8,
+      "name": "Paddy's Pub: The Worst Bar in Philadelphia",
+      "overview": null,
+      "air_date": "2008",
+      "still_path": null,
+      "imdb_rating": 8.5,
+      "imdb_votes": 3771
+    },
+    {
+      "season_number": 4,
+      "episode_number": 9,
+      "name": "Dennis Reynolds: An Erotic Life",
+      "overview": null,
+      "air_date": "2008",
+      "still_path": null,
+      "imdb_rating": 8.1,
+      "imdb_votes": 3719
+    },
+    {
+      "season_number": 4,
+      "episode_number": 10,
+      "name": "Sweet Dee Has a Heart Attack",
+      "overview": null,
+      "air_date": "2008",
+      "still_path": null,
+      "imdb_rating": 9.0,
+      "imdb_votes": 4861
+    },
+    {
+      "season_number": 4,
+      "episode_number": 11,
+      "name": "The Gang Cracks the Liberty Bell",
+      "overview": null,
+      "air_date": "2008",
+      "still_path": null,
+      "imdb_rating": 7.6,
+      "imdb_votes": 3921
+    },
+    {
+      "season_number": 4,
+      "episode_number": 12,
+      "name": "The Gang Gets Extreme: Home Makeover Edition",
+      "overview": null,
+      "air_date": "2008",
+      "still_path": null,
+      "imdb_rating": 8.3,
+      "imdb_votes": 3792
+    },
+    {
+      "season_number": 4,
+      "episode_number": 13,
+      "name": "The Nightman Cometh",
+      "overview": null,
+      "air_date": "2008",
+      "still_path": null,
+      "imdb_rating": 9.7,
+      "imdb_votes": 10894
+    },
+    {
+      "season_number": 5,
+      "episode_number": 1,
+      "name": "The Gang Exploits the Mortgage Crisis",
+      "overview": null,
+      "air_date": "2009",
+      "still_path": null,
+      "imdb_rating": 8.3,
+      "imdb_votes": 3699
+    },
+    {
+      "season_number": 5,
+      "episode_number": 2,
+      "name": "The Gang Hits the Road",
+      "overview": null,
+      "air_date": "2009",
+      "still_path": null,
+      "imdb_rating": 9.1,
+      "imdb_votes": 4744
+    },
+    {
+      "season_number": 5,
+      "episode_number": 3,
+      "name": "The Great Recession",
+      "overview": null,
+      "air_date": "2009",
+      "still_path": null,
+      "imdb_rating": 8.0,
+      "imdb_votes": 3394
+    },
+    {
+      "season_number": 5,
+      "episode_number": 4,
+      "name": "The Gang Gives Frank an Intervention",
+      "overview": null,
+      "air_date": "2009",
+      "still_path": null,
+      "imdb_rating": 8.7,
+      "imdb_votes": 4103
+    },
+    {
+      "season_number": 5,
+      "episode_number": 5,
+      "name": "The Waitress Is Getting Married",
+      "overview": null,
+      "air_date": "2009",
+      "still_path": null,
+      "imdb_rating": 8.8,
+      "imdb_votes": 4016
+    },
+    {
+      "season_number": 5,
+      "episode_number": 6,
+      "name": "The World Series Defense",
+      "overview": null,
+      "air_date": "2009",
+      "still_path": null,
+      "imdb_rating": 8.3,
+      "imdb_votes": 3423
+    },
+    {
+      "season_number": 5,
+      "episode_number": 7,
+      "name": "The Gang Wrestles for the Troops",
+      "overview": null,
+      "air_date": "2009",
+      "still_path": null,
+      "imdb_rating": 8.5,
+      "imdb_votes": 3746
+    },
+    {
+      "season_number": 5,
+      "episode_number": 8,
+      "name": "Paddy's Pub: Home of the Original Kitten Mittens",
+      "overview": null,
+      "air_date": "2009",
+      "still_path": null,
+      "imdb_rating": 8.9,
+      "imdb_votes": 4150
+    },
+    {
+      "season_number": 5,
+      "episode_number": 9,
+      "name": "Mac and Dennis Break Up",
+      "overview": null,
+      "air_date": "2009",
+      "still_path": null,
+      "imdb_rating": 8.5,
+      "imdb_votes": 3616
+    },
+    {
+      "season_number": 5,
+      "episode_number": 10,
+      "name": "The D.E.N.N.I.S. System",
+      "overview": null,
+      "air_date": "2009",
+      "still_path": null,
+      "imdb_rating": 9.3,
+      "imdb_votes": 5612
+    },
+    {
+      "season_number": 5,
+      "episode_number": 11,
+      "name": "Mac and Charlie Write a Movie",
+      "overview": null,
+      "air_date": "2009",
+      "still_path": null,
+      "imdb_rating": 8.0,
+      "imdb_votes": 3302
+    },
+    {
+      "season_number": 5,
+      "episode_number": 12,
+      "name": "The Gang Reignites the Rivalry",
+      "overview": null,
+      "air_date": "2009",
+      "still_path": null,
+      "imdb_rating": 8.5,
+      "imdb_votes": 3470
+    },
+    {
+      "season_number": 6,
+      "episode_number": 1,
+      "name": "Mac Fights Gay Marriage",
+      "overview": null,
+      "air_date": "2010",
+      "still_path": null,
+      "imdb_rating": 7.9,
+      "imdb_votes": 3400
+    },
+    {
+      "season_number": 6,
+      "episode_number": 2,
+      "name": "Dennis Gets Divorced",
+      "overview": null,
+      "air_date": "2010",
+      "still_path": null,
+      "imdb_rating": 7.6,
+      "imdb_votes": 3214
+    },
+    {
+      "season_number": 6,
+      "episode_number": 3,
+      "name": "The Gang Buys a Boat",
+      "overview": null,
+      "air_date": "2010",
+      "still_path": null,
+      "imdb_rating": 8.9,
+      "imdb_votes": 4259
+    },
+    {
+      "season_number": 6,
+      "episode_number": 4,
+      "name": "Mac's Big Break",
+      "overview": null,
+      "air_date": "2010",
+      "still_path": null,
+      "imdb_rating": 8.1,
+      "imdb_votes": 3290
+    },
+    {
+      "season_number": 6,
+      "episode_number": 5,
+      "name": "Mac and Charlie: White Trash",
+      "overview": null,
+      "air_date": "2010",
+      "still_path": null,
+      "imdb_rating": 8.2,
+      "imdb_votes": 3349
+    },
+    {
+      "season_number": 6,
+      "episode_number": 6,
+      "name": "Mac's Mom Burns Her House Down",
+      "overview": null,
+      "air_date": "2010",
+      "still_path": null,
+      "imdb_rating": 7.6,
+      "imdb_votes": 3103
+    },
+    {
+      "season_number": 6,
+      "episode_number": 7,
+      "name": "Who Got Dee Pregnant?",
+      "overview": null,
+      "air_date": "2010",
+      "still_path": null,
+      "imdb_rating": 9.1,
+      "imdb_votes": 4418
+    },
+    {
+      "season_number": 6,
+      "episode_number": 8,
+      "name": "The Gang Gets a New Member",
+      "overview": null,
+      "air_date": "2010",
+      "still_path": null,
+      "imdb_rating": 7.7,
+      "imdb_votes": 3163
+    },
+    {
+      "season_number": 6,
+      "episode_number": 9,
+      "name": "Dee Reynolds: Shaping America's Youth",
+      "overview": null,
+      "air_date": "2010",
+      "still_path": null,
+      "imdb_rating": 8.9,
+      "imdb_votes": 3518
+    },
+    {
+      "season_number": 6,
+      "episode_number": 10,
+      "name": "Charlie Kelly: King of the Rats",
+      "overview": null,
+      "air_date": "2010",
+      "still_path": null,
+      "imdb_rating": 8.3,
+      "imdb_votes": 3304
+    },
+    {
+      "season_number": 6,
+      "episode_number": 11,
+      "name": "The Gang Gets Stranded in the Woods",
+      "overview": null,
+      "air_date": "2010",
+      "still_path": null,
+      "imdb_rating": 8.6,
+      "imdb_votes": 3465
+    },
+    {
+      "season_number": 6,
+      "episode_number": 12,
+      "name": "Dee Gives Birth",
+      "overview": null,
+      "air_date": "2010",
+      "still_path": null,
+      "imdb_rating": 8.5,
+      "imdb_votes": 3302
+    },
+    {
+      "season_number": 6,
+      "episode_number": 13,
+      "name": "A Very Sunny Christmas",
+      "overview": null,
+      "air_date": "2009",
+      "still_path": null,
+      "imdb_rating": 9.2,
+      "imdb_votes": 6311
+    },
+    {
+      "season_number": 7,
+      "episode_number": 1,
+      "name": "Frank's Pretty Woman",
+      "overview": null,
+      "air_date": "2011",
+      "still_path": null,
+      "imdb_rating": 8.6,
+      "imdb_votes": 3976
+    },
+    {
+      "season_number": 7,
+      "episode_number": 2,
+      "name": "The Gang Goes to the Jersey Shore",
+      "overview": null,
+      "air_date": "2011",
+      "still_path": null,
+      "imdb_rating": 9.2,
+      "imdb_votes": 5040
+    },
+    {
+      "season_number": 7,
+      "episode_number": 3,
+      "name": "Frank Reynolds' Little Beauties",
+      "overview": null,
+      "air_date": "2011",
+      "still_path": null,
+      "imdb_rating": 8.5,
+      "imdb_votes": 3859
+    },
+    {
+      "season_number": 7,
+      "episode_number": 4,
+      "name": "Sweet Dee Gets Audited",
+      "overview": null,
+      "air_date": "2011",
+      "still_path": null,
+      "imdb_rating": 7.9,
+      "imdb_votes": 3225
+    },
+    {
+      "season_number": 7,
+      "episode_number": 5,
+      "name": "Frank's Brother",
+      "overview": null,
+      "air_date": "2011",
+      "still_path": null,
+      "imdb_rating": 6.9,
+      "imdb_votes": 3778
+    },
+    {
+      "season_number": 7,
+      "episode_number": 6,
+      "name": "The Storm of the Century",
+      "overview": null,
+      "air_date": "2011",
+      "still_path": null,
+      "imdb_rating": 8.2,
+      "imdb_votes": 3461
+    },
+    {
+      "season_number": 7,
+      "episode_number": 7,
+      "name": "CharDee MacDennis: The Game of Games",
+      "overview": null,
+      "air_date": "2011",
+      "still_path": null,
+      "imdb_rating": 9.2,
+      "imdb_votes": 4960
+    },
+    {
+      "season_number": 7,
+      "episode_number": 8,
+      "name": "The ANTI-Social Network",
+      "overview": null,
+      "air_date": "2011",
+      "still_path": null,
+      "imdb_rating": 8.3,
+      "imdb_votes": 3276
+    },
+    {
+      "season_number": 7,
+      "episode_number": 9,
+      "name": "The Gang Gets Trapped",
+      "overview": null,
+      "air_date": "2011",
+      "still_path": null,
+      "imdb_rating": 8.8,
+      "imdb_votes": 3972
+    },
+    {
+      "season_number": 7,
+      "episode_number": 10,
+      "name": "How Mac Got Fat",
+      "overview": null,
+      "air_date": "2011",
+      "still_path": null,
+      "imdb_rating": 7.7,
+      "imdb_votes": 3195
+    },
+    {
+      "season_number": 7,
+      "episode_number": 11,
+      "name": "Thunder Gun Express",
+      "overview": null,
+      "air_date": "2011",
+      "still_path": null,
+      "imdb_rating": 8.8,
+      "imdb_votes": 3849
+    },
+    {
+      "season_number": 7,
+      "episode_number": 12,
+      "name": "The High School Reunion",
+      "overview": null,
+      "air_date": "2011",
+      "still_path": null,
+      "imdb_rating": 8.2,
+      "imdb_votes": 3233
+    },
+    {
+      "season_number": 7,
+      "episode_number": 13,
+      "name": "The High School Reunion Part 2: The Gang's Revenge",
+      "overview": null,
+      "air_date": "2011",
+      "still_path": null,
+      "imdb_rating": 8.5,
+      "imdb_votes": 3368
+    },
+    {
+      "season_number": 8,
+      "episode_number": 1,
+      "name": "Pop-Pop: The Final Solution",
+      "overview": null,
+      "air_date": "2012",
+      "still_path": null,
+      "imdb_rating": 7.8,
+      "imdb_votes": 3173
+    },
+    {
+      "season_number": 8,
+      "episode_number": 2,
+      "name": "The Gang Recycles Their Trash",
+      "overview": null,
+      "air_date": "2012",
+      "still_path": null,
+      "imdb_rating": 8.2,
+      "imdb_votes": 2796
+    },
+    {
+      "season_number": 8,
+      "episode_number": 3,
+      "name": "The Maureen Ponderosa Wedding Massacre",
+      "overview": null,
+      "air_date": "2012",
+      "still_path": null,
+      "imdb_rating": 8.8,
+      "imdb_votes": 3930
+    },
+    {
+      "season_number": 8,
+      "episode_number": 4,
+      "name": "Charlie and Dee Find Love",
+      "overview": null,
+      "air_date": "2012",
+      "still_path": null,
+      "imdb_rating": 8.9,
+      "imdb_votes": 4069
+    },
+    {
+      "season_number": 8,
+      "episode_number": 5,
+      "name": "The Gang Gets Analyzed",
+      "overview": null,
+      "air_date": "2012",
+      "still_path": null,
+      "imdb_rating": 9.0,
+      "imdb_votes": 4255
+    },
+    {
+      "season_number": 8,
+      "episode_number": 6,
+      "name": "Charlie's Mom Has Cancer",
+      "overview": null,
+      "air_date": "2012",
+      "still_path": null,
+      "imdb_rating": 7.7,
+      "imdb_votes": 3094
+    },
+    {
+      "season_number": 8,
+      "episode_number": 7,
+      "name": "Frank's Back in Business",
+      "overview": null,
+      "air_date": "2012",
+      "still_path": null,
+      "imdb_rating": 8.1,
+      "imdb_votes": 3091
+    },
+    {
+      "season_number": 8,
+      "episode_number": 8,
+      "name": "Charlie Rules the World",
+      "overview": null,
+      "air_date": "2012",
+      "still_path": null,
+      "imdb_rating": 8.2,
+      "imdb_votes": 3223
+    },
+    {
+      "season_number": 8,
+      "episode_number": 9,
+      "name": "The Gang Dines Out",
+      "overview": null,
+      "air_date": "2012",
+      "still_path": null,
+      "imdb_rating": 9.1,
+      "imdb_votes": 4195
+    },
+    {
+      "season_number": 8,
+      "episode_number": 10,
+      "name": "Reynolds vs. Reynolds: The Cereal Defense",
+      "overview": null,
+      "air_date": "2012",
+      "still_path": null,
+      "imdb_rating": 9.1,
+      "imdb_votes": 4036
+    },
+    {
+      "season_number": 9,
+      "episode_number": 1,
+      "name": "The Gang Broke Dee",
+      "overview": null,
+      "air_date": "2013",
+      "still_path": null,
+      "imdb_rating": 8.8,
+      "imdb_votes": 4120
+    },
+    {
+      "season_number": 9,
+      "episode_number": 2,
+      "name": "Gun Fever Too: Still Hot",
+      "overview": null,
+      "air_date": "2013",
+      "still_path": null,
+      "imdb_rating": 8.2,
+      "imdb_votes": 3201
+    },
+    {
+      "season_number": 9,
+      "episode_number": 3,
+      "name": "The Gang Tries Desperately to Win an Award",
+      "overview": null,
+      "air_date": "2013",
+      "still_path": null,
+      "imdb_rating": 9.2,
+      "imdb_votes": 5102
+    },
+    {
+      "season_number": 9,
+      "episode_number": 4,
+      "name": "Mac and Dennis Buy a Timeshare",
+      "overview": null,
+      "air_date": "2013",
+      "still_path": null,
+      "imdb_rating": 8.0,
+      "imdb_votes": 3147
+    },
+    {
+      "season_number": 9,
+      "episode_number": 5,
+      "name": "Mac Day",
+      "overview": null,
+      "air_date": "2013",
+      "still_path": null,
+      "imdb_rating": 8.6,
+      "imdb_votes": 3571
+    },
+    {
+      "season_number": 9,
+      "episode_number": 6,
+      "name": "The Gang Saves the Day",
+      "overview": null,
+      "air_date": "2013",
+      "still_path": null,
+      "imdb_rating": 9.0,
+      "imdb_votes": 4364
+    },
+    {
+      "season_number": 9,
+      "episode_number": 7,
+      "name": "The Gang Gets Quarantined",
+      "overview": null,
+      "air_date": "2013",
+      "still_path": null,
+      "imdb_rating": 8.8,
+      "imdb_votes": 3693
+    },
+    {
+      "season_number": 9,
+      "episode_number": 8,
+      "name": "Flowers for Charlie",
+      "overview": null,
+      "air_date": "2013",
+      "still_path": null,
+      "imdb_rating": 8.8,
+      "imdb_votes": 3940
+    },
+    {
+      "season_number": 9,
+      "episode_number": 9,
+      "name": "The Gang Makes Lethal Weapon 6",
+      "overview": null,
+      "air_date": "2013",
+      "still_path": null,
+      "imdb_rating": 8.1,
+      "imdb_votes": 2819
+    },
+    {
+      "season_number": 9,
+      "episode_number": 10,
+      "name": "The Gang Squashes Their Beefs",
+      "overview": null,
+      "air_date": "2013",
+      "still_path": null,
+      "imdb_rating": 8.3,
+      "imdb_votes": 3168
+    },
+    {
+      "season_number": 10,
+      "episode_number": 1,
+      "name": "The Gang Beats Boggs",
+      "overview": null,
+      "air_date": "2015",
+      "still_path": null,
+      "imdb_rating": 8.7,
+      "imdb_votes": 4114
+    },
+    {
+      "season_number": 10,
+      "episode_number": 2,
+      "name": "The Gang Group Dates",
+      "overview": null,
+      "air_date": "2015",
+      "still_path": null,
+      "imdb_rating": 8.7,
+      "imdb_votes": 3643
+    },
+    {
+      "season_number": 10,
+      "episode_number": 3,
+      "name": "Psycho Pete Returns",
+      "overview": null,
+      "air_date": "2015",
+      "still_path": null,
+      "imdb_rating": 7.5,
+      "imdb_votes": 3165
+    },
+    {
+      "season_number": 10,
+      "episode_number": 4,
+      "name": "Charlie Work",
+      "overview": null,
+      "air_date": "2015",
+      "still_path": null,
+      "imdb_rating": 9.8,
+      "imdb_votes": 13355
+    },
+    {
+      "season_number": 10,
+      "episode_number": 5,
+      "name": "The Gang Spies Like U.S.",
+      "overview": null,
+      "air_date": "2015",
+      "still_path": null,
+      "imdb_rating": 8.2,
+      "imdb_votes": 3142
+    },
+    {
+      "season_number": 10,
+      "episode_number": 6,
+      "name": "The Gang Misses the Boat",
+      "overview": null,
+      "air_date": "2015",
+      "still_path": null,
+      "imdb_rating": 8.8,
+      "imdb_votes": 3668
+    },
+    {
+      "season_number": 10,
+      "episode_number": 7,
+      "name": "Mac Kills His Dad",
+      "overview": null,
+      "air_date": "2015",
+      "still_path": null,
+      "imdb_rating": 7.9,
+      "imdb_votes": 2899
+    },
+    {
+      "season_number": 10,
+      "episode_number": 8,
+      "name": "The Gang Goes on Family Fight",
+      "overview": null,
+      "air_date": "2015",
+      "still_path": null,
+      "imdb_rating": 9.1,
+      "imdb_votes": 4264
+    },
+    {
+      "season_number": 10,
+      "episode_number": 9,
+      "name": "Frank Retires",
+      "overview": null,
+      "air_date": "2015",
+      "still_path": null,
+      "imdb_rating": 8.0,
+      "imdb_votes": 2880
+    },
+    {
+      "season_number": 10,
+      "episode_number": 10,
+      "name": "Ass Kickers United: Mac and Charlie Join a Cult",
+      "overview": null,
+      "air_date": "2015",
+      "still_path": null,
+      "imdb_rating": 7.5,
+      "imdb_votes": 2970
+    },
+    {
+      "season_number": 11,
+      "episode_number": 1,
+      "name": "Chardee MacDennis 2: Electric Boogaloo",
+      "overview": null,
+      "air_date": "2016",
+      "still_path": null,
+      "imdb_rating": 8.6,
+      "imdb_votes": 3605
+    },
+    {
+      "season_number": 11,
+      "episode_number": 2,
+      "name": "Frank Falls Out the Window",
+      "overview": null,
+      "air_date": "2016",
+      "still_path": null,
+      "imdb_rating": 8.0,
+      "imdb_votes": 3187
+    },
+    {
+      "season_number": 11,
+      "episode_number": 3,
+      "name": "The Gang Hits the Slopes",
+      "overview": null,
+      "air_date": "2016",
+      "still_path": null,
+      "imdb_rating": 8.5,
+      "imdb_votes": 4180
+    },
+    {
+      "season_number": 11,
+      "episode_number": 4,
+      "name": "Dee Made a Smut Film",
+      "overview": null,
+      "air_date": "2016",
+      "still_path": null,
+      "imdb_rating": 7.6,
+      "imdb_votes": 3098
+    },
+    {
+      "season_number": 11,
+      "episode_number": 5,
+      "name": "Mac & Dennis Move to the Suburbs",
+      "overview": null,
+      "air_date": "2016",
+      "still_path": null,
+      "imdb_rating": 9.4,
+      "imdb_votes": 6445
+    },
+    {
+      "season_number": 11,
+      "episode_number": 6,
+      "name": "Being Frank",
+      "overview": null,
+      "air_date": "2016",
+      "still_path": null,
+      "imdb_rating": 8.3,
+      "imdb_votes": 3910
+    },
+    {
+      "season_number": 11,
+      "episode_number": 7,
+      "name": "McPoyle vs. Ponderosa: The Trial of the Century",
+      "overview": null,
+      "air_date": "2016",
+      "still_path": null,
+      "imdb_rating": 8.7,
+      "imdb_votes": 3736
+    },
+    {
+      "season_number": 11,
+      "episode_number": 8,
+      "name": "Charlie Catches a Leprechaun",
+      "overview": null,
+      "air_date": "2016",
+      "still_path": null,
+      "imdb_rating": 8.5,
+      "imdb_votes": 3324
+    },
+    {
+      "season_number": 11,
+      "episode_number": 9,
+      "name": "The Gang Goes to Hell",
+      "overview": null,
+      "air_date": "2016",
+      "still_path": null,
+      "imdb_rating": 8.4,
+      "imdb_votes": 3186
+    },
+    {
+      "season_number": 11,
+      "episode_number": 10,
+      "name": "The Gang Goes to Hell: Part Two",
+      "overview": null,
+      "air_date": "2016",
+      "still_path": null,
+      "imdb_rating": 8.4,
+      "imdb_votes": 3267
+    },
+    {
+      "season_number": 12,
+      "episode_number": 1,
+      "name": "The Gang Turns Black",
+      "overview": null,
+      "air_date": "2017",
+      "still_path": null,
+      "imdb_rating": 8.6,
+      "imdb_votes": 5536
+    },
+    {
+      "season_number": 12,
+      "episode_number": 2,
+      "name": "The Gang Goes to a Water Park",
+      "overview": null,
+      "air_date": "2017",
+      "still_path": null,
+      "imdb_rating": 9.5,
+      "imdb_votes": 6694
+    },
+    {
+      "season_number": 12,
+      "episode_number": 3,
+      "name": "Old Lady House: A Situation Comedy",
+      "overview": null,
+      "air_date": "2017",
+      "still_path": null,
+      "imdb_rating": 8.5,
+      "imdb_votes": 3747
+    },
+    {
+      "season_number": 12,
+      "episode_number": 4,
+      "name": "Wolf Cola: A Public Relations Nightmare",
+      "overview": null,
+      "air_date": "2017",
+      "still_path": null,
+      "imdb_rating": 8.0,
+      "imdb_votes": 3248
+    },
+    {
+      "season_number": 12,
+      "episode_number": 5,
+      "name": "Making Dennis Reynolds a Murderer",
+      "overview": null,
+      "air_date": "2017",
+      "still_path": null,
+      "imdb_rating": 8.6,
+      "imdb_votes": 3838
+    },
+    {
+      "season_number": 12,
+      "episode_number": 6,
+      "name": "Hero or Hate Crime?",
+      "overview": null,
+      "air_date": "2017",
+      "still_path": null,
+      "imdb_rating": 9.4,
+      "imdb_votes": 5768
+    },
+    {
+      "season_number": 12,
+      "episode_number": 7,
+      "name": "PTSDee",
+      "overview": null,
+      "air_date": "2017",
+      "still_path": null,
+      "imdb_rating": 8.6,
+      "imdb_votes": 3515
+    },
+    {
+      "season_number": 12,
+      "episode_number": 8,
+      "name": "The Gang Tends Bar",
+      "overview": null,
+      "air_date": "2017",
+      "still_path": null,
+      "imdb_rating": 8.1,
+      "imdb_votes": 3013
+    },
+    {
+      "season_number": 12,
+      "episode_number": 9,
+      "name": "A Cricket's Tale",
+      "overview": null,
+      "air_date": "2017",
+      "still_path": null,
+      "imdb_rating": 7.2,
+      "imdb_votes": 3150
+    },
+    {
+      "season_number": 12,
+      "episode_number": 10,
+      "name": "Dennis' Double Life",
+      "overview": null,
+      "air_date": "2017",
+      "still_path": null,
+      "imdb_rating": 8.5,
+      "imdb_votes": 3231
+    },
+    {
+      "season_number": 13,
+      "episode_number": 1,
+      "name": "The Gang Makes Paddy's Great Again",
+      "overview": null,
+      "air_date": "2018",
+      "still_path": null,
+      "imdb_rating": 7.5,
+      "imdb_votes": 3755
+    },
+    {
+      "season_number": 13,
+      "episode_number": 2,
+      "name": "The Gang Escapes",
+      "overview": null,
+      "air_date": "2018",
+      "still_path": null,
+      "imdb_rating": 7.9,
+      "imdb_votes": 3412
+    },
+    {
+      "season_number": 13,
+      "episode_number": 3,
+      "name": "The Gang Beats Boggs: Ladies Reboot",
+      "overview": null,
+      "air_date": "2018",
+      "still_path": null,
+      "imdb_rating": 6.6,
+      "imdb_votes": 4553
+    },
+    {
+      "season_number": 13,
+      "episode_number": 4,
+      "name": "Time's Up for the Gang",
+      "overview": null,
+      "air_date": "2018",
+      "still_path": null,
+      "imdb_rating": 9.2,
+      "imdb_votes": 4748
+    },
+    {
+      "season_number": 13,
+      "episode_number": 5,
+      "name": "The Gang Gets New Wheels",
+      "overview": null,
+      "air_date": "2018",
+      "still_path": null,
+      "imdb_rating": 8.9,
+      "imdb_votes": 4033
+    },
+    {
+      "season_number": 13,
+      "episode_number": 6,
+      "name": "The Gang Solves the Bathroom Problem",
+      "overview": null,
+      "air_date": "2018",
+      "still_path": null,
+      "imdb_rating": 8.2,
+      "imdb_votes": 3438
+    },
+    {
+      "season_number": 13,
+      "episode_number": 7,
+      "name": "The Gang Does a Clip Show",
+      "overview": null,
+      "air_date": "2018",
+      "still_path": null,
+      "imdb_rating": 7.5,
+      "imdb_votes": 3450
+    },
+    {
+      "season_number": 13,
+      "episode_number": 8,
+      "name": "Charlie's Home Alone",
+      "overview": null,
+      "air_date": "2018",
+      "still_path": null,
+      "imdb_rating": 6.8,
+      "imdb_votes": 3483
+    },
+    {
+      "season_number": 13,
+      "episode_number": 9,
+      "name": "The Gang Wins the Big Game",
+      "overview": null,
+      "air_date": "2018",
+      "still_path": null,
+      "imdb_rating": 7.1,
+      "imdb_votes": 3139
+    },
+    {
+      "season_number": 13,
+      "episode_number": 10,
+      "name": "Mac Finds His Pride",
+      "overview": null,
+      "air_date": "2018",
+      "still_path": null,
+      "imdb_rating": 8.7,
+      "imdb_votes": 6993
+    },
+    {
+      "season_number": 14,
+      "episode_number": 1,
+      "name": "The Gang Gets Romantic",
+      "overview": null,
+      "air_date": "2019",
+      "still_path": null,
+      "imdb_rating": 7.8,
+      "imdb_votes": 3180
+    },
+    {
+      "season_number": 14,
+      "episode_number": 2,
+      "name": "Thunder Gun 4: Maximum Cool",
+      "overview": null,
+      "air_date": "2019",
+      "still_path": null,
+      "imdb_rating": 7.8,
+      "imdb_votes": 3001
+    },
+    {
+      "season_number": 14,
+      "episode_number": 3,
+      "name": "Dee Day",
+      "overview": null,
+      "air_date": "2019",
+      "still_path": null,
+      "imdb_rating": 8.3,
+      "imdb_votes": 2692
+    },
+    {
+      "season_number": 14,
+      "episode_number": 4,
+      "name": "The Gang Chokes",
+      "overview": null,
+      "air_date": "2019",
+      "still_path": null,
+      "imdb_rating": 8.0,
+      "imdb_votes": 2754
+    },
+    {
+      "season_number": 14,
+      "episode_number": 5,
+      "name": "The Gang Texts",
+      "overview": null,
+      "air_date": "2019",
+      "still_path": null,
+      "imdb_rating": 8.0,
+      "imdb_votes": 2995
+    },
+    {
+      "season_number": 14,
+      "episode_number": 6,
+      "name": "The Janitor Always Mops Twice",
+      "overview": null,
+      "air_date": "2019",
+      "still_path": null,
+      "imdb_rating": 8.5,
+      "imdb_votes": 3486
+    },
+    {
+      "season_number": 14,
+      "episode_number": 7,
+      "name": "The Gang Solves Global Warming",
+      "overview": null,
+      "air_date": "2019",
+      "still_path": null,
+      "imdb_rating": 7.9,
+      "imdb_votes": 2576
+    },
+    {
+      "season_number": 14,
+      "episode_number": 8,
+      "name": "Paddy's Has a Jumper",
+      "overview": null,
+      "air_date": "2019",
+      "still_path": null,
+      "imdb_rating": 8.3,
+      "imdb_votes": 2624
+    },
+    {
+      "season_number": 14,
+      "episode_number": 9,
+      "name": "A Woman's Right to Chop",
+      "overview": null,
+      "air_date": "2019",
+      "still_path": null,
+      "imdb_rating": 7.8,
+      "imdb_votes": 2440
+    },
+    {
+      "season_number": 14,
+      "episode_number": 10,
+      "name": "Waiting for Big Mo",
+      "overview": null,
+      "air_date": "2019",
+      "still_path": null,
+      "imdb_rating": 7.6,
+      "imdb_votes": 2628
+    },
+    {
+      "season_number": 15,
+      "episode_number": 1,
+      "name": "2020: A Year In Review",
+      "overview": null,
+      "air_date": "2021",
+      "still_path": null,
+      "imdb_rating": 8.0,
+      "imdb_votes": 3362
+    },
+    {
+      "season_number": 15,
+      "episode_number": 2,
+      "name": "The Gang Makes Lethal Weapon 7",
+      "overview": null,
+      "air_date": "2021",
+      "still_path": null,
+      "imdb_rating": 7.7,
+      "imdb_votes": 2848
+    },
+    {
+      "season_number": 15,
+      "episode_number": 3,
+      "name": "The Gang Buys a Roller Rink",
+      "overview": null,
+      "air_date": "2021",
+      "still_path": null,
+      "imdb_rating": 7.6,
+      "imdb_votes": 2679
+    },
+    {
+      "season_number": 15,
+      "episode_number": 4,
+      "name": "The Gang Replaces Dee With a Monkey",
+      "overview": null,
+      "air_date": "2021",
+      "still_path": null,
+      "imdb_rating": 8.0,
+      "imdb_votes": 2506
+    },
+    {
+      "season_number": 15,
+      "episode_number": 5,
+      "name": "The Gang Goes to Ireland",
+      "overview": null,
+      "air_date": "2021",
+      "still_path": null,
+      "imdb_rating": 8.0,
+      "imdb_votes": 2450
+    },
+    {
+      "season_number": 15,
+      "episode_number": 6,
+      "name": "The Gang's Still in Ireland",
+      "overview": null,
+      "air_date": "2021",
+      "still_path": null,
+      "imdb_rating": 8.4,
+      "imdb_votes": 2561
+    },
+    {
+      "season_number": 15,
+      "episode_number": 7,
+      "name": "Dee Sinks in a Bog",
+      "overview": null,
+      "air_date": "2021",
+      "still_path": null,
+      "imdb_rating": 7.9,
+      "imdb_votes": 2222
+    },
+    {
+      "season_number": 15,
+      "episode_number": 8,
+      "name": "The Gang Carries a Corpse Up a Mountain",
+      "overview": null,
+      "air_date": "2021",
+      "still_path": null,
+      "imdb_rating": 8.8,
+      "imdb_votes": 3124
+    },
+    {
+      "season_number": 16,
+      "episode_number": 1,
+      "name": "The Gang Inflates",
+      "overview": null,
+      "air_date": "2023",
+      "still_path": null,
+      "imdb_rating": 8.1,
+      "imdb_votes": 2817
+    },
+    {
+      "season_number": 16,
+      "episode_number": 2,
+      "name": "Frank Shoots Every Member of the Gang",
+      "overview": null,
+      "air_date": "2023",
+      "still_path": null,
+      "imdb_rating": 7.7,
+      "imdb_votes": 2623
+    },
+    {
+      "season_number": 16,
+      "episode_number": 3,
+      "name": "The Gang Gets Cursed",
+      "overview": null,
+      "air_date": "2023",
+      "still_path": null,
+      "imdb_rating": 7.5,
+      "imdb_votes": 2277
+    },
+    {
+      "season_number": 16,
+      "episode_number": 4,
+      "name": "Frank vs. Russia",
+      "overview": null,
+      "air_date": "2023",
+      "still_path": null,
+      "imdb_rating": 8.7,
+      "imdb_votes": 3164
+    },
+    {
+      "season_number": 16,
+      "episode_number": 5,
+      "name": "Celebrity Booze: The Ultimate Cash Grab",
+      "overview": null,
+      "air_date": "2023",
+      "still_path": null,
+      "imdb_rating": 8.0,
+      "imdb_votes": 2459
+    },
+    {
+      "season_number": 16,
+      "episode_number": 6,
+      "name": "Risk E. Rat's Pizza & Amusement Center",
+      "overview": null,
+      "air_date": "2023",
+      "still_path": null,
+      "imdb_rating": 7.8,
+      "imdb_votes": 2234
+    },
+    {
+      "season_number": 16,
+      "episode_number": 7,
+      "name": "The Gang Goes Bowling",
+      "overview": null,
+      "air_date": "2023",
+      "still_path": null,
+      "imdb_rating": 8.6,
+      "imdb_votes": 2508
+    },
+    {
+      "season_number": 16,
+      "episode_number": 8,
+      "name": "Dennis Takes a Mental Health Day",
+      "overview": null,
+      "air_date": "2023",
+      "still_path": null,
+      "imdb_rating": 9.2,
+      "imdb_votes": 3742
+    },
+    {
+      "season_number": 17,
+      "episode_number": 1,
+      "name": "The Gang F***s Up Abbott Elementary",
+      "overview": null,
+      "air_date": "2025",
+      "still_path": null,
+      "imdb_rating": 6.9,
+      "imdb_votes": 2697
+    },
+    {
+      "season_number": 17,
+      "episode_number": 2,
+      "name": "Frank Is in a Coma",
+      "overview": null,
+      "air_date": "2025",
+      "still_path": null,
+      "imdb_rating": 8.5,
+      "imdb_votes": 2614
+    },
+    {
+      "season_number": 17,
+      "episode_number": 3,
+      "name": "Mac and Dennis Become EMTs",
+      "overview": null,
+      "air_date": "2025",
+      "still_path": null,
+      "imdb_rating": 8.9,
+      "imdb_votes": 3005
+    },
+    {
+      "season_number": 17,
+      "episode_number": 4,
+      "name": "Thought Leadership: A Corporate Conversation",
+      "overview": null,
+      "air_date": "2025",
+      "still_path": null,
+      "imdb_rating": 7.6,
+      "imdb_votes": 1846
+    },
+    {
+      "season_number": 17,
+      "episode_number": 5,
+      "name": "The Gang Goes to a Dog Track",
+      "overview": null,
+      "air_date": "2025",
+      "still_path": null,
+      "imdb_rating": 8.1,
+      "imdb_votes": 1996
+    },
+    {
+      "season_number": 17,
+      "episode_number": 6,
+      "name": "Overage Drinking: A National Concern",
+      "overview": null,
+      "air_date": "2025",
+      "still_path": null,
+      "imdb_rating": 7.5,
+      "imdb_votes": 1698
+    },
+    {
+      "season_number": 17,
+      "episode_number": 7,
+      "name": "The Gang Gets Ready for Prime Time",
+      "overview": null,
+      "air_date": "2025",
+      "still_path": null,
+      "imdb_rating": 9.0,
+      "imdb_votes": 2334
+    },
+    {
+      "season_number": 17,
+      "episode_number": 8,
+      "name": "The Golden Bachelor Live",
+      "overview": null,
+      "air_date": "2025",
+      "still_path": null,
+      "imdb_rating": 8.5,
+      "imdb_votes": 1880
+    }
+  ]
+}

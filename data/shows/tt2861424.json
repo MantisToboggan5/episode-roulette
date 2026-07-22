@@ -1,0 +1,888 @@
+{
+  "id": "tt2861424",
+  "name": "Rick and Morty",
+  "poster": "data/posters/tt2861424.jpg",
+  "imdb_id": "tt2861424",
+  "episodes": [
+    {
+      "season_number": 1,
+      "episode_number": 1,
+      "name": "Pilot",
+      "overview": null,
+      "air_date": "2013",
+      "still_path": null,
+      "imdb_rating": 7.9,
+      "imdb_votes": 21858
+    },
+    {
+      "season_number": 1,
+      "episode_number": 2,
+      "name": "Lawnmower Dog",
+      "overview": null,
+      "air_date": "2013",
+      "still_path": null,
+      "imdb_rating": 8.6,
+      "imdb_votes": 21484
+    },
+    {
+      "season_number": 1,
+      "episode_number": 3,
+      "name": "Anatomy Park",
+      "overview": null,
+      "air_date": "2013",
+      "still_path": null,
+      "imdb_rating": 8.2,
+      "imdb_votes": 19713
+    },
+    {
+      "season_number": 1,
+      "episode_number": 4,
+      "name": "M. Night Shaym-Aliens!",
+      "overview": null,
+      "air_date": "2014",
+      "still_path": null,
+      "imdb_rating": 8.6,
+      "imdb_votes": 19681
+    },
+    {
+      "season_number": 1,
+      "episode_number": 5,
+      "name": "Meeseeks and Destroy",
+      "overview": null,
+      "air_date": "2014",
+      "still_path": null,
+      "imdb_rating": 9.0,
+      "imdb_votes": 21809
+    },
+    {
+      "season_number": 1,
+      "episode_number": 6,
+      "name": "Rick Potion #9",
+      "overview": null,
+      "air_date": "2014",
+      "still_path": null,
+      "imdb_rating": 9.1,
+      "imdb_votes": 21649
+    },
+    {
+      "season_number": 1,
+      "episode_number": 7,
+      "name": "Raising Gazorpazorp",
+      "overview": null,
+      "air_date": "2014",
+      "still_path": null,
+      "imdb_rating": 7.8,
+      "imdb_votes": 17992
+    },
+    {
+      "season_number": 1,
+      "episode_number": 8,
+      "name": "Rixty Minutes",
+      "overview": null,
+      "air_date": "2014",
+      "still_path": null,
+      "imdb_rating": 8.6,
+      "imdb_votes": 19678
+    },
+    {
+      "season_number": 1,
+      "episode_number": 9,
+      "name": "Something Ricked This Way Comes",
+      "overview": null,
+      "air_date": "2014",
+      "still_path": null,
+      "imdb_rating": 8.3,
+      "imdb_votes": 17800
+    },
+    {
+      "season_number": 1,
+      "episode_number": 10,
+      "name": "Close Rick-Counters of the Rick Kind",
+      "overview": null,
+      "air_date": "2014",
+      "still_path": null,
+      "imdb_rating": 9.3,
+      "imdb_votes": 22520
+    },
+    {
+      "season_number": 1,
+      "episode_number": 11,
+      "name": "Ricksy Business",
+      "overview": null,
+      "air_date": "2014",
+      "still_path": null,
+      "imdb_rating": 8.4,
+      "imdb_votes": 17539
+    },
+    {
+      "season_number": 2,
+      "episode_number": 1,
+      "name": "A Rickle in Time",
+      "overview": null,
+      "air_date": "2015",
+      "still_path": null,
+      "imdb_rating": 8.8,
+      "imdb_votes": 19470
+    },
+    {
+      "season_number": 2,
+      "episode_number": 2,
+      "name": "Mortynight Run",
+      "overview": null,
+      "air_date": "2015",
+      "still_path": null,
+      "imdb_rating": 8.8,
+      "imdb_votes": 18384
+    },
+    {
+      "season_number": 2,
+      "episode_number": 3,
+      "name": "Auto Erotic Assimilation",
+      "overview": null,
+      "air_date": "2015",
+      "still_path": null,
+      "imdb_rating": 8.5,
+      "imdb_votes": 17816
+    },
+    {
+      "season_number": 2,
+      "episode_number": 4,
+      "name": "Total Rickall",
+      "overview": null,
+      "air_date": "2015",
+      "still_path": null,
+      "imdb_rating": 9.5,
+      "imdb_votes": 25540
+    },
+    {
+      "season_number": 2,
+      "episode_number": 5,
+      "name": "Get Schwifty",
+      "overview": null,
+      "air_date": "2015",
+      "still_path": null,
+      "imdb_rating": 8.2,
+      "imdb_votes": 17723
+    },
+    {
+      "season_number": 2,
+      "episode_number": 6,
+      "name": "The Ricks Must Be Crazy",
+      "overview": null,
+      "air_date": "2015",
+      "still_path": null,
+      "imdb_rating": 9.3,
+      "imdb_votes": 21294
+    },
+    {
+      "season_number": 2,
+      "episode_number": 7,
+      "name": "Big Trouble in Little Sanchez",
+      "overview": null,
+      "air_date": "2015",
+      "still_path": null,
+      "imdb_rating": 8.4,
+      "imdb_votes": 16745
+    },
+    {
+      "season_number": 2,
+      "episode_number": 8,
+      "name": "Interdimensional Cable 2: Tempting Fate",
+      "overview": null,
+      "air_date": "2015",
+      "still_path": null,
+      "imdb_rating": 7.6,
+      "imdb_votes": 17223
+    },
+    {
+      "season_number": 2,
+      "episode_number": 9,
+      "name": "Look Who's Purging Now",
+      "overview": null,
+      "air_date": "2015",
+      "still_path": null,
+      "imdb_rating": 8.5,
+      "imdb_votes": 17227
+    },
+    {
+      "season_number": 2,
+      "episode_number": 10,
+      "name": "The Wedding Squanchers",
+      "overview": null,
+      "air_date": "2015",
+      "still_path": null,
+      "imdb_rating": 9.3,
+      "imdb_votes": 20982
+    },
+    {
+      "season_number": 3,
+      "episode_number": 1,
+      "name": "The Rickshank Rickdemption",
+      "overview": null,
+      "air_date": "2017",
+      "still_path": null,
+      "imdb_rating": 9.6,
+      "imdb_votes": 30296
+    },
+    {
+      "season_number": 3,
+      "episode_number": 2,
+      "name": "Rickmancing the Stone",
+      "overview": null,
+      "air_date": "2017",
+      "still_path": null,
+      "imdb_rating": 8.1,
+      "imdb_votes": 17592
+    },
+    {
+      "season_number": 3,
+      "episode_number": 3,
+      "name": "Pickle Rick",
+      "overview": null,
+      "air_date": "2017",
+      "still_path": null,
+      "imdb_rating": 9.4,
+      "imdb_votes": 26869
+    },
+    {
+      "season_number": 3,
+      "episode_number": 4,
+      "name": "Vindicators 3: The Return of Worldender",
+      "overview": null,
+      "air_date": "2017",
+      "still_path": null,
+      "imdb_rating": 8.1,
+      "imdb_votes": 17440
+    },
+    {
+      "season_number": 3,
+      "episode_number": 5,
+      "name": "The Whirly Dirly Conspiracy",
+      "overview": null,
+      "air_date": "2017",
+      "still_path": null,
+      "imdb_rating": 8.4,
+      "imdb_votes": 16742
+    },
+    {
+      "season_number": 3,
+      "episode_number": 6,
+      "name": "Rest and Ricklaxation",
+      "overview": null,
+      "air_date": "2017",
+      "still_path": null,
+      "imdb_rating": 8.8,
+      "imdb_votes": 18234
+    },
+    {
+      "season_number": 3,
+      "episode_number": 7,
+      "name": "The Ricklantis Mixup",
+      "overview": null,
+      "air_date": "2017",
+      "still_path": null,
+      "imdb_rating": 9.8,
+      "imdb_votes": 43707
+    },
+    {
+      "season_number": 3,
+      "episode_number": 8,
+      "name": "Morty's Mind Blowers",
+      "overview": null,
+      "air_date": "2017",
+      "still_path": null,
+      "imdb_rating": 8.9,
+      "imdb_votes": 17937
+    },
+    {
+      "season_number": 3,
+      "episode_number": 9,
+      "name": "The ABCs of Beth",
+      "overview": null,
+      "air_date": "2017",
+      "still_path": null,
+      "imdb_rating": 7.8,
+      "imdb_votes": 15456
+    },
+    {
+      "season_number": 3,
+      "episode_number": 10,
+      "name": "The Rickchurian Mortydate",
+      "overview": null,
+      "air_date": "2017",
+      "still_path": null,
+      "imdb_rating": 8.2,
+      "imdb_votes": 15648
+    },
+    {
+      "season_number": 4,
+      "episode_number": 1,
+      "name": "Edge of Tomorty: Rick Die Rickpeat",
+      "overview": null,
+      "air_date": "2019",
+      "still_path": null,
+      "imdb_rating": 8.9,
+      "imdb_votes": 19300
+    },
+    {
+      "season_number": 4,
+      "episode_number": 2,
+      "name": "The Old Man and the Seat",
+      "overview": null,
+      "air_date": "2019",
+      "still_path": null,
+      "imdb_rating": 8.3,
+      "imdb_votes": 17253
+    },
+    {
+      "season_number": 4,
+      "episode_number": 3,
+      "name": "One Crew over the Crewcoo's Morty",
+      "overview": null,
+      "air_date": "2019",
+      "still_path": null,
+      "imdb_rating": 8.2,
+      "imdb_votes": 16639
+    },
+    {
+      "season_number": 4,
+      "episode_number": 4,
+      "name": "Claw and Hoarder: Special Ricktim's Morty",
+      "overview": null,
+      "air_date": "2019",
+      "still_path": null,
+      "imdb_rating": 7.3,
+      "imdb_votes": 16846
+    },
+    {
+      "season_number": 4,
+      "episode_number": 5,
+      "name": "Rattlestar Ricklactica",
+      "overview": null,
+      "air_date": "2019",
+      "still_path": null,
+      "imdb_rating": 8.8,
+      "imdb_votes": 16457
+    },
+    {
+      "season_number": 4,
+      "episode_number": 6,
+      "name": "Never Ricking Morty",
+      "overview": null,
+      "air_date": "2020",
+      "still_path": null,
+      "imdb_rating": 8.0,
+      "imdb_votes": 15509
+    },
+    {
+      "season_number": 4,
+      "episode_number": 7,
+      "name": "Promortyus",
+      "overview": null,
+      "air_date": "2020",
+      "still_path": null,
+      "imdb_rating": 8.0,
+      "imdb_votes": 13393
+    },
+    {
+      "season_number": 4,
+      "episode_number": 8,
+      "name": "The Vat of Acid Episode",
+      "overview": null,
+      "air_date": "2020",
+      "still_path": null,
+      "imdb_rating": 9.5,
+      "imdb_votes": 21030
+    },
+    {
+      "season_number": 4,
+      "episode_number": 9,
+      "name": "Childrick of Mort",
+      "overview": null,
+      "air_date": "2020",
+      "still_path": null,
+      "imdb_rating": 7.7,
+      "imdb_votes": 13101
+    },
+    {
+      "season_number": 4,
+      "episode_number": 10,
+      "name": "Star Mort Rickturn of the Jerri",
+      "overview": null,
+      "air_date": "2020",
+      "still_path": null,
+      "imdb_rating": 9.0,
+      "imdb_votes": 15172
+    },
+    {
+      "season_number": 5,
+      "episode_number": 1,
+      "name": "Mort Dinner Rick Andre",
+      "overview": null,
+      "air_date": "2021",
+      "still_path": null,
+      "imdb_rating": 9.0,
+      "imdb_votes": 19021
+    },
+    {
+      "season_number": 5,
+      "episode_number": 2,
+      "name": "Mortyplicity",
+      "overview": null,
+      "air_date": "2021",
+      "still_path": null,
+      "imdb_rating": 8.7,
+      "imdb_votes": 16837
+    },
+    {
+      "season_number": 5,
+      "episode_number": 3,
+      "name": "A Rickconvenient Mort",
+      "overview": null,
+      "air_date": "2021",
+      "still_path": null,
+      "imdb_rating": 7.8,
+      "imdb_votes": 15398
+    },
+    {
+      "season_number": 5,
+      "episode_number": 4,
+      "name": "Rickdependence Spray",
+      "overview": null,
+      "air_date": "2021",
+      "still_path": null,
+      "imdb_rating": 5.7,
+      "imdb_votes": 17410
+    },
+    {
+      "season_number": 5,
+      "episode_number": 5,
+      "name": "Amortycan Grickfitti",
+      "overview": null,
+      "air_date": "2021",
+      "still_path": null,
+      "imdb_rating": 7.0,
+      "imdb_votes": 12777
+    },
+    {
+      "season_number": 5,
+      "episode_number": 6,
+      "name": "Rick & Morty's Thanksploitation Spectacular",
+      "overview": null,
+      "air_date": "2021",
+      "still_path": null,
+      "imdb_rating": 7.1,
+      "imdb_votes": 12993
+    },
+    {
+      "season_number": 5,
+      "episode_number": 7,
+      "name": "Gotron Jerrysis Rickvangelion",
+      "overview": null,
+      "air_date": "2021",
+      "still_path": null,
+      "imdb_rating": 6.3,
+      "imdb_votes": 12533
+    },
+    {
+      "season_number": 5,
+      "episode_number": 8,
+      "name": "Rickternal Friendshine of the Spotless Mort",
+      "overview": null,
+      "air_date": "2021",
+      "still_path": null,
+      "imdb_rating": 8.2,
+      "imdb_votes": 12845
+    },
+    {
+      "season_number": 5,
+      "episode_number": 9,
+      "name": "Forgetting Sarick Mortshall",
+      "overview": null,
+      "air_date": "2021",
+      "still_path": null,
+      "imdb_rating": 8.2,
+      "imdb_votes": 11633
+    },
+    {
+      "season_number": 5,
+      "episode_number": 10,
+      "name": "Rickmurai Jack",
+      "overview": null,
+      "air_date": "2021",
+      "still_path": null,
+      "imdb_rating": 9.3,
+      "imdb_votes": 17523
+    },
+    {
+      "season_number": 6,
+      "episode_number": 1,
+      "name": "Solaricks",
+      "overview": null,
+      "air_date": "2022",
+      "still_path": null,
+      "imdb_rating": 8.6,
+      "imdb_votes": 13216
+    },
+    {
+      "season_number": 6,
+      "episode_number": 2,
+      "name": "Rick: A Mort Well Lived",
+      "overview": null,
+      "air_date": "2022",
+      "still_path": null,
+      "imdb_rating": 7.8,
+      "imdb_votes": 10854
+    },
+    {
+      "season_number": 6,
+      "episode_number": 3,
+      "name": "Bethic Twinstinct",
+      "overview": null,
+      "air_date": "2022",
+      "still_path": null,
+      "imdb_rating": 7.7,
+      "imdb_votes": 11367
+    },
+    {
+      "season_number": 6,
+      "episode_number": 4,
+      "name": "Night Family",
+      "overview": null,
+      "air_date": "2022",
+      "still_path": null,
+      "imdb_rating": 8.5,
+      "imdb_votes": 11774
+    },
+    {
+      "season_number": 6,
+      "episode_number": 5,
+      "name": "Final DeSmithation",
+      "overview": null,
+      "air_date": "2022",
+      "still_path": null,
+      "imdb_rating": 8.2,
+      "imdb_votes": 10416
+    },
+    {
+      "season_number": 6,
+      "episode_number": 6,
+      "name": "Juricksic Mort",
+      "overview": null,
+      "air_date": "2022",
+      "still_path": null,
+      "imdb_rating": 7.8,
+      "imdb_votes": 9751
+    },
+    {
+      "season_number": 6,
+      "episode_number": 7,
+      "name": "Full Meta Jackrick",
+      "overview": null,
+      "air_date": "2022",
+      "still_path": null,
+      "imdb_rating": 7.8,
+      "imdb_votes": 9643
+    },
+    {
+      "season_number": 6,
+      "episode_number": 8,
+      "name": "Analyze Piss",
+      "overview": null,
+      "air_date": "2022",
+      "still_path": null,
+      "imdb_rating": 8.4,
+      "imdb_votes": 9650
+    },
+    {
+      "season_number": 6,
+      "episode_number": 9,
+      "name": "A Rick in King Mortur's Mort",
+      "overview": null,
+      "air_date": "2022",
+      "still_path": null,
+      "imdb_rating": 7.4,
+      "imdb_votes": 8600
+    },
+    {
+      "season_number": 6,
+      "episode_number": 10,
+      "name": "Ricktional Mortpoon's Rickmas Mortcation",
+      "overview": null,
+      "air_date": "2022",
+      "still_path": null,
+      "imdb_rating": 8.0,
+      "imdb_votes": 8537
+    },
+    {
+      "season_number": 7,
+      "episode_number": 1,
+      "name": "How Poopy Got His Poop Back",
+      "overview": null,
+      "air_date": "2023",
+      "still_path": null,
+      "imdb_rating": 6.2,
+      "imdb_votes": 12087
+    },
+    {
+      "season_number": 7,
+      "episode_number": 2,
+      "name": "The Jerrick Trap",
+      "overview": null,
+      "air_date": "2023",
+      "still_path": null,
+      "imdb_rating": 7.3,
+      "imdb_votes": 10222
+    },
+    {
+      "season_number": 7,
+      "episode_number": 3,
+      "name": "Air Force Wong",
+      "overview": null,
+      "air_date": "2023",
+      "still_path": null,
+      "imdb_rating": 6.8,
+      "imdb_votes": 9686
+    },
+    {
+      "season_number": 7,
+      "episode_number": 4,
+      "name": "That's Amorte",
+      "overview": null,
+      "air_date": "2023",
+      "still_path": null,
+      "imdb_rating": 8.4,
+      "imdb_votes": 12155
+    },
+    {
+      "season_number": 7,
+      "episode_number": 5,
+      "name": "Unmortricken",
+      "overview": null,
+      "air_date": "2023",
+      "still_path": null,
+      "imdb_rating": 9.2,
+      "imdb_votes": 15242
+    },
+    {
+      "season_number": 7,
+      "episode_number": 6,
+      "name": "Rickfending Your Mort",
+      "overview": null,
+      "air_date": "2023",
+      "still_path": null,
+      "imdb_rating": 7.8,
+      "imdb_votes": 9281
+    },
+    {
+      "season_number": 7,
+      "episode_number": 7,
+      "name": "Wet Kuat Amortican Summer",
+      "overview": null,
+      "air_date": "2023",
+      "still_path": null,
+      "imdb_rating": 6.4,
+      "imdb_votes": 8861
+    },
+    {
+      "season_number": 7,
+      "episode_number": 8,
+      "name": "Rise of the Numbericons: The Movie",
+      "overview": null,
+      "air_date": "2023",
+      "still_path": null,
+      "imdb_rating": 4.4,
+      "imdb_votes": 11911
+    },
+    {
+      "season_number": 7,
+      "episode_number": 9,
+      "name": "Mort: Ragnarick",
+      "overview": null,
+      "air_date": "2023",
+      "still_path": null,
+      "imdb_rating": 7.9,
+      "imdb_votes": 9234
+    },
+    {
+      "season_number": 7,
+      "episode_number": 10,
+      "name": "Fear No Mort",
+      "overview": null,
+      "air_date": "2023",
+      "still_path": null,
+      "imdb_rating": 9.4,
+      "imdb_votes": 14980
+    },
+    {
+      "season_number": 8,
+      "episode_number": 1,
+      "name": "Summer of All Fears",
+      "overview": null,
+      "air_date": "2025",
+      "still_path": null,
+      "imdb_rating": 8.3,
+      "imdb_votes": 9848
+    },
+    {
+      "season_number": 8,
+      "episode_number": 2,
+      "name": "Valkyrick",
+      "overview": null,
+      "air_date": "2025",
+      "still_path": null,
+      "imdb_rating": 7.1,
+      "imdb_votes": 7590
+    },
+    {
+      "season_number": 8,
+      "episode_number": 3,
+      "name": "The Rick, The Mort & The Ugly",
+      "overview": null,
+      "air_date": "2025",
+      "still_path": null,
+      "imdb_rating": 7.9,
+      "imdb_votes": 8075
+    },
+    {
+      "season_number": 8,
+      "episode_number": 4,
+      "name": "The Last Temptation of Jerry",
+      "overview": null,
+      "air_date": "2025",
+      "still_path": null,
+      "imdb_rating": 6.4,
+      "imdb_votes": 7340
+    },
+    {
+      "season_number": 8,
+      "episode_number": 5,
+      "name": "Cryo Mort a Rickver",
+      "overview": null,
+      "air_date": "2025",
+      "still_path": null,
+      "imdb_rating": 7.1,
+      "imdb_votes": 6448
+    },
+    {
+      "season_number": 8,
+      "episode_number": 6,
+      "name": "The Curicksous Case of Bethjamin Button",
+      "overview": null,
+      "air_date": "2025",
+      "still_path": null,
+      "imdb_rating": 7.4,
+      "imdb_votes": 6505
+    },
+    {
+      "season_number": 8,
+      "episode_number": 7,
+      "name": "Ricker Than Fiction",
+      "overview": null,
+      "air_date": "2025",
+      "still_path": null,
+      "imdb_rating": 6.7,
+      "imdb_votes": 6096
+    },
+    {
+      "season_number": 8,
+      "episode_number": 8,
+      "name": "Nomortland",
+      "overview": null,
+      "air_date": "2025",
+      "still_path": null,
+      "imdb_rating": 8.0,
+      "imdb_votes": 6577
+    },
+    {
+      "season_number": 8,
+      "episode_number": 9,
+      "name": "Morty Daddy",
+      "overview": null,
+      "air_date": "2025",
+      "still_path": null,
+      "imdb_rating": 6.6,
+      "imdb_votes": 5236
+    },
+    {
+      "season_number": 8,
+      "episode_number": 10,
+      "name": "Hot Rick",
+      "overview": null,
+      "air_date": "2025",
+      "still_path": null,
+      "imdb_rating": 8.9,
+      "imdb_votes": 7887
+    },
+    {
+      "season_number": 9,
+      "episode_number": 1,
+      "name": "There's Something About Morty",
+      "overview": null,
+      "air_date": "2026",
+      "still_path": null,
+      "imdb_rating": 8.8,
+      "imdb_votes": 8319
+    },
+    {
+      "season_number": 9,
+      "episode_number": 2,
+      "name": "Ricks Days, Seven Nights",
+      "overview": null,
+      "air_date": "2026",
+      "still_path": null,
+      "imdb_rating": 8.8,
+      "imdb_votes": 6716
+    },
+    {
+      "season_number": 9,
+      "episode_number": 3,
+      "name": "Rick Fu Hustle",
+      "overview": null,
+      "air_date": "2026",
+      "still_path": null,
+      "imdb_rating": 7.1,
+      "imdb_votes": 5072
+    },
+    {
+      "season_number": 9,
+      "episode_number": 4,
+      "name": "A Ricker Runs Through It",
+      "overview": null,
+      "air_date": "2026",
+      "still_path": null,
+      "imdb_rating": 7.6,
+      "imdb_votes": 4048
+    },
+    {
+      "season_number": 9,
+      "episode_number": 5,
+      "name": "Jer Bud",
+      "overview": null,
+      "air_date": "2026",
+      "still_path": null,
+      "imdb_rating": 7.6,
+      "imdb_votes": 3342
+    },
+    {
+      "season_number": 9,
+      "episode_number": 6,
+      "name": "Erickerhead",
+      "overview": null,
+      "air_date": "2026",
+      "still_path": null,
+      "imdb_rating": 8.1,
+      "imdb_votes": 3158
+    },
+    {
+      "season_number": 9,
+      "episode_number": 7,
+      "name": "Mortgully: The Last Rickforest",
+      "overview": null,
+      "air_date": "2026",
+      "still_path": null,
+      "imdb_rating": 9.2,
+      "imdb_votes": 4038
+    }
+  ]
+}
