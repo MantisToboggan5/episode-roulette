@@ -23,6 +23,18 @@ body {
   -webkit-tap-highlight-color: transparent;
 }
 
+/* Touch swipes over images/charts must scroll the page, not start an
+   image-drag or get captured by chart pointer handlers. */
+img {
+  -webkit-user-drag: none;
+  user-select: none;
+  touch-action: pan-y;
+}
+
+.result-chart svg {
+  touch-action: pan-y; /* vertical swipe scrolls; horizontal drag scrubs the tooltip */
+}
+
 #app {
   display: flex;
   flex-direction: column;

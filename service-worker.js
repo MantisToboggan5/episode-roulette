@@ -1,4 +1,4 @@
-﻿const CACHE_NAME = "episode-roulette-v10";
+﻿const CACHE_NAME = "episode-roulette-v11";
 const APP_SHELL = [
   "./",
   "./index.html",
