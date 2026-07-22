@@ -1,10 +1,11 @@
-const CACHE_NAME = "episode-roulette-v7";
+const CACHE_NAME = "episode-roulette-v8";
 const APP_SHELL = [
   "./",
   "./index.html",
   "./css/styles.css",
   "./js/catalog.js",
   "./js/storage.js",
+  "./js/chart.js",
   "./js/app.js",
   "./manifest.json",
   "./icons/icon.svg",

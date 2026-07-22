@@ -23,6 +23,7 @@ const els = {
   resultEpisodeChip: document.getElementById("result-episode-chip"),
   resultRating: document.getElementById("result-rating"),
   resultOverview: document.getElementById("result-overview"),
+  resultChart: document.getElementById("result-chart"),
   markWatchedBtn: document.getElementById("mark-watched-btn"),
   rerollBtn: document.getElementById("reroll-btn"),
   backBtn: document.getElementById("back-btn"),
@@ -173,11 +174,12 @@ async function startSpin(scope) {
       const show = catalogIndex.find((s) => s.id === scope.showId);
       const episodes = await getAiredEpisodes(scope.showId);
       const pick = pickWeighted(scope.showId, episodes);
-      await revealResult(show, pick, episodes.length === 0);
+      await revealResult(show, pick, episodes, episodes.length === 0);
     } else {
       const shuffled = [...catalogIndex].sort(() => Math.random() - 0.5);
       let show = null;
       let pick = null;
+      let pickedEpisodes = null;
       for (const candidate of shuffled) {
         let episodes;
         try {
@@ -189,10 +191,11 @@ async function startSpin(scope) {
         if (candidatePick) {
           show = candidate;
           pick = candidatePick;
+          pickedEpisodes = episodes;
           break;
         }
       }
-      await revealResult(show, pick, false);
+      await revealResult(show, pick, pickedEpisodes, false);
     }
   } catch (err) {
     els.spinIndicator.classList.add("hidden");
@@ -202,7 +205,7 @@ async function startSpin(scope) {
   }
 }
 
-async function revealResult(show, episode, showHasNoEpisodes) {
+async function revealResult(show, episode, episodes, showHasNoEpisodes) {
   await new Promise((r) => setTimeout(r, 650)); // slot-machine pause
   els.spinIndicator.classList.add("hidden");
 
@@ -239,6 +242,12 @@ async function revealResult(show, episode, showHasNoEpisodes) {
 
   els.resultContent.classList.remove("hidden");
   els.resultActions.classList.remove("hidden");
+  // render after unhide so the container has a real width
+  if (episodes && episodes.length) {
+    renderRatingsChart(els.resultChart, episodes, episode);
+  } else {
+    els.resultChart.innerHTML = "";
+  }
 }
 
 els.markWatchedBtn.addEventListener("click", () => {

@@ -301,6 +301,39 @@ body {
   margin: 0;
 }
 
+.result-chart {
+  position: relative;
+  margin-top: 14px;
+}
+
+.result-chart svg {
+  display: block;
+  max-width: 100%;
+}
+
+.chart-caption {
+  margin: 4px 0 0;
+  font-size: 0.78rem;
+  color: var(--text-dim);
+  text-align: center;
+}
+
+.chart-tooltip {
+  position: absolute;
+  top: -8px;
+  background: var(--surface-2);
+  color: var(--text);
+  font-size: 0.75rem;
+  padding: 4px 8px;
+  border-radius: 6px;
+  pointer-events: none;
+  white-space: nowrap;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.chart-tooltip.hidden { display: none; }
+
 .result-caught-up {
   text-align: center;
   padding: 40px 20px;
