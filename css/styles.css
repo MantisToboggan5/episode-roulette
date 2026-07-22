@@ -266,18 +266,21 @@ body {
 
 .result-epnum {
   display: flex;
-  gap: 8px;
-  margin: 0 0 10px;
+  gap: 10px;
+  align-items: baseline;
+  margin: 0 0 8px;
 }
 
 .result-epnum span {
-  background: linear-gradient(135deg, var(--accent-2), var(--accent));
-  color: white;
-  font-size: 1.35rem;
+  color: var(--text);
+  font-size: 1.5rem;
   font-weight: 800;
-  padding: 8px 14px;
-  border-radius: 10px;
-  letter-spacing: 0.02em;
+}
+
+.result-epnum span + span::before {
+  content: "·  ";
+  color: var(--text-dim);
+  font-weight: 400;
 }
 
 .result-body h2 {
