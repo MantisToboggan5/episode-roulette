@@ -328,9 +328,7 @@ body {
   border-radius: 6px;
   pointer-events: none;
   white-space: nowrap;
-  max-width: 100%;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  z-index: 2;
 }
 .chart-tooltip.hidden { display: none; }
 

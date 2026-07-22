@@ -112,9 +112,10 @@ function renderRatingsChart(container, episodes, currentEp) {
 
   function showTip(clientX) {
     const rect = svg.getBoundingClientRect();
-    const px = clientX - rect.left;
-    const i = Math.round(((px - M.left) / plotW) * (rated.length - 1));
-    if (i < 0 || i >= rated.length) return hideTip();
+    const scale = rect.width / W; // svg may render scaled by max-width:100%
+    const px = (clientX - rect.left) / scale;
+    // snap to nearest point, clamped so margin-zone hovers still work
+    const i = Math.min(rated.length - 1, Math.max(0, Math.round(((px - M.left) / plotW) * (rated.length - 1))));
     const ep = rated[i];
     cross.setAttribute("x1", x(i)); cross.setAttribute("x2", x(i));
     cross.setAttribute("visibility", "visible");
@@ -122,7 +123,11 @@ function renderRatingsChart(container, episodes, currentEp) {
     hoverDot.setAttribute("visibility", "visible");
     tip.textContent = `S${ep.season_number}E${ep.episode_number} · ${ep.name || "?"} · ★${ep.imdb_rating.toFixed(1)}`;
     tip.classList.remove("hidden");
-    const tipX = Math.min(Math.max(x(i) - 60, 0), W - 130);
+    // measure real width, then keep the tooltip fully inside the container
+    const tw = tip.offsetWidth;
+    const cw = container.clientWidth;
+    const cssX = x(i) * scale;
+    const tipX = Math.min(Math.max(cssX - tw / 2, 0), Math.max(cw - tw, 0));
     tip.style.left = `${tipX}px`;
   }
   function hideTip() {
