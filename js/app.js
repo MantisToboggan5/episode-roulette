@@ -1,13 +1,9 @@
 const els = {
   views: {
-    search: document.getElementById("view-search"),
-    shows: document.getElementById("view-shows"),
+    main: document.getElementById("view-main"),
     result: document.getElementById("view-result"),
   },
-  tabBtns: document.querySelectorAll(".tab-btn"),
   searchInput: document.getElementById("search-input"),
-  searchResults: document.getElementById("search-results"),
-  searchEmpty: document.getElementById("search-empty"),
   showsList: document.getElementById("shows-list"),
   showsEmpty: document.getElementById("shows-empty"),
   surpriseBtn: document.getElementById("surprise-btn"),
@@ -40,18 +36,7 @@ function showView(name) {
   for (const [key, el] of Object.entries(els.views)) {
     el.classList.toggle("hidden", key !== name);
   }
-  els.tabBtns.forEach((btn) => {
-    btn.classList.toggle("active", btn.dataset.view === name);
-  });
 }
-
-els.tabBtns.forEach((btn) => {
-  btn.addEventListener("click", () => {
-    showView(btn.dataset.view);
-    if (btn.dataset.view === "shows") renderShowsList();
-    if (btn.dataset.view === "search") renderBrowseList(els.searchInput.value);
-  });
-});
 
 // ---------- Bias slider ----------
 
@@ -67,14 +52,7 @@ els.biasSlider.addEventListener("input", () => {
   renderBiasLabel();
 });
 
-// ---------- Search ----------
-
-let searchDebounce = null;
-els.searchInput.addEventListener("input", () => {
-  clearTimeout(searchDebounce);
-  const query = els.searchInput.value;
-  searchDebounce = setTimeout(() => renderBrowseList(query), 250);
-});
+// ---------- Show list ----------
 
 function posterPlaceholder(name) {
   const initials = name
@@ -92,89 +70,43 @@ function posterImg(show) {
     : posterPlaceholder(show.name);
 }
 
-async function renderBrowseList(query = "") {
+async function renderShowList(query = "") {
   let catalogIndex;
   try {
     catalogIndex = await loadCatalogIndex();
   } catch (err) {
-    els.searchResults.innerHTML = `<li class="empty-hint">Couldn't load catalog: ${err.message}</li>`;
+    els.showsList.innerHTML = `<li class="empty-hint">Couldn't load catalog: ${err.message}</li>`;
     return;
   }
   const needle = query.trim().toLowerCase();
   const results = needle
     ? catalogIndex.filter((s) => s.name.toLowerCase().includes(needle))
     : catalogIndex;
-  const savedIds = new Set(getShows().map((s) => s.id));
-  els.searchResults.innerHTML = "";
-  els.searchEmpty.classList.toggle("hidden", catalogIndex.length > 0);
-  if (needle && results.length === 0) {
-    els.searchResults.innerHTML = `
-      <li class="empty-hint">No ingested show matches "${escapeHtml(query)}".<br><br>
-      To add a new show, ask Claude or run:<br>
-      <span class="ingest-hint">python ingest.py "${escapeHtml(query)}"</span></li>
-    `;
-    return;
-  }
+  els.showsEmpty.classList.toggle("hidden", catalogIndex.length > 0);
+  els.surpriseBtn.classList.toggle("hidden", catalogIndex.length === 0);
+  els.biasControl.classList.toggle("hidden", catalogIndex.length === 0);
+  els.showsList.innerHTML = "";
   for (const show of results) {
     const li = document.createElement("li");
-    li.className = "show-card";
-    const added = savedIds.has(show.id);
+    li.className = "show-card tappable";
     li.innerHTML = `
       ${posterImg(show)}
       <div class="show-info">
         <div class="name">${escapeHtml(show.name)}</div>
       </div>
-      <button class="${added ? "added" : ""}">${added ? "Added" : "Add"}</button>
+      <span class="spin-hint">🎲</span>
     `;
-    const btn = li.querySelector("button");
-    btn.addEventListener("click", () => {
-      if (savedIds.has(show.id)) return;
-      addShow({ id: show.id, name: show.name, poster: show.poster || null });
-      savedIds.add(show.id);
-      btn.textContent = "Added";
-      btn.classList.add("added");
-    });
-    els.searchResults.appendChild(li);
-  }
-}
-
-// ---------- My Shows ----------
-
-async function renderShowsList() {
-  const shows = getShows();
-  els.showsEmpty.classList.toggle("hidden", shows.length > 0);
-  els.surpriseBtn.classList.toggle("hidden", shows.length === 0);
-  els.biasControl.classList.toggle("hidden", shows.length === 0);
-  els.showsList.innerHTML = "";
-  // Saved entries may predate the poster field; backfill from the catalog.
-  let posterById = {};
-  try {
-    posterById = Object.fromEntries((await loadCatalogIndex()).map((s) => [s.id, s.poster]));
-  } catch {}
-  for (const show of shows) {
-    if (!show.poster && posterById[show.id]) show.poster = posterById[show.id];
-    const li = document.createElement("li");
-    li.className = "show-card";
-    li.innerHTML = `
-      ${posterImg(show)}
-      <div class="show-info">
-        <div class="name">${escapeHtml(show.name)}</div>
-      </div>
-      <div class="show-btns">
-        <button class="spin-btn">🎲 Spin</button>
-        <button class="remove">✕</button>
-      </div>
-    `;
-    li.querySelector(".spin-btn").addEventListener("click", () => {
-      startSpin({ type: "show", showId: show.id });
-    });
-    li.querySelector(".remove").addEventListener("click", () => {
-      removeShow(show.id);
-      renderShowsList();
-    });
+    li.addEventListener("click", () => startSpin({ type: "show", showId: show.id }));
     els.showsList.appendChild(li);
   }
 }
+
+let searchDebounce = null;
+els.searchInput.addEventListener("input", () => {
+  clearTimeout(searchDebounce);
+  const query = els.searchInput.value;
+  searchDebounce = setTimeout(() => renderShowList(query), 250);
+});
 
 els.surpriseBtn.addEventListener("click", () => startSpin({ type: "all" }));
 
@@ -234,15 +166,14 @@ async function startSpin(scope) {
   els.spinIndicator.classList.remove("hidden");
 
   try {
+    const catalogIndex = await loadCatalogIndex();
     if (scope.type === "show") {
-      const shows = getShows();
-      const show = shows.find((s) => s.id === scope.showId);
+      const show = catalogIndex.find((s) => s.id === scope.showId);
       const episodes = await getAiredEpisodes(scope.showId);
       const pick = pickWeighted(scope.showId, episodes);
       await revealResult(show, pick, episodes.length === 0);
     } else {
-      const shows = getShows();
-      const shuffled = [...shows].sort(() => Math.random() - 0.5);
+      const shuffled = [...catalogIndex].sort(() => Math.random() - 0.5);
       let show = null;
       let pick = null;
       for (const candidate of shuffled) {
@@ -250,7 +181,7 @@ async function startSpin(scope) {
         try {
           episodes = await getAiredEpisodes(candidate.id);
         } catch {
-          continue; // show removed from catalog since it was saved
+          continue;
         }
         const candidatePick = pickWeighted(candidate.id, episodes);
         if (candidatePick) {
@@ -280,7 +211,7 @@ async function revealResult(show, episode, showHasNoEpisodes) {
       ? "No aired episodes found for this show yet."
       : show
       ? `You've watched every episode of ${show.name}! 🎉`
-      : "You're all caught up on every saved show! 🎉";
+      : "You're all caught up on every show! 🎉";
     return;
   }
 
@@ -297,14 +228,8 @@ async function revealResult(show, episode, showHasNoEpisodes) {
     els.resultRating.classList.add("hidden");
   }
   els.resultOverview.textContent = episode.overview || "";
-  let poster = show.poster;
-  if (!poster) {
-    try {
-      poster = (await loadShowData(show.id)).poster; // cached; covers legacy saved entries
-    } catch {}
-  }
-  if (poster) {
-    els.resultStill.src = poster;
+  if (show.poster) {
+    els.resultStill.src = show.poster;
     els.resultStill.style.display = "block";
   } else {
     els.resultStill.style.display = "none";
@@ -326,17 +251,19 @@ els.rerollBtn.addEventListener("click", () => {
 });
 
 els.backBtn.addEventListener("click", () => {
-  showView("shows");
-  renderShowsList();
+  showView("main");
 });
 
 els.resetWatchedBtn.addEventListener("click", () => {
   if (activeSpinScope?.type === "show") {
     resetWatched(activeSpinScope.showId);
+    startSpin(activeSpinScope);
   } else {
-    getShows().forEach((s) => resetWatched(s.id));
+    loadCatalogIndex().then((idx) => {
+      idx.forEach((s) => resetWatched(s.id));
+      startSpin(activeSpinScope);
+    });
   }
-  startSpin(activeSpinScope);
 });
 
 function escapeHtml(str) {
@@ -351,5 +278,4 @@ if ("serviceWorker" in navigator) {
   });
 }
 
-renderShowsList();
-renderBrowseList();
+renderShowList();

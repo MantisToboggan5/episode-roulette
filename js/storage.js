@@ -1,28 +1,5 @@
-const SHOWS_KEY = "er_shows";
 const WATCHED_KEY = "er_watched";
 const BIAS_KEY = "er_bias";
-
-function getShows() {
-  return JSON.parse(localStorage.getItem(SHOWS_KEY) || "[]");
-}
-
-function saveShows(shows) {
-  localStorage.setItem(SHOWS_KEY, JSON.stringify(shows));
-}
-
-function addShow(show) {
-  const shows = getShows();
-  if (shows.some((s) => s.id === show.id)) return;
-  shows.push(show);
-  saveShows(shows);
-}
-
-function removeShow(showId) {
-  saveShows(getShows().filter((s) => s.id !== showId));
-  const watched = getWatchedMap();
-  delete watched[showId];
-  saveWatchedMap(watched);
-}
 
 function getWatchedMap() {
   return JSON.parse(localStorage.getItem(WATCHED_KEY) || "{}");

@@ -8,7 +8,7 @@
 <link rel="manifest" href="manifest.json" />
 <link rel="icon" href="icons/icon.svg" type="image/svg+xml" />
 <link rel="apple-touch-icon" href="icons/icon.svg" />
-<link rel="stylesheet" href="css/styles.css?v=5" />
+<link rel="stylesheet" href="css/styles.css?v=6" />
 </head>
 <body>
 <div id="app">
@@ -19,22 +19,17 @@
 
   <main id="main">
 
-    <section id="view-search" class="view">
-      <div class="search-bar">
-        <input id="search-input" type="search" placeholder="Filter shows…" autocomplete="off" />
-      </div>
-      <ul id="search-results" class="card-list"></ul>
-      <p id="search-empty" class="empty-hint">No shows ingested yet. Ask Claude to add some.</p>
-    </section>
-
-    <section id="view-shows" class="view hidden">
-      <div id="bias-control" class="bias-control hidden">
+    <section id="view-main" class="view">
+      <div id="bias-control" class="bias-control">
         <label for="bias-slider">Spin bias: <span id="bias-label">True Random</span></label>
         <input id="bias-slider" type="range" min="0" max="5" step="1" value="0" />
       </div>
-      <button id="surprise-btn" class="primary-btn hidden">🎲 Surprise Me</button>
+      <button id="surprise-btn" class="primary-btn">🎲 Surprise Me</button>
+      <div class="search-bar">
+        <input id="search-input" type="search" placeholder="Filter shows…" autocomplete="off" />
+      </div>
       <ul id="shows-list" class="card-list"></ul>
-      <p id="shows-empty" class="empty-hint">No shows saved yet. Search and add some first.</p>
+      <p id="shows-empty" class="empty-hint hidden">No shows ingested yet. Ask Claude to add some.</p>
     </section>
 
     <section id="view-result" class="view hidden">
@@ -68,15 +63,10 @@
 
   </main>
 
-  <nav class="tabbar">
-    <button class="tab-btn active" data-view="search">📚<span>Browse</span></button>
-    <button class="tab-btn" data-view="shows">📺<span>My Shows</span></button>
-  </nav>
-
 </div>
 
-<script src="js/catalog.js?v=5"></script>
-<script src="js/storage.js?v=5"></script>
-<script src="js/app.js?v=5"></script>
+<script src="js/catalog.js?v=6"></script>
+<script src="js/storage.js?v=6"></script>
+<script src="js/app.js?v=6"></script>
 </body>
 </html>
