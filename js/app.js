@@ -19,6 +19,8 @@ const els = {
   resultShowName: document.getElementById("result-show-name"),
   resultEpisodeTitle: document.getElementById("result-episode-title"),
   resultEpisodeMeta: document.getElementById("result-episode-meta"),
+  resultSeasonChip: document.getElementById("result-season-chip"),
+  resultEpisodeChip: document.getElementById("result-episode-chip"),
   resultRating: document.getElementById("result-rating"),
   resultOverview: document.getElementById("result-overview"),
   markWatchedBtn: document.getElementById("mark-watched-btn"),
@@ -217,10 +219,10 @@ async function revealResult(show, episode, showHasNoEpisodes) {
 
   activeResult = { show, episode };
   els.resultShowName.textContent = show.name;
+  els.resultSeasonChip.textContent = `Season ${episode.season_number}`;
+  els.resultEpisodeChip.textContent = `Episode ${episode.episode_number}`;
   els.resultEpisodeTitle.textContent = episode.name || "Untitled episode";
-  els.resultEpisodeMeta.textContent =
-    `S${episode.season_number}E${episode.episode_number}` +
-    (episode.air_date ? ` · ${episode.air_date}` : "");
+  els.resultEpisodeMeta.textContent = episode.air_date ? `Aired ${episode.air_date}` : "";
   if (episode.imdb_rating != null) {
     els.resultRating.textContent = `★ ${episode.imdb_rating.toFixed(1)} IMDb (${episode.imdb_votes.toLocaleString()} votes)`;
     els.resultRating.classList.remove("hidden");

@@ -264,6 +264,22 @@ body {
   margin: 0 0 4px;
 }
 
+.result-epnum {
+  display: flex;
+  gap: 8px;
+  margin: 0 0 10px;
+}
+
+.result-epnum span {
+  background: linear-gradient(135deg, var(--accent-2), var(--accent));
+  color: white;
+  font-size: 1.35rem;
+  font-weight: 800;
+  padding: 8px 14px;
+  border-radius: 10px;
+  letter-spacing: 0.02em;
+}
+
 .result-body h2 {
   margin: 0 0 6px;
   font-size: 1.2rem;
