@@ -4,7 +4,7 @@
 // line #7c5cff, highlight #f24d97.
 const CHART_LINE = "#7c5cff";
 const CHART_HILITE = "#f24d97";
-const CHART_H = 150;
+const CHART_H = 300;
 const M = { top: 16, right: 10, bottom: 20, left: 26 };
 
 function renderRatingsChart(container, episodes, currentEp) {
